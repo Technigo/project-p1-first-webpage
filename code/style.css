@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+body{
+  background-color:#ECF6FE;
+  font-family: 'Epilogue', sans-serif;
+  padding:0px;
+  margin: 0px;
+}
+
+header {
+	background-image: linear-gradient(rgba(110, 110, 185, 0.336), rgba(120, 152, 221, 0.356)), url("https://images.unsplash.com/photo-1586115457457-b3753fe50cf1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+  background-repeat:no-repeat;
+	background-size:cover;
+  height: 250px;
+}
+
+.headline {
+  color:#DEF0FE  ;
+  text-align: center;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0,12em;
+  font-weight: bold;
+  padding-top: 65px;
+}
+
+/* Same base as in the Technigo module */
+
+menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Epilogue', sans-serif;
+  text-decoration:underline;
+}
+
+menu a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #b9d7f0;
+  color: rgb(230, 230, 245);
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+menu a:hover {
+  background:rgb(230, 230, 245);
+  color:#b9d7f0;
+}
+
+/* Related to question 1 - ref Slack */
+
+.fromabove{
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.🦈{
+  text-align: center;
+}
+
+#🐬{
+  text-align: center;
+}
+
+.funky{
+  text-align: center;
+  padding: 0px 30px;
+}
+
+/* Related to question 1 - ref Slack */
+
+.🐋{
+  text-align: center;
+}
+
+iframe{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+	color: #3388FF;
+	text-decoration: underline;
+}
+
+a:hover{
+  background-color:#F6DDCC;
+}
+
+a:visited{
+  color:red;
+}
+
+/* Specific to the index.html - shark pictures */
+
+.container {
+  text-align: center;
+  font-size: 10px;
+}
+
+#whale, #nurse, #greenland, #sandtiger, #basking {
+  display: inline-block;
+  padding:2.5em;
+  margin: 10px;
+}
+
+.videos{
+  font-size: 10px;
+  text-align:center;
+  display: block;
+}
+
+/* Specific to the page - Shark week */
+
+#lords{
+  font-size: 10px;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+#add-onlords{
+  margin-bottom: 30px;
+}
+
+#jaws{
+  font-size: 10px;
+  text-align:center;
+  margin-bottom: 10px;
+}
+
+/* Specific to all the unorder lists */
+
+.shape{
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: center;
+  margin: auto;
+}
+
+/* Specific to the blockquote in index.html */
+
+#check{
+  width:750px;
+  margin: auto;
+}
+
+/* Replacing the <mark> & <strong> */
+
+.stress {
+    color: #3388FF;
+    background-color:#F6DDCC;
+    font-weight: bold;
+  }
+
+footer{
+  font-size: 10px;
+  text-align: center;
+}
