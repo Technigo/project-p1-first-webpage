@@ -11,10 +11,7 @@ html, body {
   font-size: 1rem;
   color: #444444
 }
-/* h2  {
-  font-size: 30px;
-  line-height: 32px;
-} */
+
 
 /* HEADER */
 
@@ -111,7 +108,7 @@ nav a {
 }
 
 .post-back:hover  .post {
-  transform: rotate(180deg);
+  transform: rotateY(180deg);
 }
 
 .post-img   {
@@ -128,7 +125,7 @@ nav a {
 
 .post-info span   {
   font-size: 0.8rem;
-  color: #808080
+  color: #808080;
 }
 
 .post-info h2   {
@@ -182,13 +179,13 @@ nav a {
 
 
 /* FOOTER */
-
+/* 
 footer  {
   padding: 5px;
   /* display: flex; */
-  justify-content: space-evenly;
- 
-}
+  /* justify-content: space-evenly;
+  */
+} */
 /* MEDIA QUERIES */
 
 @media(min-width:650px) {
