@@ -1,14 +1,20 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+*   {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body {
+html, body {
   background-color: #e9e9e9;
   color: grey;
   font-family: 'Courier New', Courier, monospace, sans-serif;
+  font-size: 1rem;
+  color: #444444
 }
-h2  {
+/* h2  {
   font-size: 30px;
   line-height: 32px;
-}
+} */
 
 /* HEADER */
 
@@ -69,48 +75,119 @@ nav a {
   text-align: center;
 }
 
-/* CONTAINER GRID */
-.container {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-template-rows: 0.4fr 2fr 1.7fr 0.9fr;
-  grid-template-areas: 
-  "nav nav nav nav"
-  "main main main sidebar"
-  "content1 content2 content3 sidebar"
-  "footer footer footer sidebar";
-  grid-gap: 0.2rem;
+/* SMALLER ARTICLES POST */
+
+.post-wrap  {
+  width: 320px;
+  height: 420px;
+  perspective: 1000px;
+  flex: 1;
+  margin: 0 15px 30px;
+  min-width: 300px;
+  max-width: 300px;
 }
 
-main  {
-  background: pink;
-  grid-area: main;
+.post     {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 
-.content1 {
-  background: blue;
-  grid-area: content1;
+.post-front, .post-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1
+  );
 }
 
-.content2 {
-  background: lightyellow;
-  grid-area: content2;
+.post-back   {
+  transform: rotateY(180deg);
 }
 
-.sidebar  {
-  background: lightgreen;
-  grid-area: sidebar;
+.post-back:hover  .post {
+  transform: rotate(180deg);
 }
+
+.post-img   {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.post-info  {
+  padding: 20px 30px 30px;
+}
+
+.post-info span   {
+  font-size: 0.8rem;
+  color: #808080
+}
+
+.post-info h2   {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+
+.post-back  {
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.post-back h2   {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+
+.post-back p  {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.post-back a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #5678ba;
+  padding: 10px 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.container  {
+  max-width: 2000px;
+  margin: auto;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
 
 
 /* FOOTER */
 
 footer  {
   padding: 5px;
-  /* display: flex;
-  justify-content: space-evenly; */
-  grid-area: footer;
+  /* display: flex; */
+  justify-content: space-evenly;
+ 
 }
 /* MEDIA QUERIES */
 
