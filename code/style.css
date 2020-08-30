@@ -112,7 +112,7 @@ nav a {
   transform: rotateY(180deg);
 }
 
-.post-back:hover  .post {
+.post-wrap:hover  .post {
   transform: rotateY(180deg);
 }
 
