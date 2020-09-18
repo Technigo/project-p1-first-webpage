@@ -1,21 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Volunteering in Costa Rica</title>
+    <link rel="stylesheet" type= "text/css" href="style.css">
+</head>
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Name</title>
-    <!-- dont forget to add a css file and link it here! -->
-    <!-- If you're using google fonts, that should be added here -->
-  </head>
-  <body>
-    <!-- 
-      Write your code here inside the body to make it appear in the browser. 
-      Below is an example on how to use an image tag. Copy it and add it in the body, but outside the comment tag if you want to see how it looks like on the website. Then you can change the size and other styling for it in the css file.
+<body>
 
-      <img src="example-recipe-background.png" alt="Banana Bread">
+<!-- I have not filled in the other menu blocks yet. I thought it makes sense that you first
+check my codes and if it is okay, I will go on.-->
+    <menu>
+        <a href="./">Home</a>
+        <a href="./Reisen in Costa Rica.html">Reisen in Costa Rica</a>
+        <a href="./photo_gallary.html">Photo Gallery</a>
+        <a href="./Leben bei einer Gastfamilie.html">Leben bei einer Gastfamilie</a>
+        <a href="./über Costa Rica.html">über Costa Rica</a>
+    </menu>
 
-    -->
-    <h1>Hello there! 👋🏼</h1>
-  </body>
+<!-- I am sure there is a better way to position the pictures. However, I couldn't figure out yet.
+Please let me know how you would do it. I want them to overlap.-->
+    <div class="header">
+        <img src="./Images/beach_1.jpg"   alt="picture of a beach" style="position:absolute; top:30px; left:115px; z-index:30px;">
+        <img src="./Images/sunrise.jpg"   alt="picture of a sunrise" style="position:absolute; top:10px; left:520px; z-index:30px;">
+        <img src="./Images/beach_2.jpg"   alt="picture of a beach" style="position:absolute; top:30px; left:935px; z-index:30px;">
+    </div>
+
+    <div class="title">
+        <h1>Volunteering in Costa Rica</h1>
+        <h2>Unterrichten an der Pazifkküste - ein Erlebnisbericht</h2>
+    </div>
+
+<!-- I wasn't sure if it makes sense to spilt my section into various sections. But as the 
+syntax stays the same for all different parts, I decided to go for just one section.
+Regarding my font: I am well aware its not super easy readable, but I liked it as this blog
+should be some kind of diary. I would probaly not publish it with this font though.-->
+    <main>
+        <section>
+
+            <h3><span>Worum</span> geht's?</h3>
+            <p>Hallo und herzlich willkommen auf meinem Blog über Volunteering in Costa Rica.
+                Ich möchte euch hier mehr über meine Erlebnisse in Costa Rica erzählen. Zum einen
+                in diesem Intro über die wichtigsten W-Fragen, zum anderen aber auch etwas ausführlicher über 
+                das Land Costa Rica, Reisen in Costa Rica und das Leben (bei einer Gastfamilie) in Costa Rica. 
+                Bei Fragen stehe ich euch gerne <a href="mailto:corinafuchs@icloud.com">via Mail</a> zur Verfügung.
+            </p>
+
+            <h3><span>Wer</span> bin ich?</h3>
+            <p> 
+                <img src="./Images/IMG_2831.jpg"
+                style="float:left; margin-right:20px; width:150px; height:150px; border-radius:50%;"
+                alt="photo of Corina Fuchs"
+                />
+                Mein Name ist Corina. Ich bin im Februar 1990 im Appenzellerland zur Welt gekommen.
+                Seit über 10 Jahren arbeite ich für eine Schweizer Bank als Kundenberaterin. Ein Job, der
+                mir viel Freude bereitet und dank welchem ich jeden Tag neue Leute kennenlernen darf. 
+                In meiner Freizeit liebe ich es, zu reisen und Neues zu entdecken.
+                Da es in fernen Ländern doppelt so interessant ist, wen man sich mit den Menschen vor Ort austauschen kann, 
+                lerne ich gerne Sprachen. 
+            </p>
+
+            <h3><span>Wieso</span> Volunteering und mit <span>wem</span>?</h3>
+            <p>Schon seit längerer Zeit hatte ich den Wunsch, einige Monate in einem fernen Land zu leben.
+                Eine Reise sollte zwar Teil dieses Erlebnisses sein, jedoch nicht im Mittelpunkt stehen. 
+                Vielmehr ging es mir darum, die Möglichkeit zu haben, so zu leben wie die Leute vor Ort. Ebenfalls hatte
+                ich Lust, einmal etwas ganz anderes zu machen als zu Hause. Da ich schon immer gerne mit Kindern
+                gearbeitet habe, war relativ schnell klar, dass ich gerne an einer Schule unterichten möchte.
+                So stiess ich auf die Organisation <a href="https://www.firsthand-costarica.com/de/">firsthand Costa Rica.</a>
+            </p>
+
+            <h3><span>Wo</span> war ich?</h3>
+            <p>Bezüglich des Landes bzw. der Ortschaft hatte ich folgende Auswahlkriterien:</p>            
+            <a href="https://www.google.com/maps/place/Escuela+Esterones/@9.8927207,-85.5808607,14z/data=!4m8!1m2!2m1!1sesterones+costa+rica!3m4!1s0x8f9fab6bfc9dc243:0xc7b9cd80399dc754!8m2!3d9.892512!4d-85.562604">
+            <img src="./Images/Karte_Costa_Rica.png" 
+                    style="float:right; margin-left: 20px; margin-right: 300px; width:220px; height: 180px;"
+                    alt="Karte Costa Ricas">
+            </a>
+                <ul>
+                    <li>Spanisch oder Portugiesisch</li>
+                    <li>am Meer</li>
+                    <li>sommerliches Wetter</li>
+                    <li>idealerweise ein Dorf</li>
+                </ul>
+            <p>Die Pazifkküste Costa Ricas erfüllte alle obigen Punkte und passte daher perfekt.
+                Da es das ganze Jahr über nie kälter als 20 Grad wird, spielte es auch keine Rolle ob gerade
+                Regen- oder Trockenzeit war. Von <a href="https://www.firsthand-costarica.com/de/">firsthand Costa Rica</a>
+                wurde ich dann der Schule von <a href="https://www.google.com/maps/place/Escuela+Esterones/@9.8927207,-85.5808607,14z/data=!4m8!1m2!2m1!1sesterones+costa+rica!3m4!1s0x8f9fab6bfc9dc243:0xc7b9cd80399dc754!8m2!3d9.892512!4d-85.562604">Esterones</a> 
+                in Guanacaste zugeteilt. 
+            </p> 
+
+            <h3><span>Was</span> habe ich gemacht?</h3>
+            <p>Die Idee des Unterrichten Projekts ist es, Kindern nach der Schule Englisch zu unterrichten. 
+                Da unserer Klasse jedoch in zwei Gruppen aufgeteilt war und somit sowohl am Morgen wie auch am
+                Nachmittag ordentlicher Unterricht stattfand, war es schwierig, ein passendes
+                Zeitfenster zu finden. So kam es dazu, dass wir (meine Kollegin Viki und ich) stattdessen im regulären
+                Schulbetrieb mithalfen. Dazu zählten:
+            </p> 
+                <ul>
+                    <li>Lese- und Schreibeübungen mit den Kleinsten</li>
+                    <li>Mathematikunterricht mit den 1. bis 6. Klässlern</li>
+                    <li>Korrigieren von Hausaufgaben</li>
+                    <li>Hausaufgabe Hilfe an Tagen, an denen die Schule ausfiel</li>
+                    <li>Organisatorische Dinge, wie das Nachführen der verbrauchten Lebensmitteln</li>
+                    <li>Unterhaltsarbeiten am Schulhaus (v.a. Wände neu Streichen)</li>
+                </ul>
+            <p>Es gab also immer mehr als genug zu tun. Jedoch lag es an uns, uns an der Arbeit zu beteiligen.
+                Lucia, die Lehrerin und Direktorin, war offen uns Arbeiten abzugeben. Dabei ist aber auch eingies an
+                Eigeninititive gefragt.
+            </p>  
+
+            <h3><span>Wie</span> war's?</h3>
+            <p>Es ist jetzt genau drei Jahre her, seit ich nach Costa Rica gereist bin. Aber noch heute
+                denke ich regelmässig und sehr gerne an meine Zeit in Esterones zurück. Ich durfe in jenen
+                drei Monaten Erfahrungen sammeln, welche mich ein Leben lang prägen werden. Ich würde sagen,
+                dass ich in dieser Zeit mehr von den Ticos gelernt habe, als umgekehrt. Die Uhr geht etwas 
+                langsamer, man sieht alles nicht ganz so eng, man lebt vor allem im hier und jetzt und man 
+                braucht wenig Materielles, um glücklich zu sein. Mehr details hierzu findet ihr unter dem
+                Abschnitt "Leben bei einer Gastfamilie". 
+            </p>
+
+            <h3><span>Wem</span> würde ich es weitermpfehlen?</h3>
+            <p>Jedem, der gerne in eine anderer Kultur eintauchen möchte. Dazu gehört aber auch, dass man 
+                Gewisse Gewohnheiten ablegt und sich an neue Umstände anpassen kann. Auf dem Lande geht es
+                sehr ruhig zu und her und somit ist man defintiv falsch, wenn man die grossen Parties sucht.
+                Dafür kennt man nach kurzer Zeit das ganze Dorf und hat die einmalige Gelegenheit, neue Perspektiven
+                kennenzulernen und davon zu lernen. 
+            </p>
+        </section>
+
+    </main>
+
+        <footer>Publiziert am 20.09.2020 von Corina Fuchs</footer>
+
+</body>
 </html>

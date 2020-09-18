@@ -1,5 +1,124 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 body {
-  background-color: lightblue;
+  background-color: rgba(243, 234, 204, 0.897);
+  font-family: "Parisienne", cursive;
+  color: black;
+}
+
+menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+menu a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: rgba(243, 234, 204, 0.897);
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+menu a:hover {
+  background:black;
+  color:rgba(243, 234, 204, 0.897);
+}
+
+@keyframes scale {
+  10% {transform: scale(2);} 
+  100% {transform: scale(1);}
+}
+
+.header {
+  width: auto;
+  height: 420px;
+  margin: 20px;
+  position: relative;
+}
+
+.header img {
+  width: 450px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+img:hover{
+  animation-name: scale;
+  animation-duration: 10s;
+}
+
+.title {
+  text-align: center;
+  width: auto;
+  padding: 5px;
+  margin-left:100px;
+  margin-right: 100px;
+}
+
+.title h1{
+  font-size: 75px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  color: darkblue;
+}
+
+.title h2 {
+  font-size: 55px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  color: blue;
+}
+
+section {
+  text-align: center;
+  width: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h3 {
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+h3>span {
+  color: red;
+  font-size: 80px;
+}
+
+p {
+  font-size: 30px;
+  text-align: left;
+  padding: 5px 10px 5px 10px;
+  width: auto;
+}
+
+ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 30px;
+}
+
+li { 
+  padding-left: 16px; 
+}
+
+li:before {
+  content: "•"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  padding-left: 120px;
+  color: blue; /* Or a color you prefer */
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  margin: 70px;
 }
