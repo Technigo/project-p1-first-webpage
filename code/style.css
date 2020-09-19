@@ -68,21 +68,23 @@ menu a:hover {
   background-color: lightgray;
   padding: 20px;
   border: 0px solid lightpink;
-  margin: 40px 100px;
-  width: 100%;
-  border-radius: 2px;
-  position: absolute;
+  margin: 30px 50px;
+  width: auto;
+  border-radius: 4px;
+  /* position: absolute; */
 }
 
 .intro p {
   font-family: Georgia;
-  display: inline-block;
+  /* display: inline-block; */
+  /* padding: 20px; */
 }
 
 .intro img {
   float: left;
   width: 30%;
-  display: inline; 
+  /* display: inline;  */
+  padding: 20px;
   /* display: ; */
   /* margin: 20px; */
   /* height: ; */
