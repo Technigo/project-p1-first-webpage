@@ -5,41 +5,47 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Volunteering in Costa Rica</title>
     <link rel="stylesheet" type= "text/css" href="style.css">
+    <link rel='icon' href='./Images/favicon.ico' type='image/x-icon'/ >
 </head>
 
 <body>
+    <header class="main-header">
 
 <!-- I have not filled in the other menu blocks yet. I thought it makes sense that you first
 check my codes and if it is okay, I will go on.-->
-    <menu>
-        <a href="./">Home</a>
-        <a href="./Reisen in Costa Rica.html">Reisen in Costa Rica</a>
-        <a href="./photo_gallary.html">Photo Gallery</a>
-        <a href="./Leben bei einer Gastfamilie.html">Leben bei einer Gastfamilie</a>
-        <a href="./über Costa Rica.html">über Costa Rica</a>
-    </menu>
+        <menu>
+            <a href="./">Home</a>
+            <a href="./Reisen in Costa Rica.html">Reisen in Costa Rica</a>
+            <a href="./photo_gallary.html">Photo Gallery</a>
+            <a href="./Leben bei einer Gastfamilie.html">Leben bei einer Gastfamilie</a>
+            <a href="./über Costa Rica.html">über Costa Rica</a>
+        </menu>
 
-<!-- I am sure there is a better way to position the pictures. However, I couldn't figure out yet.
-Please let me know how you would do it. I want them to overlap.-->
-    <div class="header">
-        <img src="./Images/beach_1.jpg"   alt="picture of a beach" style="position:absolute; top:30px; left:115px; z-index:30px;">
-        <img src="./Images/sunrise.jpg"   alt="picture of a sunrise" style="position:absolute; top:10px; left:520px; z-index:30px;">
-        <img src="./Images/beach_2.jpg"   alt="picture of a beach" style="position:absolute; top:30px; left:935px; z-index:30px;">
-    </div>
 
-    <div class="title">
-        <h1>Volunteering in Costa Rica</h1>
-        <h2>Unterrichten an der Pazifkküste - ein Erlebnisbericht</h2>
-    </div>
+        <div class="header-title">
+            <h1>Volunteering in Costa Rica</h1>
+        </div>
+        <div class="header-images-container">
+                <img src="./Images/beach_1.jpg"   alt="picture of a beach" >
+                <img src="./Images/sunrise_new.jpg"   alt="picture of a sunrise">
+                <img src="./Images/beach_2.jpg"   alt="picture of a beach">
+        </div>
+        <br>
+        <br>
+        <br>
+    </header>
 
 <!-- I wasn't sure if it makes sense to spilt my section into various sections. But as the 
 syntax stays the same for all different parts, I decided to go for just one section.
 Regarding my font: I am well aware its not super easy readable, but I liked it as this blog
 should be some kind of diary. I would probaly not publish it with this font though.-->
-    <main>
-        <section>
+    <main class="main-container">
+        <div class="section-title"
+            <h3>Wer wie was warum?</h3>
+        </div>
+        <section class="main-content">
 
-            <h3><span>Worum</span> geht's?</h3>
+            <h3><span>Warum</span> geht's?</h3>
             <p>Hallo und herzlich willkommen auf meinem Blog über Volunteering in Costa Rica.
                 Ich möchte euch hier mehr über meine Erlebnisse in Costa Rica erzählen. Zum einen
                 in diesem Intro über die wichtigsten W-Fragen, zum anderen aber auch etwas ausführlicher über 

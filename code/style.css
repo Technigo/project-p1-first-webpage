@@ -1,31 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
-body {
-  background-color: rgba(243, 234, 204, 0.897);
+* {
+  box-sizing: border-box;
   font-family: "Parisienne", cursive;
-  color: black;
+}
+
+body {
+  background-color: lemonchiffon;
+  color: darkblue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 menu {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  color:blue;
 }
 
 menu a {
   display: inline-block;
   padding: 10px 15px;
-  background: rgba(243, 234, 204, 0.897);
-  color: black;
   font-weight: bold;
   text-decoration: none;
   border-radius: 3px;
   margin: 0 5px;
+  font-size: 1.1em;
 }
 
 menu a:hover {
-  background:black;
-  color:rgba(243, 234, 204, 0.897);
+  background: darkblue;
+  color: lemonchiffon;
 }
 
 @keyframes scale {
@@ -33,16 +41,22 @@ menu a:hover {
   100% {transform: scale(1);}
 }
 
-.header {
+.main-header {
   width: auto;
-  height: 420px;
-  margin: 20px;
-  position: relative;
+  margin: 0px;
+  padding: 0 20px;
 }
 
-.header img {
-  width: 450px;
-  height: 350px;
+.header-images-container {
+  width: auto;
+  height: 275px;
+  margin: 10px auto;
+  display: flex;
+}
+
+.header-images-container img {
+  width: 33% ;
+  height: auto;
   border-radius: 50%;
 }
 
@@ -51,48 +65,50 @@ img:hover{
   animation-duration: 10s;
 }
 
-.title {
+.header-title {
   text-align: center;
-  width: auto;
   padding: 5px;
-  margin-left:100px;
-  margin-right: 100px;
+  margin: 0px auto;
 }
 
-.title h1{
-  font-size: 75px;
+.header-title h1{
+  font-size: 4em;
   margin-bottom: 10px;
-  margin-top: 5px;
-  color: darkblue;
+  margin-top: 0;
 }
 
-.title h2 {
-  font-size: 55px;
-  margin-bottom: 25px;
-  margin-top: 5px;
-  color: blue;
+.section-title {
+  font-size: 3.5em;
+  text-align: center;
+  margin-top: 0;
 }
 
-section {
+.main-container {
+  margin: 0 auto;
+  border-bottom: 2px dotted darkblue;
+  width:1200;
+}
+
+.main-content {
   text-align: center;
   width: auto;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0 auto;
+  padding: 0 50px;
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 1.75em;
   margin-bottom: 0px;
   margin-top: 40px;
 }
 
 h3>span {
   color: red;
-  font-size: 80px;
+  font-size: 2.0em;
 }
 
 p {
-  font-size: 30px;
+  font-size: 1.5em;
   text-align: left;
   padding: 5px 10px 5px 10px;
   width: auto;
@@ -103,7 +119,7 @@ ul {
   padding: 0;
   margin: 0;
   text-align: left;
-  font-size: 30px;
+  font-size: 1.5em;
 }
 
 li { 
@@ -119,6 +135,12 @@ li:before {
 
 footer {
   text-align: center;
-  font-size: 20px;
-  margin: 70px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  padding: 2%;
+  align-items: center;
+  height: auto;
+  background-color: rgba(0, 0, 255, 0.7);
+  color: lemonchiffon;
 }

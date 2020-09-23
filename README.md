@@ -2,7 +2,7 @@
 
 Webpage about my time spent in Costa Rica as a volunteer.
 
-The assignment was to creat a first website, trying to use what we have learnd so far (HTML and CSS basics).
+The assignment is to creat a first website, trying to use what we have learnd so far (HTML and CSS basics).
 
 ## The problem
 
