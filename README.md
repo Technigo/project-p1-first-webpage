@@ -1,8 +1,8 @@
-# Project Name
+# photographers business card - Nissyen Arts
 
-Replace this readme with your own information about your project.
+Build my first website
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+My brother makes beautiful photos but only shows them on instagram and facebook. I want him to have a simple but beautiful "digital business card" which could be enlarged if he wants to do it the proffesional way.
 
 ## The problem
 
