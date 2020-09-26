@@ -1,13 +1,10 @@
-# Project Name
+# CV Website
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+Practice html and css with my own project. My project is my CV as a Website. I wanted to create a project that doesnt only last for the time of this course. Since a CV can always be worked on I figured this is the perfect project, since i can always and forever update it and use my new set of skills for it.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+The problem was, that i didn't have enough theoretical knowledge of some stylings I wanted to implement. My approach was to look for solutions on youtube, google and so on. I found some solutions to my problems, but only partly. It was more copying what other people have done instead of really understanding.
 
-## View it live
 
-Have you deployed your project somewhere? Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+
