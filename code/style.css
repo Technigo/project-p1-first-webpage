@@ -1,5 +1,84 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
-
-body {
-  background-color: lightblue;
+body{
+  background-color: #EFFCFF;
 }
+
+h1{
+    color:#FFDE04;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+h2{
+  color: #CC6600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+p{
+    width: 90%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+a{
+  color:#00ADDC;
+  font-style: normal;
+  text-underline-position: below;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Foto-horizontal{
+  width: 450px;
+}
+
+.Foto-vertikal{
+  height: 400px;
+}
+
+.wichtig{
+    color: violet;
+    font-size: 20px;
+}
+
+.Infobox{
+background-color: lightblue;
+width: 60%;
+padding: 20px;
+}
+
+.Infobox img{
+    width: 100%;
+}
+
+
+
+.Textlink{
+        color: darkblue;
+        font: bold;
+        text-underline-position: below;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  menu a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: white;
+    color: #00ADDC;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 0 5px;
+  }
+  
+  menu a:hover {
+    background: #00ADDC;
+    color: white;
+  }
