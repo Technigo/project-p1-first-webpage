@@ -1,14 +1,12 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
 
 body {
-  background-color: #14141f;
-  
+  background-color: #F0F0F0;
 }
 
 h1 {
   margin: 0;
   text-align: center;
-  font-family: Georgia;
+  font-family: Helvetica;
   font-weight: lighter;
   color: white;
   font-size: 60px;
@@ -17,76 +15,195 @@ h1 {
 h2 {
   margin: 50px 20px 20px 20px;
   text-align: center;
-  font-family: Georgia;
+  font-family: Helvetica;
   font-weight: lighter;
-  color: white;
+  color: #14141f;
   font-size: 30px;
 }
 
 h3 {
-  margin: 20px;
+  margin: 20 0px;
   text-align: left;
-  font-family: Georgia;
+  font-family: Helvetica;
   font-weight: lighter;
   color: #14141f;
   font-size: 20px;  
 }
 
+p {
+  font-family: Helvetica;
+}
+
 header {
-  background-image: url("https://www.popsci.com/resizer/l7vhgvMoY7EQpYyU_gL8OON7oEI=/1566x880/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/XQRMY2UEXZE4VACIXD7SUC2GBU.jpg");
-  /* background-size: cover; */
-  height: 100px;
+  background-image: url("https://www.popsci.com/resizer/dXRxHxvwQdBFZ4WAvHtvzUy152A=/1446x812/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/XQRMY2UEXZE4VACIXD7SUC2GBU.jpg");
+  height: 200px;
   background-size: 100%;
+}
+
+.header h1 {
   padding-top: 80px;
+  padding-left: 30px;
+  float: left;
+}
+
+.header img {
+  float: left; 
+  padding-left: 50px;
+  width: 150px;
+  padding-top: 45px;
 }
 
 menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Georgia;
+  font-family: Helvetica;
 }
 
 menu a {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 20px;
   background: white;
-  color: 	 #47476b;
+  color: #47476b;
   font-weight: lighter;
   text-decoration: none;
   border-radius: 4px;
-  margin: 0 5px;
+  margin: 5px;
 }
 
 menu a:hover {
-  background: 	 #47476b;
+  background: #47476b;
   color: white;
 }
 
 
-.intro {
-  background-color: lightgray;
-  padding: 20px;
-  border: 0px solid lightpink;
+.box1 {
+  background-color: #e0e0eb;
   margin: 30px 50px;
   width: auto;
   border-radius: 4px;
-  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.intro p {
-  font-family: Georgia;
-  /* display: inline-block; */
-  /* padding: 20px; */
+.box1 img {
+  width: 40%;
+  padding: 20px 20px;
 }
 
-.intro img {
-  float: left;
-  width: 30%;
-  /* display: inline;  */
+.text_right {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 0px;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+.box2 {
+  background-color: #b3b3cc;
+  margin: 30px 50px;
+  width: auto;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_center {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 20px;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+
+.box3 {
+  background-color: #8585ad;
+  margin: 30px 50px;
+  width: auto;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box3 img {
+  width: 40%;
+  padding: 20px 20px;
+  order: 2;
+}
+
+.text_left {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0px 0 20px;
+  font-family: Helvetica;
+  font-weight: lighter;
+  order: 1;
+}
+
+#important {
+  background-color: #2F3640;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+
+
+#important a {
+  color: white;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.box01 {
+  background-color: #b3b3cc;
+  margin: 20px 20px;
+  /* width: auto; */
+  border-radius: 4px;
+}
+
+.box02 {
+  display: flex;
+  flex-direction: column;
+  background-color: #8585ad;
+  margin: 20px 20px 20px 0;
+  flex-basis: content;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.box02 img {
+  width: 350px;
   padding: 20px;
-  /* display: ; */
-  /* margin: 20px; */
-  /* height: ; */
-  
+}
+
+.box02 h3 {
+  padding-left: 20px;
+}
+
+#button {
+  width: fit-content;
+  padding: 10px 20px;
+  background: #47476b;
+  color: white;
+  font-family: Helvetica;
+  font-weight: lighter;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 5px 20px 20px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
+}
+
+#button:hover {
+  background: white;
+  color: #47476b;
 }
