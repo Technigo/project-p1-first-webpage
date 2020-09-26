@@ -18,12 +18,16 @@ h2 {font-weight: bold; text-align: center }
 
 .row {
   display: flex;
+  margin: 20px;
 }
-
-.columngap {width: 15px;}
 
 .column {
   flex: 50%;
+  margin: 20px
 }
 
-.subbox { color: 	rgb(72,72,72); padding: 20px;}
+.flexboxfooters {height:auto;
+   display: flex;
+    align-items: center;
+    justify-content: space-around }
+.flexchild { color: 	rgb(72,72,72); padding: 20px; text-align: left; }
