@@ -6,7 +6,7 @@ My brother makes beautiful photos but only shows them on instagram and facebook.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I had a brother in need and wanted to show his work. But I quickly realised that I had to much already in mind and complicated websites as inspiration. Then I startet little and will build up the website little by little to make it perfect.
 
 ## View it live
 
