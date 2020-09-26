@@ -1,0 +1,198 @@
+/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;500;600;800&display=swap');
+
+body {
+  background-color:#fef5e4;
+  font-family:  'Epilogue', sans-serif;
+  text-align: center;
+  line-height: 200%;
+  position: absolute;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/* Formatting Header*/
+
+header img {
+  min-height: fit-content;
+  align-content: center;
+}
+
+
+.Top-Box {
+  background-image: url(lachen.jpg);
+  background-size: cover;
+  height: 360px;
+ }
+ 
+ h1 {
+ font-family: 'Epilogue', sans-serif;
+ font-size: 100px;
+ color: #faf8f8;
+ font-style: normal ;
+ text-align: center;
+ padding-top: 150px;
+ }
+
+ /*Formatting h2*/
+ h2 {
+   text-align: center;
+   font-size: 35px;
+   margin-top: 20px;
+   padding-top: 20px;
+   font-weight: 400;
+   line-height: 100%;
+ }
+
+ h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+p {
+  font-style: normal;
+  font-weight: 200;
+}
+/*Evtl wegnehmen, das sollte nicht so sein
+width:auto;
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
+
+/* Formatting A1*/
+.A1 {
+    background-color: whitesmoke;
+    width:auto;
+    height: 360px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.T1 {
+  text-align: center;
+}
+
+/* Formatting A2*/
+.A2 {
+  background-image: url(einsamstark.jpg);
+  background-size: cover;
+  padding: 50px;
+  height: 360px;
+  opacity: 80%;
+}
+
+.T2 {
+  font-size: 90px;
+  font-weight:bolder;
+  color: #FFA476;
+  text-align: center; 
+  vertical-align: 50%;
+}
+
+
+/* Formatting A3*/
+.A3 {
+  background-color: #FFA476 50;
+  width:auto;
+  padding: 50px;
+  height: 360px
+  border-radius: 10px;
+}
+
+/* Formatting A4*/
+.A4 {
+  background-color:floralwhite;
+  width:auto;
+  height: 800px;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
+  position: relative;
+}
+
+/* Create three equal columns that floats next to each other *position: absolute;*/
+
+.column {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+
+/* Formatting A4.1*/
+.A41 {
+  width:auto;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+/* Formatting A5*/
+.A5 {
+  background-color: peachpuff;
+  width:auto;
+  height: fit-content;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.A5::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.A5 img {
+  float: right;
+  padding-left: 30px;
+  border-radius: 40%;
+}
+
+/* Formatting A6*/
+.A6 {
+  background-color: rgb(230, 176, 176);
+  width:auto;
+  height: 360px
+  padding: 50px;
+  margin-top: 30px;
+  border: 3px solid #ffffff;
+  padding: 5px;
+}
+  
+/*trial ad error*/
+
+nav {
+  float: left;
+  width: 20%;
+  height: fit-content; /* only for demonstration, should be removed */
+  background:rgba(255, 218, 185, 30%);;
+  padding: 20px;
+  text-align: left;
+  
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
