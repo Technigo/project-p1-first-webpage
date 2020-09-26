@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  color: coral;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+  background-image: url("./mann_telefon.jpg");
+  background-size: cover;
+  height: 110px;
+  padding-top: 230px;
+  padding-left: 500px;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  width: 400px;
+  margin: 20px auto 20px auto;
+  font-weight: normal;
+}
+h2 {
+color: black;
+font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-left: 30px;
+}
+h3{
+  color: black;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: right;
+  padding-top: 150px;
+}
+.box{
+  float: left;
+  width: 21%;
+  height: 240px;
+  padding: 20px;
+  margin: 25px;
+  background: palevioletred;
+  box-sizing: border-box;
+}
