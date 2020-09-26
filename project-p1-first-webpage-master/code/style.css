@@ -1,0 +1,183 @@
+/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+
+body {
+  background-color:#faf3dd;
+  margin: 20px 60px 20px 60px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  }
+
+header {
+  background-image: url("Page.JPG");
+  background-size: cover; 
+  object-position: bottom;
+  border-color: grey; 
+  border-style: double;
+  text-align: center;
+  height: 700px;
+  padding: 100px; 
+}
+
+h1 {
+  font-family: 'Charmonman', cursive;
+  font-family: 'Eagle Lake', cursive;
+  font-family: 'Sunshiney', cursive;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: 'Charmonman', cursive;
+  font-family: 'Eagle Lake', cursive;
+  font-family: 'Sunshiney', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Sunshiney', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.round-image {
+  border-radius: 50%;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;   
+}
+
+.flower-box {
+  position: relative; 
+}
+
+.pelat_1 {
+  position: absolute;
+  top: 170px;
+  left: 450px; 
+}
+
+.pelat_2 {
+  position: absolute;
+  top: 350px;
+  left: 500px; 
+}
+
+.pelat_3 {
+  position: absolute;
+  top: 60px;
+  left: 660px; 
+}
+
+.pelat_4 {
+  position: absolute;
+  top: 170px;
+  left: 860px; 
+}
+
+.pelat_5 {
+  position: absolute;
+  top: 360px;
+  left: 820px; 
+}
+
+.about-box {
+  background:white; 
+  border: 8px rgb(27, 18, 18); 
+  text-align: center;
+  padding: 20px 20px; 
+}
+
+.flex-parent {
+  height: 200px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+  border: 2px solid grey; 
+  margin: 50px; 
+  background-color: #065c6f;
+}
+
+.icon {
+  width: 20%;
+  margin: 40px;
+  padding: 10px; 
+  border: 1px solid grey; 
+  background-color: white; 
+  text-align: center;
+}
+
+.grid-container {
+	border: 2px;
+	display: grid; 
+	grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 5px; 
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.grid-item1, .grid-item3, .grid-item4, .grid-item6, .grid-item7, .grid-item9, .grid-item10, .grid-item12, .grid-item13, .grid-item15{
+	background-color:whitesmoke; 
+	border: 2px;
+	grid-column: span 1; 
+}
+
+.grid-item2, .grid-item5, .grid-item8, .grid-item11, .grid-item14 {
+  background-color: #64958f ; 
+	border: 2px solid grey;
+  grid-column: span 2; 
+  padding: 20px;
+}
+
+.btn {
+  font-family: monospace;
+  font-size: 20 px;
+  padding: 8px 16px;
+
+  color: darkblue;
+  background: whitesmoke;
+
+  border: 2px solid  darkblue;
+  border-radius: 4px; 
+
+  cursor: pointer;
+  transition: all 0.5s; 
+
+  display: inline-block;
+  text-align: center;;
+  vertical-align: middle;
+  margin: 200px 60px;
+}
+
+.btn:hover {
+  border: 2px dashed darkblue;
+  border-radius: 20px; 
+}
+
+.btn:active {
+  border: 2px dashed rgb(6, 95, 6);
+  color:rgb(4, 82, 4);
+  background:pink; 
+
+}
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px; 
+  text-align: center;
+  background-color: #ffbb91 ;
+  padding: 20px; 
+  margin: 20px; 
+}
+
+.quote-author {
+  font-size: 20px; 
+}
