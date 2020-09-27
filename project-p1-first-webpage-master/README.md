@@ -8,4 +8,4 @@ My problem was that I had a clear idea of what I wanted to implement. However, I
 
 ## View it live
 
-I did not depoloy my website until now. 
+I did not deploy my website until now. 
