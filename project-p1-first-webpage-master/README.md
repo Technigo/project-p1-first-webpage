@@ -8,4 +8,4 @@ My problem was that I had a clear idea of what I wanted to implement. However, I
 
 ## View it live
 
-Have you deployed your project somewhere? Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+I did not depoloy my website until now. 
