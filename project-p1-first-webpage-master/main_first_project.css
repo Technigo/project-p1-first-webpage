@@ -1,0 +1,79 @@
+body {
+  background-color: #C9F4EB;
+  margin: 0px;  
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-style: oblique;
+  padding-top: 40px;
+}
+
+header{
+  background-image: url("./images/KH_header_background_2.jpg");
+  background-size: cover;
+  height: 250px;
+  padding-top: 180px;
+}
+
+p {
+  font-size: 23px;
+  font-family: Nunito;
+  letter-spacing: 2px;
+  text-align: justify;
+  
+}
+
+.board-box{
+width: 800px;
+padding: 10px 30px;
+margin: 10px 30px;
+}
+
+.board-box img{
+width: 100%;
+}
+
+.text-box{
+  width: 800px;
+  padding: 10px 30px;
+  margin: 10px 30px;
+}
+
+
+.list {
+  width: 800px;
+  padding: 10px 30px;
+  margin: 10px 30px;
+}
+ol {
+  font-size: 23px;
+  font-family: Nunito;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  margin: 10px 30px;
+  color: #A39161;
+  line-height: 28px;
+}
+
+a:link {
+  color: hotpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:hotpink;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+
+.last-box {
+  width: 800px;
+  padding: 10px 30px;
+  margin: 10px 30px;
+}
