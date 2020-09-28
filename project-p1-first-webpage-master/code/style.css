@@ -14,7 +14,7 @@ body {
   }
 
 header {
-  background-image: url("Page.JPG");
+  background-image: url("Images/Page.JPG");
   background-size: cover; 
   object-position: bottom;
   border-color: grey; 
