@@ -4,27 +4,24 @@
 body {
   background-color:#fef5e4;
   font-family:  'Epilogue', sans-serif;
+  font-size: 22px;
   text-align: center;
   line-height: 200%;
   position: absolute;
+  margin-top: 0%;
 }
 * {
   box-sizing: border-box;
 }
 
 
-/* Formatting Header*/
-
-header img {
-  min-height: fit-content;
-  align-content: center;
-}
-
-
+/* Formatting Header
+*/
 .Top-Box {
-  background-image: url(lachen.jpg);
+  background-image: url(cover.png);
   background-size: cover;
-  height: 360px;
+  margin-top: 0%;
+  padding-bottom: 50%;
  }
  
  h1 {
@@ -33,7 +30,6 @@ header img {
  color: #faf8f8;
  font-style: normal ;
  text-align: center;
- padding-top: 150px;
  }
 
  /*Formatting h2*/
@@ -68,17 +64,18 @@ border-radius: 10px;
     background-color: whitesmoke;
     width:auto;
     height: 360px;
-    padding: 50px;
+    padding: 0px;
     border-radius: 10px;
 }
 
 .T1 {
   text-align: center;
+  
 }
 
 /* Formatting A2*/
 .A2 {
-  background-image: url(einsamstark.jpg);
+  background-image: url(lachen.jpg);
   background-size: cover;
   padding: 50px;
   height: 360px;
@@ -105,9 +102,8 @@ border-radius: 10px;
 
 /* Formatting A4*/
 .A4 {
-  background-color:floralwhite;
+  background-color: whitesmoke ;
   width:auto;
-  height: 800px;
   padding: 50px;
   border-radius: 10px;
   margin: 20px;
@@ -115,17 +111,16 @@ border-radius: 10px;
 }
 
 /* Create three equal columns that floats next to each other *position: absolute;*/
-
 .column {
-  float: left;
+  display: inline-block;
   padding: 20px;
   width: 50%;
-  margin-top: 10px;
   margin-bottom: 10px;
   padding-bottom: 15px;
+  margin-top: 0%;
 }
 
-/* Clear floats after the columns */
+/* Clear floats after the columns 
 .row:after {
   content: "";
   display: table;
@@ -145,6 +140,7 @@ border-radius: 10px;
   width:auto;
   padding: 50px;
   margin-top: 30px;
+  margin-bottom: 0%;
 }
 
 /* Formatting A5*/
@@ -165,34 +161,63 @@ border-radius: 10px;
 .A5 img {
   float: right;
   padding-left: 30px;
-  border-radius: 40%;
+  border-radius: 1%;
 }
 
 /* Formatting A6*/
 .A6 {
-  background-color: rgb(230, 176, 176);
+  background-color:rgba(255, 164, 118, 0.2);
   width:auto;
   height: 360px
   padding: 50px;
   margin-top: 30px;
-  border: 3px solid #ffffff;
-  padding: 5px;
+  border:3px solid #ffffff;
+  position:relative;
 }
   
-/*trial ad error*/
 
-nav {
-  float: left;
-  width: 20%;
-  height: fit-content; /* only for demonstration, should be removed */
-  background:rgba(255, 218, 185, 30%);;
-  padding: 20px;
-  text-align: left;
-  
+.A6 {
+margin-bottom: 10px;
 }
-
+/*Navigation bar*/
 /* Style the list inside the menu */
-nav ul {
+ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: rgb(51, 51, 51);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(17, 17, 17);
+}
+
+ul img
+{
+  float: left;
+  padding: 10px;
+}
+/* I don't understand what is going
+ withthe footer, it overlaps I can't get rid of it */
+.footer {
+  position: absolute;
+  padding-top: 20px;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 5px;
 }
