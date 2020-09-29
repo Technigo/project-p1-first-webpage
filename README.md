@@ -13,4 +13,4 @@ I would like to usee CSS Grid next time to style (I feel my website is a bit too
 
 ## View it live
 
-Have you deployed your project somewhere? Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://agitated-jepsen-383265.netlify.app
