@@ -1,5 +1,71 @@
 /* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
 
 body {
-  background-color: lightblue;
+  margin: 0;
+}
+.header-text {
+text-align: left;
+padding-left: 15px;
+}
+.header-text {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bangers', cursive;
+}
+
+
+h1 {
+  margin: 0;
+  text-align: left;  
+  padding-top: 1px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Bangers', cursive;
+
+
+}
+header {
+  background-image: url("/Users/sasu/Desktop/Technigo/project-p1-first-webpage/code/hero.jpg");
+  background-size: cover;
+  height: 540px;
+  padding-top: 150px;
+
+}
+
+h2 {
+  text-align: center
+  font-family: 'Bangers', cursive;
+}
+
+img {
+  border-radius: 50%;
+  height: 150px;
+ 
+}
+
+.box-cat {
+    background-color:#ABEBC6;
+    text-align: center;
+    margin: 10px 40px;
+    padding: 30px;
+    border: 2px groove black
+}
+.box-desk {
+  background-color:#ABEBC6;
+  text-align: center;
+  margin: 10px 40px;
+  padding: 30px;
+  border: 10px ridge black
+
+}
+.box-gallery {
+  background-color:#ABEBC6;
+  text-align: center;
+  margin: 10px 40px;
+  padding: 30px;
+  border: 2px solid black
+}
+
+body {
+  background-color: whitesmoke;
+  text-align: center;
 }
