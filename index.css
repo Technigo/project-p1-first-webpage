@@ -1,0 +1,114 @@
+body {
+  background-color: #C9F4EB;
+  margin: 0px; 
+   
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-style: oblique;
+  padding-top: 40px;
+}
+
+header{
+  background-image: url("./images/KH_header_background_2.jpg");
+  background-size: cover;
+  height: 250px;
+  padding-top: 180px;
+}
+menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+menu a {
+  display: inline-block;
+  padding: 10px 15px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+menu a:hover {
+  background: lightcoral;
+  color: white;
+}
+p {
+  font-size: 23px;
+  font-family: Nunito;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.board-box {
+  width: 1000px;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.board-box img {
+width: 70%;
+padding: 10px 130px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text-box{
+  width: 1000px;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.list {
+  width: 800px;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ol {
+  font-size: 23px;
+  font-family: Nunito;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  margin: 10px 30px;
+  color: #A39161;
+  line-height: 28px;
+}
+
+a:link {
+  color: hotpink;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+
+a:visited {
+  color:hotpink;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+a:hover {
+  background: lightcoral;
+  color: white;
+}
+
+.last-box {
+  width: 1000px;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
