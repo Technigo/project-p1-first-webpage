@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'carlito';
+  src: url('carlito.regular.ttf');
+}
+
+.navbar {  text-align: center;}
+
+.navbar a {
+  float: none;
+  display: inline-block; 
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'carlito', sans-serif;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  padding-left: 50px
+}
+
+header  {background-image: url("main-picture.jpg");
+  background-size: cover;
+  height: 300px
+  }
+  
+body {
+margin: 0;
+font-family: 'carlito', sans-serif;
+color: black;
+padding-top: 15px;
+padding-right: 75px;
+padding-bottom: 50px;
+padding-left: 75px
+}
+
+h1 {margin: 0;
+text-align: center;
+padding-top: 30px;}
+
+h2 {margin: 0;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'carlito', sans-serif;
+  color: #234b64;
+  font-size: 50;}
+  
+h6 {margin: 0;
+    text-align: center;
+    font-family: 'carlito', sans-serif;
+    color: #234b64;
+    font-size: 20;
+    }
+
+article {
+  margin: 0;
+  font-family: 'carlito', sans-serif;
+  color: black;
+  }
+section.h1 {font-family: 'carlito', sans-serif;
+  size: 18;
+padding-top: 30px;}
+
+div {
+    margin: 0;
+    color: black;
+    }
+
+.galary-container {clear:both}
+
+div.gallery {
+    margin: 10px;
+    width: 60%;
+  }
+.galary-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+  
+div.gallery img {
+    width: 150%;
+    height: 70%;
+  }
+  
+div.address {margin: 0;
+  font-family: 'carlito', sans-serif;
+  width: 100%;
+      }
+
+footer{font-family: 'carlito', sans-serif;
+text-align: center;}
