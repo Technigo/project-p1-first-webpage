@@ -1,12 +1,11 @@
-# Project Name
+# Noemi's first try
 
-Replace this readme with your own information about your project.
+This website is built as some kind of a blog i guess. The idea is to have a mainpage (index), which gives an overview of different themes, where questions about that theme can be found. It is thought as an inspiration for talking topics durin an evening with friend, familiy, etc. to get to know a new side of them.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
 
 ## The problem
-
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I wanted to have different pictures behind the headtitle. But trying to solve it with a header was the wrong choice I guess.
+Next step would have been to built linked boxes on the different theme-htmlx to the next theme-html, so that the viewer doesn't have to jump back to the index.
 
 ## View it live
 
