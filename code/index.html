@@ -7,15 +7,42 @@
     <title>Project Name</title>
     <!-- dont forget to add a css file and link it here! -->
     <!-- If you're using google fonts, that should be added here -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
-    <!-- 
-      Write your code here inside the body to make it appear in the browser. 
-      Below is an example on how to use an image tag. Copy it and add it in the body, but outside the comment tag if you want to see how it looks like on the website. Then you can change the size and other styling for it in the css file.
+    <header>
+      <menu>
+        <a href="./about.html">Über mich</a>
+        <a href="./photos.html">Fotos</a>
+      </menu>
+      <h1>Nadelöhr</h1>
+      <button class="styled-button">zum Atelier</button>
+    </header>
 
-      <img src="example-recipe-background.png" alt="Banana Bread">
+<section class="grid-container">
 
-    -->
-    <h1>Hello there! 👋🏼</h1>
+  <div class="grid-item1">
+    <h2>Leistungsangebot</h2>
+  </div>
+
+    <div class="grid-item2">
+      <img class ="schneidern"
+      src="images/sewingmachine.jpg" alt="Schneidern">
+      <h3>Schneidern</h3>
+    </div>
+
+    <div class="grid-item3">
+      <img class="nadel"
+      src="images/nadel.jpeg" alt="Nadel">
+      <h3>Nähen</h3>
+    </div>
+    
+    <div class="grid-item4">
+      <img class="create"
+      src="images/creative.jpg" alt="Kreieren">
+      <h3>Kreieren</h3>
+    </div>
+  </section>
+
   </body>
 </html>
