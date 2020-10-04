@@ -1,5 +1,151 @@
 /* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
 
-body {
-  background-color: lightblue;
+@import
+url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+</style>“)
+
+body{
+  font-family: Optima, sans-serif;
 }
+
+.header-intro{
+  position: absolute;
+  bottom: 10%;
+  width: 1000px;
+  background-color: black;
+  color: rgb(253, 72, 6);
+}
+
+header{
+  background-image: url("https://www.wallsauce.com/pdi/40172/1000/0/0/penguins-pattern-wallpaper.jpg");
+  padding: 10px 30px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+h1{
+  color: rgb(253, 72, 6);
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+h2{
+  color: darkblue;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+
+}
+
+h3{
+  color: white;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 25px ;
+}
+
+p{  
+  font-family: Optima, sans-serif;
+  padding-bottom: 25px;
+}
+
+img{
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.no-border{
+  border: none
+}
+
+.font-header{
+  color: darkblue;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+}
+
+.main{
+  margin-left: 180px;
+  padding-top: 25px;
+  font-family: Optima, sans-serif;
+}
+
+.text-image-align{
+  margin-left: 150px;
+}
+
+.sidenav{
+  height: 100%;
+  width: 180px;
+  border-radius: 3px;
+  position: fixed;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-top: 230px;
+
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.sidenav a{
+  padding: 10px 15px;
+  margin: 10px 15px;
+  background: rgb(253, 72, 6);
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+  font-family: 'Amatic SC', cursive;
+  display: block;
+}
+
+.sidenav a.active {
+  background: darkblue;
+  color: rgb(253, 72, 6);
+}
+
+.sidenav a:hover:not(.active) {
+  background: rgb(85, 85, 165);
+  color: rgb(253, 72, 6);
+}
+
+menu {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+}
+
+menu a{
+  display: inline-block;
+  padding: 10px 15px;
+  background: rgb(253, 72, 6);
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 10px 5px;
+  font-family: 'Amatic SC', cursive;
+}
+
+menu a.active {
+  background-color: darkblue;
+  color: rgb(253, 72, 6);
+}
+
+menu a:hover:not(.active) {
+  background-color: rgb(85, 85, 165);
+  color: rgb(253, 72, 6);
+}
+
+
+  
