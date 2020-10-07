@@ -11,8 +11,29 @@
     .header-index{
       background-image: url("./image/mann_telefon.jpg");
     }
+    .header-angst{
+      background-image: url("./image/angst.jpg");
+    }
+    .header-erwartungen{
+      background-image: url("./image/erwartungen.jpg");
+    }
+    .header-essen{
+      background-image: url("./image/essen.jpg");
+    }
+    .header-geschichte{
+      background-image: url("./image/geschichte.jpg");
+    }
+    .header-kinder{
+      background-image: url("./image/kinder.jpg");
+    }
+    .header-rentner{
+      background-image: url("./image/rentner.jpg");
+    }
+    .header-sport{
+      background-image: url("./image/sport.jpg");
+    }
     .header-talent{
-      background-image: url("./image/talent.jpg")
+      background-image: url("./image/talent.jpg");
     }
     p{
       font-family: 'Times New Roman', Times, serif;
