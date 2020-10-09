@@ -10,24 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Sunshiney&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Sunshiney&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Eagle+Lake&family=Sunshiney&display=swap" rel="stylesheet">
-    <!-- dont forget to add a css file and link it here! -->
-    <!-- If you're using google fonts, that should be added here -->
   <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- 
-      Write your code here inside the body to make it appear in the browser. 
-      Below is an example on how to use an image tag. Copy it and add it in the body, but outside the comment tag if 
-      you want to see how it looks like on the website. Then you can change the size and other styling for it in the css file.
-
-      <img src="example-recipe-background.png" alt="Banana Bread">
-      <img src="Page.JPG" alt="Me enjoying the view in Page, Arizona." width=100%>
-
-    -->
   
     <header>
-    <h1>Sabrina Ritz</h1>
-    <h2>teacher, translator, musician, composer, travel lover</h2>
+      <h1>Sabrina Ritz</h1>
+      <h2>teacher, translator, musician, composer, travel lover</h2>
     </header>
 
     <summary class="about-box">
@@ -36,47 +25,48 @@
     </summary>
 
     <div class="flower-box">
-    <h2>What drives me</h2>
-    <img class="round-image" src="Blume.jpg" alt="Gelb weisse Blume mit fünf Blüten" width=300 height=300>
-    <div class="pelat_1">hhh</div>
-    <div class="pelat_2">hhh</div>
-    <div class="pelat_3">hhh</div>
-    <div class="pelat_4">hhh</div>
-    <div class="pelat_5">hhhhh</div>
+      <h2>What drives me</h2>
+      <img class="round-image" 
+        src="Blume.jpg" 
+        alt="Gelb weisse Blume mit fünf Blüten" 
+      />
+      <div class="pelat-one">hhh</div>
+      <div class="pelat-two">hhh</div>
+      <div class="pelat-three">hhh</div>
+      <div class="pelat-four">hhh</div>
+      <div class="pelat-five">hhhhh</div>
     </div>
-    
 
     <h1>My Portfolio</h1>
 
     <section class="flex-parent">
-      <div class="icon 1">
+      <div class="icon">
         <img src="images/teacher.png" alt="Icon of a teacher" width=50 height=50>
         <h4>Unterrichten</h4>
       </div>
-      <div class="icon 2">
+      <div class="icon">
         <img src="images/music-note.png" alt="Icon of two music notes" width=50 height=50>
         <h4>Musik & Komposition</h4>
       </div>
-      <div class="icon 3">
+      <div class="icon">
         <img src="" alt="" width=50 height=50>
         <h4>Übersetzungen</h4>
       </div>
-      <div class="icon 4">
+      <div class="icon">
        <img src="" alt="" width=50 height=50>
        <h4>Digital Skills</h4>
       </div>
-      <div class="icon 5">
+      <div class="icon">
         <img src="" alt="" width=50 height=50>
         <h4>Reisen</h4>
-       </div>
+      </div>
     </section>
     
-
     <section class="grid-container">
-      <div class="grid-item1"></div>
-      <div class="grid-item2">
+      
+      <div class="grid-item1">
          <h2>Unterrichten</h2>
-         <p>Nach dem Abschluss der Matura habe ich die Pädagogische Hochschule absolviert und danach als Primarlehrerin an diversen 
+         <div>Nach dem Abschluss der Matura habe ich die Pädagogische Hochschule absolviert und danach als Primarlehrerin an diversen 
            Schulen und auf unterschiedlichen Stufen vertiefte Erfahrungen gesammelt. Diese sind in der folgenden Liste kurz zusammengefasst: 
            <ul>
              <li>Abschluss PH Bachelor an der PH Luzern, 2014</li>
@@ -89,31 +79,25 @@
               <li>Stellvertretung an der <a href="https://www.tandem-ims.ch/de/">Tandem International Multilingual School</a></li>
               <li>Homeschooling, Online Learning/Teaching während Corona</li>
             </ul>
-        </p>
+          </div>
       </div>
 
-      <div class="grid-item3"></div>
-      <div class="grid-item4"></div>
-
-      <div class="grid-item5">
+      <div class="grid-item2">
           <h2>Übersetzungen</h2>
-          <p>Neben dem Unterrichten habe ich begonnen, Übersetzungen zu machen. 
+          <div>Neben dem Unterrichten habe ich begonnen, Übersetzungen zu machen. 
 
-             <a href="https://trashhero.org/de/trash-hero-kids-book/"><img src="Trash-Hero-Kidsbook.jpg" 
-              alt="Cover Trash Hero Kinderbuch" width=80 height=100></a>
+             <a href="https://trashhero.org/de/trash-hero-kids-book/"><img class="Trash-Hero" src="Trash-Hero-Kidsbook.jpg" 
+              alt="Cover Trash Hero Kinderbuch"></a>
               <!-- Link zum deutschen Buch einfügen-->
            <ul>
              <li>Trash Hero Kinderbuch</li>
              <li><a href="https://thegoodlifecoffee.com/de">Goodlife: </a>Übersetzung der Webseite</li>
              <li>...</li>
            </ul>
-         </p>
+          </div>
       </div>
 
-      <div class="grid-item6"></div>
-      <div class="grid-item7"></div>
-
-      <div class="grid-item8">
+      <div class="grid-item3">
          <h2>Musik & Komposition</h2>
            <ul>
             <li>Klavier</li>
@@ -125,10 +109,13 @@
             <video class="center" controls><source src="PianoImpro.mp4" type="video/mp4">
               Your Web Browser does not support the video element.</video>
             <!--Button My project Musicals, INtegrationsprojekt etc.-->
+          
+          <div class="center">
+            <button class="btn" href="#sign-up"> 🎵  Learn more  🎵</button>
+          </div>
       </div>
-      <div class="grid-item9"><button class="btn" href="#sign-up"> 🎵  Learn more  🎵</button></div>
-      <div class="grid-item10"></div>
-      <div class="grid-item11">
+     
+      <div class="grid-item5">
           <h2>Digital Skills</h2>
             <ul>
               <li>Praktikum Content Marketing bei Digital Minds: Wordpress, SEO, Keyword Research, EAT Score, YMYL Content, Backlinks </li>
@@ -139,11 +126,9 @@
               <li>Tools: Slack, Trello, Zoom, Skype, Hangout, Google Drive</li>
             </ul>
       </div>
-      <div class="grid-item12"></div>
-      <div class="grid-item13"></div>
-      <div class="grid-item14">
+      <div class="grid-item6">
           <h2>Reisen</h2>
-          <p>I absolutely love traveling, exploring new places and getting to know new people. Here is a list of some of my longer and
+          <div>I absolutely love traveling, exploring new places and getting to know new people. Here is a list of some of my longer and
                favourite travels. If you would like to see some pictures of these, you can click on the link. 
             <ul>
              <li>Neuseeland</li>
@@ -153,9 +138,8 @@
              <li>USA Roadtrip</li>
             </ul>
           
-          </p>
+          </div>
       </div>
-      <div class="grid-item15"></div>
     </section>
 
     <div class="quote">
