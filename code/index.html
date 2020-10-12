@@ -2,20 +2,83 @@
 <html>
 
   <head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Name</title>
-    <!-- dont forget to add a css file and link it here! -->
-    <!-- If you're using google fonts, that should be added here -->
+    <title>Ta lappen.no</title>
   </head>
   <body>
-    <!-- 
-      Write your code here inside the body to make it appear in the browser. 
-      Below is an example on how to use an image tag. Copy it and add it in the body, but outside the comment tag if you want to see how it looks like on the website. Then you can change the size and other styling for it in the css file.
 
-      <img src="example-recipe-background.png" alt="Banana Bread">
+  <div class="container"> 
+  <video playsinline autoplay muted loop>
+      <source src="talappen.no.webm" type="video/webm">
+      Your browser does not support the video tag. 
+  </video>
 
-    -->
-    <h1>Hello there! 👋🏼</h1>
+
+  <h1 class="hovedoverskrift">Finn det beste tilbudet for deg</h1> 
+  <h2 class="overskrift-2">Fyll inn skjemaet under og motta tilbud fra våre samarbeidspartnere</h2>
+  <p class="ingress">Du velger selv hvilket tilbud du ønsker å akseptere. 
+    Bare trykk "godkjenn" på det tilbudet du vil ha og du vil raskt få en bekreftelsesmail. 
+    Lykke til!</p>
+
+
+<div class="skjema">
+    <form action="/action_page.php">
+    <label for="fname"> Fornavn:</label>
+    <input type="text" id="fname" name="fname" placeholder="Ditt navn..">
+    <label for="lname">Etternavn:</label>
+    <input type="text" id="lname" name="lname" placeholder="Ditt etternavn..">
+    <label for="phone">Telefonnummer:</label>
+    <input type="text" id="phone" name="phone" placeholder="Ditt telfonnummer..">
+    <label for="email">E-post:</label>
+    <input type="text" id="email" name="email" placeholder="Din e-post..">
+    <label for="adress">Adresse:</label>
+    <input type="text" id="adress" name="adress" placeholder="Din adresse..">
+    <label for="kurs">Kategori:</label>
+    <select id="kategori" name="kurs">
+      <option value="scooter/moped/motorsykkel">Scooter/moped/motorsykkel</option>
+      <option value="bil">Bil</option>
+      <option value="jegerprøven">Jegerprøven</option>
+      <option value="dykking">Dykking</option>
+    </select>
+
+    <input type="submit" value="Få tilbud">
+  </form>
+</div>
+
+<section>
+  <article class="alle-nyheter">
+    <h1> Siste nytt fra Talappen.no</h1>
+    <article class="oppkjøring">
+      <h2> Alt du trenger å vite om oppkjøring for motorsykkel og bil</h2>
+      <p>Kjøreopplæringen er over, og du er endelig oppmeldt til den avsluttende 
+        oppkjøringen. Det eneste som står mellom deg og en fremtid som selvstendig sjåfør er den 
+        praktiske førerprøven. Er du klar?</p>
+        <img src="oppkjoring.jpg" alt="opkjøring" style="width:100%">
+    </article>
+    <article class="dykking">
+      <h2>Mia (19) om dykkerlappen og ferie på Bali</h2>
+      <p>Mia tok dykkerlappen på Bali i sommer. "Det var den beste sommeren i mitt liv"
+        forteller en solbrun og blid Mina når vi møter henne på stranden. Her er hennes erfaringer og tips til deg.
+      </p> 
+      <img src="dykkingpåbali.jpg" alt="dykkingpåbali" style="width:100%">
+    </article>
+    <article class="jeger">
+      <h2>Dette må du huske på før du tar Jegerprøven</h2>
+      <p> Fra og med det året du fyller 14 år kan du ta jegerprøven. 
+        Du kan likevel delta på opplæringsjakt for småvilt det året du fyller 14 og 15 år, uten jegerprøven. 
+        For all annen jakt, uansett alder, må du ha jegerprøven.</p>
+        <img src="jegerprove.jpeg" alt="ojegerprove" style="width:100%">
+    </article>
+  </article>
+</section>
+
+
+<footer class="footer">
+  <img class="logo" src="talappen.no-01.png" alt="logo" class="logo">
+</footer>
+  
+    
   </body>
 </html>
