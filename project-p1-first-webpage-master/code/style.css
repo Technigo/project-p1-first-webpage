@@ -1,0 +1,181 @@
+
+body {
+  background-color:#faf3dd;
+  margin: 20px 60px 20px 60px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+header {
+  background-image: url("Images/Page.JPG");
+  background-size: cover; 
+  object-position: bottom;
+  border-color: grey; 
+  border-style: double;
+  text-align: center;
+  height: 700px;
+  padding: 100px; 
+}
+
+h1 {
+  font-family: 'Charmonman', 'Eagle Lake', 'Sunshiney', cursive;
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: 'Charmonman', cursive;
+  font-family: 'Eagle Lake', cursive;
+  font-family: 'Sunshiney', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Sunshiney', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.round-image {
+  border-radius: 50%;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; 
+  height: 300px;    
+}
+
+.flower-box {
+  position: relative; 
+}
+
+.pelat-one {
+  position: absolute;
+  top: 170px;
+  left: 450px; 
+}
+
+.pelat-two {
+  position: absolute;
+  top: 350px;
+  left: 500px; 
+}
+
+.pelat-three {
+  position: absolute;
+  top: 60px;
+  left: 660px; 
+}
+
+.pelat-four {
+  position: absolute;
+  top: 170px;
+  left: 860px; 
+}
+
+.pelat-five {
+  position: absolute;
+  top: 360px;
+  left: 820px; 
+}
+
+.about-box {
+  background:white; 
+  border: 8px rgb(27, 18, 18); 
+  text-align: center;
+  padding: 20px 20px; 
+}
+
+.flex-parent {
+  height: 200px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+  border: 2px solid grey; 
+  margin: 50px; 
+  background-color: #065c6f;
+}
+
+.icon {
+  width: 20%;
+  margin: 40px;
+  padding: 10px; 
+  border: 1px solid grey; 
+  background-color: white; 
+  text-align: center;
+}
+
+.grid-container {
+	border: 2px;
+	margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.grid-item1, .grid-item2, .grid-item3,.grid-item5, .grid-item6 {
+  background-color: #64958f ; 
+	border: 2px solid grey;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 20px;
+  }
+
+.Trash-Hero {
+  width: 80px; 
+  height: 100px;
+}
+
+.btn {
+  font-family: monospace;
+  font-size: 20 px;
+  padding: 8px 16px;
+
+  color: darkblue;
+  background: whitesmoke;
+
+  border: 2px solid  darkblue;
+  border-radius: 4px; 
+
+  cursor: pointer;
+  transition: all 0.5s; 
+
+  display: inline-block;
+  text-align: center;;
+  vertical-align: middle;
+  margin: 20px; 
+}
+
+.btn:hover {
+  border: 2px dashed darkblue;
+  border-radius: 20px; 
+}
+
+.btn:active {
+  border: 2px dashed rgb(6, 95, 6);
+  color:rgb(4, 82, 4);
+  background:pink; 
+
+}
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px; 
+  text-align: center;
+  background-color: #ffbb91 ;
+  padding: 20px; 
+  margin: 20px; 
+}
+
+.quote-author {
+  font-size: 20px; 
+}
