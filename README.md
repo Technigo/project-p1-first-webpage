@@ -1,13 +1,12 @@
-# Project Name
+# Webseite über einen Reiseblog
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+Ich wollte als Beispiel einen Reiseblog erstellen.
+Es sollte Bilder und Text über die verschiedenen Länder geben, und ich habe versucht, für jedes Land eine weitere Seite zu erstellen.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+Am meisten Mühe hatte ich mit den Bildern, ich bin immer noch nicht sicher, ob ich es geschafft habe,  dass sie genau auf eine Seite passen (Bei verschiedenen Desktopgrössen). Zudem fand ich es schwierig, eine speziellere Schrift auszuwählen... mein PC hat immer wieder die Backup-Schrift verwendet, also habe ich es bei Arial gelassen, was ich etwas schade finde. Gerne hätte ich den Titel noch etwas anders und eventuell über den Bildern, aber es ist schon sehr schwierig am Anfang, wenn die css-Begriffe noch nicht so geläufig sind. Aber ich bleibe dran und übe so viel ich kann.
 
 ## View it live
 
-Have you deployed your project somewhere? Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+Nein, habe ich noch nicht. Ich habe auch nicht so viel Text geschrieben, da ich mich mehr auf den Aufbau der Webseite konzentriert habe.
