@@ -10,23 +10,44 @@ h1 {
     font-family: 'Nunito', sans-serif;
     font-style: oblique;
     padding-top: 40px;
-    }
+}
 
 header {
     background-image: url("./images/KH_header_background_2.jpg");
     background-size: cover;
     height: 250px;
     padding-top: 180px;
-    }
-
-.pink_box {
+}
+menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  menu a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 0 5px;
+    font-size: 20px;
+    color: hotpink;
+  }
+  
+  menu a:hover {
+    background: lightcoral;
+    color: white;
+  }
+.pink-box {
     width: 1000px;
     padding: 10px 30px;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 
-H2 {
+h2 {
     font-size: 30px;
     color: black;
     font-family: 'Nunito', sans-serif;
