@@ -1,0 +1,98 @@
+body {
+  background-color: #C9F4EB;
+  margin: 0px;  
+}
+
+h1 {
+  font-size: 70px;
+  margin: 0px;
+  text-align: center;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-style: oblique;
+  padding-top: 40px;
+}
+
+header{
+  background-image: url("./images/KH_header_background_2.jpg");
+  background-size: cover;
+  height: 250px;
+  padding-top: 180px;
+}
+
+p1 {
+  font-size: 20px;
+  font-family: Nunito;
+  letter-spacing: 2px;
+  text-align: justify;
+  padding: 30px;
+  
+}
+
+.board-box{
+width: 800px;
+padding: 30px;
+margin: 30px;
+}
+
+.board-box img{
+width: 100%;
+padding: 10px;
+margin: 10px;
+}
+
+.Gold {
+  height: 85px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: #A39161;
+  margin: 5px;
+}
+
+.pink { 
+  height: 85px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: #FFADB8;
+  margin: 5px;
+}
+
+.blue {
+  height: 85px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: #67CEE6;
+  margin: 5px;
+}
+
+.yellow {
+  height: 85px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: #FFF200;
+  margin: 5px;
+}
+
+p2 {
+  font-size: 20px;
+  font-family: Nunito;
+  letter-spacing: 2px;
+  text-align: justify;
+  padding: 30px;
+  margin: 50px;
+}
+
+ol {
+  font-size: 23px;
+  font-family: Nunito;
+  letter-spacing: 2px;
+  padding: 30px;
+  margin: 50px;
+  color: #A39161;
+  line-height: 25px;
+}
+.text-box{
+  width: 800px;
+  padding: 10px;
+  margin: 10px;
+}
