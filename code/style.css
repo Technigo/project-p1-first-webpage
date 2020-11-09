@@ -1,5 +1,26 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
-
 body {
-  background-color: lightblue;
+    margin: 50px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    color: gray;
+}
+
+p {
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    padding: 30px;
 }
