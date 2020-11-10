@@ -1,16 +1,39 @@
 body {
     margin: 50px;
     text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
+nav a {
+    font-family: 'Rubik', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+a:link, a:visited {
+    color: rgb(38, 38, 41);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: blue;
+    text-decoration: line-through;
+}
+
+
 h1{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 38px;
-    color: gray;
+    font-family: 'Rubik', sans-serif; 
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(38, 38, 41);
 }
 
 p {
-    
+    font-family: 'Rubik', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .container {
@@ -23,4 +46,33 @@ p {
 
 .item{
     padding: 30px;
+}
+
+@keyframes shake {
+    20% {
+        transform: translateY(-12px);
+    }
+    40% {
+        transform: translateY(10px);
+    }
+    60% {
+        transform: translateY(-8px);
+    }   
+    80% { 
+        transform: translateY(6px);
+}
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.shake-box:hover {
+animation-name: shake;
+animation-duration: 0.5s;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
