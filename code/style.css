@@ -1,5 +1,78 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
-
 body {
-  background-color: lightblue;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav a {
+    font-family: 'Rubik', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+a:link, a:visited {
+    color: rgb(38, 38, 41);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: blue;
+    text-decoration: line-through;
+}
+
+
+h1{
+    font-family: 'Rubik', sans-serif; 
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(38, 38, 41);
+}
+
+p {
+    font-family: 'Rubik', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    padding: 30px;
+}
+
+@keyframes shake {
+    20% {
+        transform: translateY(-12px);
+    }
+    40% {
+        transform: translateY(10px);
+    }
+    60% {
+        transform: translateY(-8px);
+    }   
+    80% { 
+        transform: translateY(6px);
+}
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.shake-box:hover {
+animation-name: shake;
+animation-duration: 0.5s;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
