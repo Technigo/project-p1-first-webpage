@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap');
+
+
+header{
+    background-image: url(images/Logo\ Chefinne.jpeg);
+    background-size: cover;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {font-family: 'Epilogue', sans-serif;}
+
+menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    height: 10%;
+    top: 0%;
+    margin: 0%;
+    width:100%;
+    background-color: rgb(222, 228, 222);
+    background-size: 
+  }
+
+  menu a {
+    display: inline-block;
+    padding: 5px 20px;
+    background: rgb(211, 204, 204);
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0 5px;
+  }
+
+  menu a:hover {
+    color: white;
+  }
+
+
+h1 {
+    color:rgb(125, 165, 125);
+    font-size:52px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.top-heading {
+    color:rgb(70, 168, 147);
+    font-size:65px;
+    background-image: url("images/White\ Background.jpeg");
+    padding: 10px;
+}
+
+.second-heading{
+    color:purple;
+}
+h4{
+    color:pink;
+    font-size:30px;
+}
+
+.grey-box {
+    background-color: grey;
+    padding: 20px;
+    width: wide;
+}
+.grey-box img{
+    width:30%;
+}
+
+.rundesbild{
+    border-radius: 50%;
+}
+
+#centerAll {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
