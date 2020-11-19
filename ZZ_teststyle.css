@@ -11,6 +11,7 @@ body {font-family: 'Epilogue', sans-serif;
      margin: 0px;}
 
 
+
 .navigation {
     display: none;
     align-items: center;
@@ -191,7 +192,6 @@ h4 {
     background: #f6f8f7;
     padding: 20px;
 }
-
 label {
     display: flex;
     flex-wrap: wrap;
@@ -421,17 +421,20 @@ button {
         .title {
             text-align: center;
         }
-    
+}
+
+@media (min-width: 667px) {
     label {
         display: flex;
         flex-wrap: nowrap;
-    }   
-    
+        }   
+
     .labeltext {
         width: 30%;
         text-align: right;
     }   
-  
+
+}  
         
     header {
         /*** How do I adjust the header img for mobile?***/
@@ -439,83 +442,5 @@ button {
 
     /*** How do I change the size of the h1 and p?***/
 
-}
 
-/*** kann ich dies löschen?@media (max-width: 666px) {
-    .second-container {
-        flex-direction: column;
-        width: 20%;
-    } ***/
-}
-
-
-/***Media Queries Über Uns***/
-/***min 667***/
-
-@media (min-width: 667px){
-    .VorstellungParent {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-
-@media (min-width: 667px) { 
-        .Vorstellung-Inhalt {
-            display: column; 
-        } 
-
-@media (min-width: 667px) {
-    .Vorstellung-Inhalt img {
-        height: 200px;
-        width: 200px;
-    }
-
-@media (min-width: 667px) {
-        .vorstellung {
-            width: 35%;
-        }
-    }
-
-    }
-
-/*** Uber Uns min 1024px ***/    
-@media (min-width: 1024px) {
-        .vorstellung {
-            width: 20%;
-        }
-    }
-
-        .vorstellung h3 {
-            height: 40px;
-        /***How do I align the text to the bottom? Still abve the image, but align at bottom of those 40px. ***/
-    }
-
-} 
-
-
-/*** Media Queries News (min 667)***/
-@media (min-width: 667px) {
-    .flex-parent {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    }
-}
-
-@media (min-width: 667px) {
-    .flex-child {
-        width: 45%;
-    }
-}
-
-/*** Media Queries News (min 1024)***/
-
-
-@media (min-width: 1024px) {
-    .flex-child {
-        width: 20%;
-    }
-}
 
