@@ -1,5 +1,78 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans+Narrow&display=swap');
 
 body {
-  background-color: lightblue;
+  background-color:rgb(207, 204, 204);
+  margin: 0;
+}
+
+header{
+  background-image: url(https://images.unsplash.com/photo-1589478862821-aaf00f4c9fe5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-position-y: center;
+  height: 400px;
+  background-size: cover;
+  padding-top: 70px;
+}
+
+div{
+  text-align: left;
+  background-color: rgb(255, 254, 254);
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.img-header-title{
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+}
+
+.top-header {
+  color:rgb(211, 156, 36);
+  margin: 0 300px;
+  padding: 5px 50px;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.intro-text{
+  margin: 0 300px;
+  padding: 5px 50px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.paragraph{
+  margin: 0 300px;
+  padding: 5px 50px;
+  text-align: justify;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+menu a {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0 5px;
+  background: white;
+  color: rgb(5, 5, 68);
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+menu a:hover {
+  background: rgb(211, 156, 36);
+  color: white;
 }
