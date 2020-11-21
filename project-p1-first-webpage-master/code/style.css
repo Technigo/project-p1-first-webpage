@@ -1,0 +1,24 @@
+body {
+  margin: 40px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  border: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+p {
+  border: 35px;
+  padding-right: 50px;
+}
+/* unvisited link */
+a:link {
+  color: green;
+}
+/* visited link */
+a:visited {
+  color: blue;
+}
