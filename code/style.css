@@ -1,5 +1,69 @@
 /* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
-  background-color: lightblue;
+  background-color: white;
+  padding: 25px;
+  margin: 25px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+body img{
+  width: 25%;
+  : left;
+}
+
+header {
+  background-image: url("./Fotos/Office.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 25px;
+}
+
+menu {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+menu a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: white;
+  color: rgb(184,87,86);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+
+menu a:hover {
+  background: rgb(78,90,90);
+  color: white;
+}
+
+.Introduction {
+  padding: 25px;
+}
+
+.Steuererklärung, .Buchhaltung, .Abschlüsse {
+  float: left;
+  width: 32%;
+  background: lightgray;
+  margin-right: 2%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Abschlüsse {
+  margin-right: 0;
+}
+
+.Kontakt img{
+width: 30%;
+}
+
+.Kontakt {
+  text-align: center;
 }
