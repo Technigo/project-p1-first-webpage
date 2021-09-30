@@ -1,7 +1,6 @@
-# Project Name
+# My first project
 
-Replace this readme with your own information about your project.
-
+FILOSS. A homepage of an animal welfare association.
 Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
 
 ## The problem
