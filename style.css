@@ -1,0 +1,50 @@
+/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+
+body {
+  background-color: plum;
+}
+.top-heading {
+  color: blanchedalmond;
+  font-style: initial;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.second-heading {color: blanchedalmond;
+font-style: initial;
+font-family: 'Courier New', Courier, monospace;}
+
+.light-coral-box {
+  background-color: rgb(119, 177, 192);
+padding-inline-start: 30px;
+width: 400px;
+margin-left: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 30px;
+padding-left: 30px;
+}
+.paragraphs {
+  color: blanchedalmond;
+  font-family: 'Courier New', Courier, monospace;
+}
+.Menutab {
+  color: blanchedalmond;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: initial;
+  font-size: 30px;
+}
+menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image {
+  width: 700px;
+  height: 700px
+}
+.comment {
+  font-family: 'Courier New', Courier, monospace;
+  color: blanchedalmond;
+  font-style: initial;
+}
