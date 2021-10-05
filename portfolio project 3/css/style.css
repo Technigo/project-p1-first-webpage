@@ -1,0 +1,182 @@
+
+/*__General_______________________________________________________________________________*/
+body{
+    margin: 0;
+    padding-bottom: 100px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 140%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+}
+/*__Navigation_______________________________________________________________________________*/
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    /*background-color: thistle;*/
+    padding: 20px 80px;
+    font-size: 32px;
+    margin-top: 20px;
+
+}
+#navigationleft{
+    display: flex;
+    justify-content: flex-start;
+    /*background-color: teal;*/
+    
+}
+#navigationright{
+    display: flex;
+    justify-content: flex-end;
+    /*background-color: teal;*/
+}
+#navigationright a{
+    padding-left: 80px;
+}
+#instalink{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    margin: 20px 0;
+    /*background-color: tomato;*/
+}
+#instalink img{
+    width: 30px;
+}
+/*__index.html_______________________________________________________________________________*/
+#startimage{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    /*border: solid red 5px;*/
+}
+#startimage img{
+   /*border: solid blue 4px;*/
+    width: 50%;
+}
+/*__work.html_______________________________________________________________________________*/
+#bigworkgallery{
+    display: flex;
+    justify-content: center;
+    /*background-color: yellow;*/
+}
+#workgallery{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    /*background-color: aqua;  */  
+}
+#gallerybox{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+    /*background-color: cadetblue;*/
+}
+#gallerybox a{
+    display: flex;
+    align-content: center;
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    object-fit: contain;
+    /*border: solid magenta 1px;*/
+}
+.galleryimage{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    /*border: solid magenta 1px;*/
+} 
+/*__[single_work].html_______________________________________________________________________________*/
+#singleworkcontainer{
+    display: flex;
+    justify-content: space-around;
+    /*border: solid blue 4px;*/
+    margin: 100px 0;
+
+}
+#bigimage{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    padding: 20px;
+   /*border: solid red 3px;*/
+
+}
+#bigimage img{
+    display: flex;
+    width: 600px;
+
+}
+.singleworkdescription{
+    /*border: solid forestgreen 3px;*/
+    text-align: end;
+}
+h1{
+    margin: 0;
+    font-weight: normal;
+}
+p{
+    margin-bottom: 40px;
+}
+/*__about.html_______________________________________________________________________________*/
+#aboutcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin:100px 80px 0 80px;
+
+}
+.boxleft{
+    padding: 50px 0;
+    width: 30%;
+    
+}
+.boxmiddle{
+    padding: 50px 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxmiddle img{
+    width: 80%;
+}
+.boxright{
+    padding: 50px 0;
+    width: 30%;
+    text-align: right;
+}
+.top{
+    margin-bottom: 90px;
+}
+/*__contact.html_______________________________________________________________________________*/
+#contactcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.contactboxleft{
+    width: 40%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contactboxleft img{
+    width: 100%;
+}
+.contactboxright{
+    width: 30%;
+}
+p.contactparagraph{
+    margin-bottom: 40px;
+
+}
