@@ -1,21 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textildesign</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--Hauptteil-->
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Name</title>
-    <!-- dont forget to add a css file and link it here! -->
-    <!-- If you're using google fonts, that should be added here -->
-  </head>
-  <body>
-    <!-- 
-      Write your code here inside the body to make it appear in the browser. 
-      Below is an example on how to use an image tag. Copy it and add it in the body, but outside the comment tag if you want to see how it looks like on the website. Then you can change the size and other styling for it in the css file.
-
-      <img src="example-recipe-background.png" alt="Banana Bread">
-
-    -->
-    <h1>Hello there! 👋🏼</h1>
-  </body>
+   <header>
+       <h1>Textildesign</h1>
+       <h2>Anna Leutert</h2>
+   </header>
+   <nav id="navigation">
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">Über Mich</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
+   </nav>
+<!--über mich / vorstellen -->
+    <div class="flex-container">
+        <div class="flex-container1">
+            <h3>Mit viel Begeisterung weben.</h3> 
+                <p>Mein ganzes Leben schon bin ich fasziniert von bunten Fäden und was daraus gemacht werden kann. Ich fühle mich wohl beim Weben, das ist meine Welt.</p>
+                <a href="about.html" class="button"> Mehr zu meiner Person</a> 
+            </div>
+        <div class="flex-container2">
+                <img src="img/portrait.JPG" alt="portrait" style="width:100%;max-width:800px">        
+        </div>
+    </div>
+    <!--beratung -->
+    <div class="flex-container">
+        <div class="flex-container2">
+                <img src="img/beratung.jpg" alt="beratung" style="width:100%;max-width:800px"> 
+        </div>
+        <div class="flex-container1">
+            <h3>Beratung</h3>
+            <p>Haben Sie ein Problem mit Ihrem Webstuhl? Möchten Sie ein neues Projekt in Angriff nehmen und brauchen Hilfe bei der Planung? Ich berate Sie gerne.</p>
+            <a href="kontakt.html" class="button"> Kontakt</a> 
+        </div>
+    </div>
+    </div>
+     <!--portfolio -->
+     <h3>Portfolio</h3>
+<div class="gallery">
+   <img src="img/portfolio/decke01.jpg" alt="decke01" class="photo">
+   <img src="img/portfolio/decke02.jpg" alt="decke02" class="photo">
+   <img src="img/portfolio/decke03.jpg" alt="decke03" class="photo">
+   <img src="img/portfolio/decke04.jpg" alt="decke04" class="photo">
+   <img src="img/portfolio/decke05.jpg" alt="decke05" class="photo">
+   <img src="img/portfolio/decke06.jpg" alt="decke06" class="photo">
+</div>
+<div class="flex-container1">
+    <a href="portfolio.html" class="button"> Portfolio </a> 
+</div>
+</body>
 </html>
