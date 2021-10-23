@@ -73,7 +73,6 @@ a {
   display: flex;
   gap: 25px;
   overflow-x: auto;
-  flex-basis: ;
 } 
 
 .boxes-cards::-webkit-scrollbar {
@@ -105,16 +104,10 @@ img {
 
 footer{
   margin-top: 15%;
-  text-align: right;
-  color: pink;
-}
-
-footer a {
-  color: pink;
 }
 
 footer p{
-  font-size: 15px;
+  font-size: 14px;
 }
 
 footer a:hover {
