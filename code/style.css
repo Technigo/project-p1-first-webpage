@@ -1,5 +1,5 @@
 /* --Colors
-Spinel Red: #FF4DC9
+Spinel Red (Pink): #FF4DC9
 Vandyke Red: #740909
 Turquoise Green: #B5FFC2 
 Green Blue: #2DBC94
@@ -9,107 +9,102 @@ Antwarp Blue: #008AA1
 
 
 body {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 4%;
+  margin-right: 4%;
   margin-top: 5%;
   font-family: Helvetica;
   text-decoration: none;
   text-decoration: none; 
 }
 
-/* --Menu-- */
 
-menu {
-  display: flex;
-  padding-left: 0;
-  justify-content: space-between;
-}
 
-.menu-right a{
-  padding-left: 30px;
-}
-
-menu a {
-  font-weight: bold;
-  color: black;
-  text-decoration: none;
-}
-  
-menu a:hover {
-  color: #861010;
-  cursor: url(emoji.png) 0 0, pointer;
-}
-
-/* --Titles-- */
+/* --Text Style-- */
 
 h1 {
-  color: #861010;
+  color: #2DBC94;
   margin-top: 6%;
   margin-bottom: 6%;
+  margin-left: 0%;
+  font-weight: normal;
+  font-size: 36px;
 }
 
 h2 {
   color: black;
 }
 
-p {
+h3 {
+  font-weight: bold;
   line-height: 1.5;
   font-size: 18px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 17px;
 }
 
 ul {
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 17px;
 }
 
-/* --Introduction-- */
-
-.introduction {
-  border-style: solid;
-  border-radius: 5px;
-  border-width: 2px;
-  border-color: #FF4DC9;
-  padding: 2%;
-  display: flex;
-  justify-content: space-between;
+a:hover {
+  cursor: url(emoji.png) 0 0, pointer;
+  color: #2DBC94;
 }
 
-.introduction p {
-  padding-left: 3%;
-}
-
-.introduction img {
-  width: 100%;
-  height: 100%; 
-  border-radius: 5px;
+a {
+  color: black;
+  text-decoration-color: #2DBC94;
 }
 
 /* --Boxes-- */
 
 .boxes {
+  margin-top: 40px;
+}
+
+
+/* --Cards-- */
+
+.boxes-cards{
+  display: flex;
+  gap: 25px;
+  overflow-x: auto;
+  flex-basis: ;
+} 
+
+.boxes-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.cards {
   border-style: solid;
   border-radius: 5px;
   border-width: 2px;
   border-color: #FF4DC9;
   padding: 2%;
-  margin-top: 5%;
-  list-style-type: square;
+  min-width: 220px;
+  max-width: 220px;
 }
 
-.boxes a {
-  color: black;
-  text-decoration-color: #2DBC94;
-}
+/* --Reach Out-- */
 
-.boxes a:hover {
-  color: #2DBC94;
-  cursor: url(emoji.png) 0 0, pointer;
+img {
+  width: 237.933px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FF4DC9;
+  border-radius: 5px;
+  height: auto;
 }
 
 /* --Footer-- */
 
 footer{
-  margin-top: 5%;
+  margin-top: 15%;
   text-align: right;
   color: pink;
 }
@@ -122,3 +117,16 @@ footer p{
   font-size: 15px;
 }
 
+footer a:hover {
+  cursor: url(emoji.png) 0 0, pointer;
+}
+
+/* --Laptop-- */
+
+@media (min-width: 668px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+}
