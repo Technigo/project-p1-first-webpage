@@ -12,6 +12,7 @@ body {
   margin-left: 4%;
   margin-right: 4%;
   margin-top: 5%;
+  margin-bottom: 2%;
   font-family: Helvetica;
   text-decoration: none;
   text-decoration: none; 
@@ -22,7 +23,7 @@ body {
 /* --Text Style-- */
 
 h1 {
-  color: #2DBC94;
+  color: black;
   margin-top: 6%;
   margin-bottom: 6%;
   margin-left: 0%;
@@ -32,23 +33,30 @@ h1 {
 
 h2 {
   color: black;
+  font-weight: normal;
+  font-size: 26px;
 }
 
 h3 {
-  font-weight: bold;
-  line-height: 1.5;
-  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.boxes p {
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 p {
   line-height: 1.5;
-  font-size: 17px;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
-ul {
-  line-height: 1.5;
-  font-size: 17px;
-}
 
 a:hover {
   cursor: url(emoji.png) 0 0, pointer;
@@ -82,32 +90,46 @@ a {
 .cards {
   border-style: solid;
   border-radius: 5px;
-  border-width: 2px;
-  border-color: #FF4DC9;
-  padding: 2%;
+  border-width: 1px;
+  border-color: #2DBC94;
+  padding: 1%;
   min-width: 220px;
   max-width: 220px;
+  overflow-wrap: break-word;
+}
+
+.cards img {
+  width: 100%;
+  border: none;
 }
 
 /* --Reach Out-- */
 
 img {
-  width: 237.933px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #FF4DC9;
+  width: 220px;
   border-radius: 5px;
   height: auto;
+}
+
+social{
+  align-self: right;
 }
 
 /* --Footer-- */
 
 footer{
-  margin-top: 15%;
+  margin-top: 55px;
+  text-align: center;
 }
 
 footer p{
   font-size: 14px;
+  letter-spacing: 1px;
+}
+
+footer a{
+  text-decoration: none;
+  padding: 5px;
 }
 
 footer a:hover {
