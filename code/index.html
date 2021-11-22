@@ -4,61 +4,126 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Treuhandbüro Website</title>
+    <title>Tellenbach Treuhand</title>
     <link rel="stylesheet" type="text/css" href="./style.css"/>
-    
-    <!-- If you're using google fonts, that should be added here -->
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
   </head>
   <body>
     <!-- 
-      Write your code here inside the body to make it appear in the browser. 
-      Below is an example on how to use an image tag. Copy it and add it in the body, but outside the comment tag if you want to see how it looks like on the website. Then you can change the size and other styling for it in the css file.
+      Write your code here inside tde body to make it appear in tde browser. 
+      Below is an example on how to use an image tag. Copy it and add it in tde body, but outside tde comment tag if you want to see how it looks like on tde website. tden you can change tde size and otder styling for it in tde css file.
 
       <img src="example-recipe-background.png" alt="Banana Bread">
 
     -->
-    <img src="./Fotos/Logo_Treuhand.PNG" alt="Logo">
+  
+    <div class="heroimg">
+      <img src="./Fotos/Logo_Treuhand.PNG" alt="Logo">
+
+    </div>
     
-        
+
+    <div class="hamburger">
+      <div class="hamburger-lines">
+      </div>
+      <div class="hamburger-lines">
+      </div>
+      <div class="hamburger-lines">
+      </div>
+    </div>  
+
+    <menu>
+      <a href="./index.html">HOME</a>
+      <a href="./steuererklärung.html">STEUERERKLÄRUNG</a>
+      <a href="./kmu.html">SERVICES FÜR KMU</a>
+      <a href="./about.html">ÜBER UNS</a>
+    </menu>
+
+  
     <header>
-      <menu>
-        <a href="./index.html">Home</a>
-        <a href="./steuererklärung.html">Steuererklärung</a>
-        <a href="./kmu.html">Services für KMUs</a>
-        <a href="./about.html">Über uns</a>
-        </menu>
-      <h1>Treuhandbüro Tellenbach - Herzlich Willkommen!</h1>
+      <h1>Treuhandbüro Tellenbach</h1>
+      <h1>Herzlich Willkommen!</h1>
     </header>
 
   <div class="Introduction">
       <h2>Ihr Spezialist für Steuern und Buchhaltung in Oberuzwil</h2>
-    <p>Wir sind ein kleines Treuhandbüro spezialisiert auf Steuererklärungen für Privatpersonen sowie Buchhaltung, Jahresabschlüsse und Mehrwertssteuer-Abrechnungen für kleine une mittlere Unternehmen. Gerne unterstützen wir Sie mit unserem langjährigen Know-how. Unser Service ist professionell, unkompliziert und schnell.</p>
-  </div>
-
+    <p>Wir sind ein kleines Treuhandbüro spezialisiert auf Steuererklärungen für Privatpersonen sowie Buchhaltung, Jahresabschlüsse und Mehrwertssteuer-Abrechnungen für kleine und mittlere Unternehmen. Gerne unterstützen wir Sie mit unserem langjährigen Know-how. Unser Service ist professionell, unkompliziert und schnell.</p>
+    </div>
+  
   <div class="Dienstleistungen">
-    <h2>Unsere Dienstleistungen</h2>
+    <h2>Unsere Dienstleistungen</h2> 
     <div class="Steuererklärung">
-            <h3>Steuererklärung</h3>
+      <img src="./Fotos/Steuererklärung.jpeg" alt="Steuererklärung">
+      <h3>Steuererklärung</h3>
       <p>Wir erledigen Ihre Steuerklärung und erzielen das minimale Steuerergebnis - bereits ab CHF 100.-</p>
       <a href="./steuererklärung.html">Mehr erfahren</a>
-    </div> 
+         </div> 
     <div class="Buchhaltung">
+      <img src="./Fotos/Accounting.jpg" alt="Buchhaltung">
       <h3>Buchhaltung & Administration</h3>
       <p>Wir führen Ihre Buchhaltung oder kümmern uns um das Offert- und Rechnungswesen
       </p>
       <a href="./kmu.html">Mehr erfahren</a>
     </div>
     <div class="Abschlüsse">
+      <img src="./Fotos/Profit-loss.jpg" alt="Jahresabschluss">
       <h3>Abschlüsse & Mehrwertssteuer</h3>
       <p>Wir unterstützen bei der Erstellung von Montas-/Quartals- und Jahresabschlüssen sowie Mehrwertssteuerabrechnungen</p>
       <a href="./kmu.html">Mehr erfahren</a>
     </div>
   </div>
 
-<div class="Kontakt">
-  <h2>Kontakt</h2>
-  <p>Lernen Sie uns persönlich kennen - ein Erstgespräch ist für Sie kostenlos und unverbindlich!</p>  
-  <img src="./Fotos/Hans.jpg" alt="Hans Tellenbach">
+  <div class="Kontakt">
+    <h2>Kontakt</h2>
+    <p>Lernen Sie uns persönlich können - eine Erstderatung ist für Sie kostenlos und unverbindlich.
+      Kontaktieren Sie uns telefonisch unter 071 951 06 61. Wünschen Sie eine Kontaktnahme? Gerne melden wir uns bei Ihnen.
+    </p>
+    <form action="http://httpbin.org/anything" method=post>
+      <fieldset>
+      <label>Name <input type="text" name="Name" required></label>
+      <label>Vorname <input type="text" name="Vorname" required></label>
+      <label>E-Mail <input type="email" name="Email"></label>
+      <label>Telefon <input type="tel" name="Telefon/Mobile" required></label>
+      <label>Anliegen <input type="text" name="Anliegen" required></label>
+    
+      <label>Bitte um <select name="Anfrage">
+        <option value="Rückruf">Rückruf</option>
+        <option value="Mail">Kontaktnahme per Mail</option>
+        <option value="Andere">anderes Anliegen</option>
+      </select></label>
+    </fieldset>
+      <button type="submit">Anfrage senden</button>
+    </form>
   </div>
+
+
+<footer>
+  <table>
+ 
+    <tr>
+      <td>Treuhandbüro Tellenbach</td>
+      <td>Mo - Fr</td>
+      <td><a href="mailto:info@treuhand-tellenbach.ch">info@treuhand-tellenbach.ch</a></td>
+    </tr>
+    <tr>
+      <td>Hans Tellenbach</td>
+      <td>8.00 - 12.00 Uhr</td>
+      <td>+41 71 951 06 61</td> 
+    </tr>
+    <tr>
+      <td>Haggenstrasse 13</td>
+      <td>13.00 - 17.00 Uhr</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9242 Oberuzwil</td>
+      <td>Abend- und Samstagstermine nach Vereinbarung</td>
+      <td></td>
+    </tr>
+</footer>
+
   </body>
 </html>
