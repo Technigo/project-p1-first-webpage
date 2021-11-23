@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Reenie+Beanie);
+
+body{
+	background:rgb(238, 232, 170)
+}
+
+h1 {
+    color: rgb(96, 96, 84);
+    font-family: "Reenie Beanie";
+    font-size: 50px;
+	margin: 40px 40px 40px 80px;
+	}
+
+h2 {
+    color: rgb(96, 96, 84);
+    font-family: "Reenie Beanie";
+    font-size: 50px;
+    margin: 40px 40px 40px 0px;
+	}
+
+h3 {
+	color: rgb(96, 96, 84);
+	font-family: "Reenie Beanie";
+	font-size: 50px;
+	margin: 40px 40px 40px 0px;
+	}
+
+article {
+	min-height: 600px;
+	background-color: rgb(238, 232, 170);
+	color: rgb(96, 96, 84);
+	padding: 5em;
+	}
+
+
+.paragraph {
+    color: rgb(96, 96, 84);
+    font-family: "Reenie Beenie";
+    font-size: 30px;
+	font-weight: 200;
+}
+
+menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Reenie Beanie";
+	border: 5px; 
+	border-color: rgb(96, 96, 84)(96, 96, 84);
+	
+}
+
+menu a {
+    display: flex;
+    padding: 10px 15px;
+    background: hsla(44, 75%, 50%, .1);
+    color: rgb(96, 96, 84);
+    font-size: 40px;
+	font-weight: bold;
+    text-decoration:none;
+	border-radius: 10px;
+	margin: 10px;
+
+}
+
+menu a:hover {
+    background: rgb(238, 221, 130);
+    color: white;
+}
+
+#galerie {
+	box-sizing: border-box;
+	background-size: 58px 58px;
+	background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+	padding: 0 50px;
+    
+}
+
+
+#galerie div {
+	background: #FFF;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	display: inline-block;
+	height: 240px;
+	overflow: hidden;
+	margin: 40px 0px 0 20px;
+	padding: 5px 5px 40px 5px;
+	width: 240px;
+	transition: all 0.25s ease-in;
+}
+
+#galerie div img {
+	width: 240px;
+	height: 240px;
+}
+
+#galerie div:hover,
+#galerie div:focus {
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+	width: 240px;
+	z-index: 2;
+	transform: scale(2);
+}
+
+#galerie figcaption {
+	color: rgb(96, 96, 84);
+	font: cursive 10px/150%;
+	font-family: "Reenie Beanie", cursive;
+	text-align: left;
+	width: 240px;
+	font-size: 20px;
+	
+}
+
+#galerie figure:nth-child(3n-2):hover,
+#galerie figure:nth-child(3n-2):focus {
+	transform: scale(2) rotate(-2.5deg);
+}
+
+#galerie figure:nth-child(5n):hover,
+#galerie figure:nth-child(5n):focus {
+	transform: scale(2) rotate(2.5deg);
+}
+
+#galerie:after {
+	clear: both;
+	content: " ";
+	display: block;
+}
+
+.parallaxhead {
+	background-image: url("images/family_web1.jpg");
+	min-height: 60vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallaxwir {
+	background-image: url("images/DavosEisstadion.jpg");
+    min-height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallaxplan {
+	background-image: url("images/LaaxSkipiste.jpg");
+    min-height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallaxhighlight {
+	background-image: url("images/LaaxSkipiste.jpg");
+    min-height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallaxgalerie {
+	background-image: url("images/LaaxSkipiste.jpg");
+    min-height: 60vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 667px) {
+	#galerie {
+		width: 100%;
+		margin: 100px auto;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		width: 100%;
+		margin: 2% 0;
+		padding: 5%;
+	}
+	#galerie {
+		width: 850px;
+		margin: 100px auto;
+	}
+}
+
+
