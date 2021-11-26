@@ -333,7 +333,7 @@ li {
 
 .bg-connect {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/benjamin-sow-rd3c5yP0uwE-unsplash.jpg');
-  min-height: 450px;
+  min-height: 350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -381,14 +381,42 @@ li {
 }
 
 
+.bg-connect a {
+  color: #f0f0f0;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 0.1em solid #f0f0f0;
+}
 
 
+.bg-connect a:link {
+  color: #f0f0f0;
+}
+
+.bg-connect a:visited {
+  color: #f0f0f0;
+}
+
+.bg-connectl a:focus {
+  color: #f0f0f0;
+}
+
+.bg-connect a:hover {
+  color: #d6d6d6;
+  padding-bottom: 2px;
+  border-bottom: 0.1em solid #d6d6d6;
+
+}
+
+.bg-connect a:active {
+  color: #f0f0f0;
+}
 
 
-
-
-
-
+.bg-connect p {
+  color: #f0f0f0;
+  text-align: center;
+}
 
 
 
