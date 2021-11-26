@@ -135,13 +135,13 @@ a {
     color: #008542;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    /*padding-bottom:3px;*/
+    padding-bottom:3px;
   }
 
   a:active {
     color: #008542;
     border-bottom-style: solid;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
     padding-bottom:3px;
   }
 
@@ -415,13 +415,39 @@ a {
     ::placeholder {
       color:#e5e5e5;
     }
+
+    textarea {
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      font-size:18px;
+      font-weight: 300;
+      color:#5c5c5c;
+      padding: 10px;
+      width: 50%;
+    }
+
+    textarea:focus-visible {
+      outline:0.5px;
+      outline-color:#5c5c5c;
+    }
+
+    textarea:valid {
+      border: #008542;
+      border-style:solid;
+      border-width:0.5px;
+    }
+
+    textarea:invalid {
+      border:#cc0000;
+      border-style: solid;
+      border-width: 0.5px;
+    }
  
   select {
     font-size: 18px;
     font-weight: 300;
-    color:#5c5c5c;
+    color: #5c5c5c;
     padding: 10px;
-    width:40%;
+    width: 40%;
     border:none;
   }
 
@@ -476,5 +502,4 @@ a {
     .headline-content {
       font-size: 60px;
     }
-    }
-  } 
+  }
