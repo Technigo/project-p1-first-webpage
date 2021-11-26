@@ -49,8 +49,52 @@
       <div class="content-middle"> 
         <h1 class="headline-content">Unsere Mitglieder</h1>
           <h2>Unsere Mitglieder sind hauptsächlich ehemalige Athletinnen und Athleten des LC Brühl sowie deren Partnerinnen und Partner.</h2>
-          <p>Wir freuen uns enorm auf neue Mitglieder. Hast du Interesse am LGB? Dann melde dich doch bei unserem Präsidenten Markus Wirth oder melde dich direkt über das untenstehende Formular an.</p>
+          <p>Wir freuen uns enorm auf neue Mitglieder. Mit jährlich <strong>CHF 200.- </strong> (Doppelmitglieder <strong> CHF 300.-</strong>) bist du dabei und unterstützt den LC Brühl. Bis zum 35. Altersjahr betragen die Beiträge <strong>100.-</strong> (Einzelmitglied) respektive <strong>CHF 150.- </strong>(Doppelmitglied) </p>
+            <p>Bist du interessiert? Dann kontaktiere unseren Präsidenten Markus Wirth oder melde dich direkt über das untenstehende Formular an.</p>
       </div>
+  </div>
+  <div class="content-middle">
+    <form action="https://httpbin.org/anything" method="post">
+      <h2> Anmeldeformular</h2>
+      <fieldset>
+      <label>
+        <span class="form-label">Name & Vorname</span>
+        <input type="text" name="name" placeholder="LC Brühl Leichtathletik" required>
+      </label>
+      <label>
+        <span class="form-label">Strasse</span>
+        <input type="text" name="street" placeholder="Martinsbruggstrasse 8" required>
+      </label>
+      <label>
+        <span class="form-label">PLZ/Ort</span>
+        <input type="text" name="location" placeholder="9016 St.Gallen" required>
+      </label>
+      <label>
+        <span class="form-label">Geburtsdatum</span>
+        <input type="date" data-date-inline-picker="true" name="birthdate" placeholder="Gründungsjahr" required>
+      </label>
+      <label>
+        <span class="form-label">Telefonnummer</span>
+        <input type="tel" name="phone" placeholder="071 288 26 44" required>
+      </label>
+      <label>
+      <span class="form-label">E-Mail</span>
+        <input type="email" name="email" placeholder="info@lc-bruehl.ch" required>
+      </label>
+      <label>
+        <span class="form-label">Art der Mitgliedschaft</span>
+        <select name="membershipType">
+        <option value="einzel">Einzelmitglied</option>
+        <option value="doppel">Doppelmitglied</option>
+        </select>
+      </label>
+      <label>
+          <span class="form-label">Bei Doppelmitglied Name der 2. Person</span>
+          <input type="text" name="name" placeholder="Maxima Muster">
+    </label>
+      <button class="cta-button" type="submit">Anmelden</button>
+    </fieldset>
+    </form>
   </div>
   </body>
 </html>

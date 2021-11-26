@@ -42,7 +42,7 @@ color: #008542;
     text-align: left;
   }
   
-  h2{
+h2{
     font-style:normal;
     font-weight: 400;
     font-size: 20px;
@@ -52,12 +52,12 @@ color: #008542;
   }
 
   .subline-content {
-    font-size: 18px;
+    font-size: 26px;
     margin: 20px 20px 20px 0px;
     text-align: left;
   }
 
-  h3 {
+h3 {
     font-weight: 500;
     font-size:26px;
     color:#5c5c5c;
@@ -66,7 +66,7 @@ color: #008542;
     margin: 0px;
   }
 
-  p {
+p {
     font-weight: 300;
     font-size:18px;
     color:#5c5c5c;
@@ -135,7 +135,7 @@ a {
     color: #008542;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    padding-bottom:3px;
+    /*padding-bottom:3px;*/
   }
 
   a:active {
@@ -171,10 +171,12 @@ a {
     font-weight: 300;
     font-size: 18px;
     color:#5c5c5c;
-    line-height:1.8;
+    line-height:1.5;
     padding-bottom: 9px;
     margin: 0px;
     list-style: square inside;
+    text-indent: -26px;
+    padding-left: 26px;
   }
 
   .image-logo {
@@ -201,13 +203,14 @@ a {
     color:white;
     padding: 15px;
     background-color:#008542;
-    border:1px;
+    border:1px solid;
     border-radius:4px;
     text-decoration: none;
     margin: 20px 20px 20px 0px;
     width: 220px;
     display: inline-grid;
     text-align: center;
+    cursor: pointer;
   }
   .cta-button:hover {
   color:#008542;
@@ -357,6 +360,83 @@ a {
       margin-bottom: 60px;
       border: none;
     }
+  form {
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 300;
+    color:#5c5c5c;
+    box-sizing: border-box;
+  }
+
+  fieldset {
+    border:none;
+    background:#F5F6FA;
+    padding:40px;
+  }
+    label {
+      font-size:18px;
+      font-weight: 300;
+      color:#5c5c5c;
+      margin-bottom: 40px;
+      display: flex;
+    }
+
+  .form-label {
+    width: 40%;
+    padding-top:10px;
+  }
+
+    input {
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      font-size:18px;
+      font-weight: 300;
+      color:#5c5c5c;
+      padding: 10px;
+      width: 50%;
+    }
+
+    input:focus-visible {
+      outline:0.5px;
+      outline-color:#5c5c5c;
+    }
+
+    input:valid {
+      border: #008542;
+      border-style:solid;
+      border-width:0.5px;
+    }
+
+    input:invalid {
+      border:#cc0000;
+      border-style: solid;
+      border-width: 0.5px;
+      /*border:none;*/
+    }
+    ::placeholder {
+      color:#e5e5e5;
+    }
+ 
+  select {
+    font-size: 18px;
+    font-weight: 300;
+    color:#5c5c5c;
+    padding: 10px;
+    width:40%;
+    border:none;
+  }
+
+  select:focus-visible {
+    outline-width:0.5px;
+    outline-color:#008542;
+    outline-style:solid;
+  }
+
+  option {
+    font-size: 18px;
+    font-weight: 300;
+    color:#5c5c5c;
+    padding: 10px;
+  }
 
   @media ( min-width: 481px ) {
     .centered {
