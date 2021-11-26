@@ -4,7 +4,7 @@ This is the new website for the benefactors' association of the LC Brühl Leicht
 
 ## Current state
 
-At the moment, the project is pure CSS and HTML (non responsive)
+(Slightly) responsive website including 2 forms.
 
 ## View it live
 
