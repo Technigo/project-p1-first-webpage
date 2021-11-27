@@ -98,7 +98,7 @@ a {
   border-width: 0.5px;
   border-color: rgb(189, 189, 189);
   min-width: 220px;
-  max-width: 220px;
+ 
   overflow-wrap: break-word;
 }
 
@@ -113,12 +113,6 @@ a {
 }
 
 /* --Reach Out-- */
-
-img {
-  width: 220px;
-  border-radius: 5px;
-  height: auto;
-}
 
 social{
   align-self: right;
@@ -147,10 +141,26 @@ footer a:hover {
 
 /* --Laptop-- */
 
-@media (min-width: 668px) {
+@media (min-width: 668px) and (max-width: 1023px) {
   body {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  .cards {
+    min-width: 260px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  .cards {
+    min-width: 300px;
   }
 }
