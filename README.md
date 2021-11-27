@@ -1,13 +1,10 @@
-# Project Name
-
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+# Textwork Website
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I am currently creating my own website to replace the one I made with Squarespace. I want to be in full control of the content and the layout, and also learn further about coding by building it myself.
 
 ## View it live
 
-Have you deployed your project somewhere? Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+Have a look at the current status of the website here:
+textwork.netlify.app
