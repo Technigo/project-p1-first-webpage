@@ -1,5 +1,505 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
-
 body {
-  background-color: lightblue;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+  
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: white;
+  height: 70px;
+  width:100%;
+}
+
+.centered {
+  position: absolute;
+  background-color: white;
+  color:#008542;
+  margin: 10px;
+  padding: 10px;
+  bottom: 10%;
+  width:65%;
+}
+
+
+h1 {
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+text-align: center;
+color: #008542;
+  }
+
+  .headline-content {
+    font-size: 36px;
+    text-align: left;
+  }
+  
+h2{
+    font-style:normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    color:#008542;
+    margin-bottom:40px;
+  }
+
+  .subline-content {
+    font-size: 26px;
+    margin: 20px 20px 20px 0px;
+    text-align: left;
+  }
+
+h3 {
+    font-weight: 500;
+    font-size:26px;
+    color:#5c5c5c;
+    line-height:1.8;
+    padding: 9px 0px;
+    margin: 0px;
+  }
+
+p {
+    font-weight: 300;
+    font-size:18px;
+    color:#5c5c5c;
+    line-height:1.8;
+    padding-bottom: 27px;
+    margin: 0px;
+  }
+
+.image-hero {
+display:inline;
+width:100%;
+height: 40vh;
+object-fit: cover;
+}
+
+.div-hero-content {
+  width:80%;
+  display:block;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.content-middle {
+  margin-left:10%;
+  margin-right: 10%;
+}
+
+.content-full {
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.hero-image {
+  width: 100%;
+  object-fit:contain;
+}
+
+.image-content {
+  width:100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.image-content-top {
+  width:100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+.image-content-full {
+  width: 100%;
+  object-fit: contain;
+}
+  
+a {
+    text-decoration: none;
+    color: #008542;
+    opacity:1;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: 200ms;
+  }
+  a:hover {
+    color: #008542;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom:3px;
+  }
+
+  a:active {
+    color: #008542;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom:3px;
+  }
+
+  .active {
+    color: #008542;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom:3px;
+    width: fit-content;
+  }
+
+  .email {
+    font-size: 16px;
+  }
+
+  .link-image:hover {
+    border-bottom:none;
+
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .list {
+    font-weight: 300;
+    font-size: 18px;
+    color:#5c5c5c;
+    line-height:1.5;
+    padding-bottom: 9px;
+    margin: 0px;
+    list-style: square inside;
+    text-indent: -26px;
+    padding-left: 26px;
+  }
+
+  .image-logo {
+    height: 45px;
+    position:absolute;
+    right: 10%;
+    top:20px;
+  }
+
+  .image-logo-left {
+    height: 45px;
+    text-decoration: none;
+  }
+
+  .image-portrait {
+    width: 100px;
+    height: 100px;
+    float:left;
+  }
+ 
+  .cta-button {
+  
+    font-size: 18px;
+    color:white;
+    padding: 15px;
+    background-color:#008542;
+    border:1px solid;
+    border-radius:4px;
+    text-decoration: none;
+    margin: 20px 20px 20px 0px;
+    width: 220px;
+    display: inline-grid;
+    text-align: center;
+    cursor: pointer;
+  }
+  .cta-button:hover {
+  color:#008542;
+  background-color:white;
+  border:1px solid;
+  border-color:#008542;
+  }
+  
+  .burger {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  .burger input
+  {
+    display: flex;
+    width: 40px;
+    height: 32px; 
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+  
+  .burger span
+  {
+    display: flex;
+    width: 29px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    background: green;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 5px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+  
+  .burger span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+  
+  .burger span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+  
+  .burger input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-3px, -1px);
+    background: #008542;
+  }
+  .burger input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  .burger input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+  
+.navi-large {
+  color:#008542;
+  width: 100%;
+  height: 75px;
+  position:fixed;
+  top: 0px;
+  background-color:white;
+}
+
+.menu-large {
+    display: inline-flex;
+    width: 95%;
+    font-size: 10px;
+    margin-top: 10px;
+    place-items: center;
+  }
+
+.menu-large-list {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+  .menu
+  {
+    display: block;
+    position: absolute;
+    box-shadow: 0 0 1px #85888C;
+    margin: -50px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background-color: #F5F6FA;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+  
+  .menu li
+  {
+    padding: 10px 0;
+  }
+  
+  .burger input:checked ~ ul
+  {
+    transform: none;
+  }
+
+  table {
+    width: 100%;
+    border-color:#e5e5e5;
+    border-radius:1px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  th, td {
+    color:#5c5c5c; 
+    padding: 15px 15px 0px 15px;
+    text-align: left;
+    border-bottom: 2px solid #e5e5e5;
+    white-space: nowrap;
+  }
+  
+    .td-image {
+      width: 80px;
+    }
+  
+  
+    iframe {
+      width:100%;
+      height: 70vh;
+      margin-bottom: 60px;
+      border: none;
+    }
+  form {
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 300;
+    color:#5c5c5c;
+    box-sizing: border-box;
+  }
+
+  fieldset {
+    border:none;
+    background:#F5F6FA;
+    padding:40px;
+  }
+    label {
+      font-size:18px;
+      font-weight: 300;
+      color:#5c5c5c;
+      margin-bottom: 40px;
+      display: flex;
+    }
+
+  .form-label {
+    width: 40%;
+    padding-top:10px;
+  }
+
+    input {
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      font-size:18px;
+      font-weight: 300;
+      color:#5c5c5c;
+      padding: 10px;
+      width: 50%;
+    }
+
+    input:focus-visible {
+      outline:0.5px;
+      outline-color:#5c5c5c;
+    }
+
+    input:valid {
+      border: #008542;
+      border-style:solid;
+      border-width:0.5px;
+    }
+
+    input:invalid {
+      border:#cc0000;
+      border-style: solid;
+      border-width: 0.5px;
+      /*border:none;*/
+    }
+    ::placeholder {
+      color:#e5e5e5;
+    }
+
+    textarea {
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      font-size:18px;
+      font-weight: 300;
+      color:#5c5c5c;
+      padding: 10px;
+      width: 50%;
+    }
+
+    textarea:focus-visible {
+      outline:0.5px;
+      outline-color:#5c5c5c;
+    }
+
+    textarea:valid {
+      border: #008542;
+      border-style:solid;
+      border-width:0.5px;
+    }
+
+    textarea:invalid {
+      border:#cc0000;
+      border-style: solid;
+      border-width: 0.5px;
+    }
+ 
+  select {
+    font-size: 18px;
+    font-weight: 300;
+    color: #5c5c5c;
+    padding: 10px;
+    width: 40%;
+    border:none;
+  }
+
+  select:focus-visible {
+    outline-width:0.5px;
+    outline-color:#008542;
+    outline-style:solid;
+  }
+
+  option {
+    font-size: 18px;
+    font-weight: 300;
+    color:#5c5c5c;
+    padding: 10px;
+  }
+
+  @media ( min-width: 481px ) {
+    .centered {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
+
+  @media ( max-width: 767px ) and ( min-width: 481px ) {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  @media ( max-width: 767px ) {
+    .navi-large {
+      display:none;
+    }
+  }
+
+  @media ( min-width: 768px ) {
+    .burger {
+      display:none;
+    }
+    .menu {
+      display: block;
+    }
+
+    .image-logo {
+      display:none;
+    }  
+    
+    h1 {
+        font-size: 40px;
+    }
+
+    .headline-content {
+      font-size: 60px;
+    }
+  }

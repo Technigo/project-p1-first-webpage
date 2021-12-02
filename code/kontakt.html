@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='icon' href='images/favicon.ico' type='image/ico'/ >
+    <title>Website LGB - Home</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav role="navigation">
+      <div class="burger">
+        <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+      <ul class="menu" >
+        <li><a href="lgb.html">Über den LGB</a></li>
+        <li><a href="mitglieder.html">Mitglieder</a></li>
+        <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+        <li><a href="impressionen.html">Impressionen</a></li>
+        <li><a class="active" href="kontakt.html">Kontakt</a></li>
+      </ul>
+     </div>
+
+     <div class="navi-large">
+      <ul class="menu-large" >
+        <li class="menu-large-list"><a href="index.html" class="link-image"> <img class="image-logo-left" src="images/LGB-logo.png"></a></li>
+        <li class="menu-large-list"><a href="lgb.html">Über den LGB</a></li>
+        <li class="menu-large-list"><a href="mitglieder.html">Mitglieder</a></li>
+        <li class="menu-large-list"><a href="veranstaltungen.html">Veranstaltungen</a></li>
+        <li class="menu-large-list"><a href="impressionen.html">Impressionen</a></li>
+        <li class="menu-large-list"><a class="active" href="kontakt.html">Kontakt</a></li>
+      </ul>
+     </div>
+
+     <div class="navigation-logo">
+      <a href="index.html" class="link-image"> <img class="image-logo" src="images/LGB-logo.png"></a>
+    </div>
+    </nav>
+    <div>
+      <div>
+      </div>
+      <div class="content-full"> 
+        <h1 class="headline-content">Kontakt</h1>
+        <img class="image-content-full" src="images/Grupppenbild.jpeg" alt="Gruppenbild mit Mitgliedern des LGB">
+        <h2>Du möchtest mehr Details wissen über den LGB? Dann kontaktiere Markus Wirth oder ein anderes unserer Vorstandsmitglieder.</h2>
+        
+      </div>
+<div class="content-middle">
+  <form action="https://httpbin.org/anything" method="post">
+    <fieldset>
+    <label>
+      <span class="form-label">Name & Vorname *</span>
+      <input type="text" name="name" placeholder="LC Brühl Leichtathletik" required>
+    </label>
+    <label>
+      <span class="form-label">Telefon&shy;nummer</span>
+      <input type="tel" name="phone" placeholder="071 288 26 44">
+    </label>
+    <label>
+    <span class="form-label">E-Mail *</span>
+      <input type="email" name="email" placeholder="info@lc-bruehl.ch" required>
+    </label>
+    <label>
+      <span class="form-label">Nachricht *</span>
+    <textarea name="message" placeholder="Nachricht kommt hier" rows="10" cols="30" required></textarea>
+      </label>
+
+    <button class="cta-button" type="submit">Kontaktieren</button>
+  </fieldset>
+  </form>
+  <br/>
+</div>
+    </div>
+  </body>
+</html>
