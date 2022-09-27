@@ -65,16 +65,16 @@ body {
 
 h1 {
   color:rgb(244, 136, 97);
-  font-size: 80px;
+  font-size: 60px;
   font-family: 'Raleway', sans-serif;
-  padding: 40px;
+  padding: 50px;
   text-align: center;
   display: block;
 }  
 
 h2 {
   color: rgb(34, 140, 172);
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   padding: 50px; 
@@ -129,12 +129,11 @@ menu a:hover {
   max-width: 100%;
   margin: 0 auto;
   height: 100%;
-
+  padding: 10px;
 }
 
 .titel {
   background-image: url("https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
-  padding: 10px;
 }
 
 .titel_toolbox {
@@ -142,7 +141,7 @@ menu a:hover {
 }
 
 .titel_about {
-  background-image: url("https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-image: url("https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
 }
 
 .ideas {
@@ -164,6 +163,7 @@ menu a:hover {
   width: 500px;
   margin: auto;
   max-height: 600px;
+
 }
 
 .idea_1 {
@@ -180,6 +180,7 @@ menu a:hover {
 
 .idea_4 {
   background-image: url("https://images.unsplash.com/photo-1484069560501-87d72b0c3669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  
 }
 
 .idea_5 {
@@ -201,9 +202,7 @@ menu a:hover {
 }
 
 video { 
-  border: 2px solid pink;
-  border-radius: 5%;
-  align-content: center;
-  margin: 10px 70px;
-
+  border: 2px dashed orange;
+  border-radius: 50%;
+  margin: 25px 30%;
 }
