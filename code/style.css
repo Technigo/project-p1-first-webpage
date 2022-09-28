@@ -55,8 +55,7 @@ table {
 ! important= overwrites anything ==> last thing to USE 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;700&family=Raleway:wght@500;700&display=swap');
 
 
 body {
@@ -66,6 +65,7 @@ body {
 h1 {
   color:rgb(244, 136, 97);
   font-size: 80px;
+  font-weight: bold;
   font-family: 'Raleway', sans-serif;
   padding: 40px;
   text-align: center;
@@ -73,8 +73,9 @@ h1 {
 }  
 
 h2 {
-  color: rgb(34, 140, 172);
+  color: whitesmoke;
   font-size: 60px;
+  font-weight: bold;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   padding: 50px; 
@@ -83,19 +84,42 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Raleway', sans-serif;
   margin: 10px;
   text-align: center;
   color: whitesmoke;
+  margin: 0px 0px 300px 0px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Helvetica',sans-serif;
+  margin: 10px;
+  text-align: center;
+  line-height: 1.5;
+  color: grey;
+}
+
+ul {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Helvetica',sans-serif;
+  margin: 60px 40px;
+  text-align: left;
+  line-height: 1.5;
+  color: grey;
 }
 
 p {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15px; 
+  font-weight: lighter;
   text-align: justify;
-  font-family: sans-serif;
-  font-weight:300px;
-  margin: 300px 0px 0px 0px;
+  line-height: 1.5;
   color:grey
+  
 }
 
 menu {
@@ -109,7 +133,7 @@ menu a {
   display: inline-block;
   padding: 10px 15px;
   background: rgba(244, 136, 97, 0.488);
-  color: rgb(34, 140, 172);
+  color: white;
   font-weight:lighter;
   text-decoration: none;
   border-radius: 3px;
@@ -138,7 +162,7 @@ menu a:hover {
 }
 
 .titel_toolbox {
-  background-image: url("https://images.unsplash.com/photo-1627873828998-50b7aeec7ffe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1658&q=80");
+  background-image: url("https://images.unsplash.com/photo-1587845323226-bad89242c735?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80");
 }
 
 .titel_about {
@@ -163,7 +187,8 @@ menu a:hover {
   border: 2px solid pink;
   width: 500px;
   margin: auto;
-  max-height: 600px;
+  height: auto;
+  position: relative;
 }
 
 .idea_1 {
@@ -190,20 +215,103 @@ menu a:hover {
   background-image: url("https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80");
 }
 
-.image_bottom {
-  block-size: auto;
-  background-image: url("https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1828&q=80");
+.btn {
+  position:inherit;
+  padding: 5px;
+  margin: 0 40%;
+  border-radius: 5px;
+  background-color:rgba(244, 136, 97, 0.488);
+  border-color:rgba(244, 136, 97, 0.488);
+  bottom: 5%;
+  left: 40%;
+  width: 80px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: rgb(244, 136, 97);
+  font-weight: bold;
+}
+
+.btn:active {
+  border: peachpuff;
+  color: peachpuff;
+  background: peachpuff;
+}
+
+img {
+  border: 1px solid pink;
+  border-radius: 50%;
+  padding: 10px;
+  height: auto;
+  max-width: 300px;
+  margin: 10px 80px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.image_about {
+  background-image: url("/Users/rebeccabrogli/Desktop/Project1/project-p1-first-webpage-master/images/CCE99C82-87A0-4844-BE77-372764A5ABB3.png");
+  background-size: contain;
+  background-color: peachpuff;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  padding: 15px;
+  border: 2px solid pink;
+  width: 480px;
+  height: 650px;
+  margin: auto;
+ 
+}
+
+.text_about {
+  background-color: peachpuff;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  padding: 15px;
+  border: 2px solid pink;
+  width: 480px;
+  height: 650px;
+  margin: auto;
+}
+
+.image_bottom_index, .image_bottom_toolbox, .image_bottom_about {
   background-size: cover;
+  block-size: auto;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 100px 0;
-  padding: 200px;
+  max-height: 100%;
+  margin: auto;
+  height: 400px;
+  padding: 100px;
 }
+
+.image_bottom_index {
+  background-image: url("https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1828&q=80");
+}
+
+.image_bottom_toolbox {
+  background-image: url("https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+}
+
+.image_bottom_about {
+  background-image: url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+}
+
 
 video { 
-  border: 2px solid pink;
+  border: 1px solid pink;
   border-radius: 5%;
+  padding: 5px;
   align-content: center;
   margin: 10px 70px;
-
 }
+
