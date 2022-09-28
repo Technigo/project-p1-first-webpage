@@ -1,12 +1,10 @@
-# Project Name
+Big change always starts with small ideas! 
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+A guide to create bold ideas
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I wanted to build a website that helps the reader to be in the perfect mind space to develope ideas and unleash the creativity. It is a collection of videos, links and ideas to guide the reader to create bold ideas. 
 
 ## View it live
 

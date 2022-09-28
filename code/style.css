@@ -292,6 +292,8 @@ img {
   margin: auto;
   height: 400px;
   padding: 100px;
+  font-style: italic;
+  line-height:300%;
 }
 
 .image_bottom_index {
