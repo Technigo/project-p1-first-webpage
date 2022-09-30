@@ -1,12 +1,10 @@
-# Project Name
+# Project JO Gommiswald
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+It's the webpage of our Skiclub. We train kids in skiing and we use the webpage mainly for organization with the parents.
 
 ## The problem
-
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+The tab 'Termine' is supposed to be interactive and with some links, but I havn't been able to do that yet. 
+Also, I would like to add a registration form in 'Kontakt' and of course the real adresses.
 
 ## View it live
 

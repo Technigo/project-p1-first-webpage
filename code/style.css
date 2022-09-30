@@ -1,5 +1,125 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
-
 body {
-  background-color: lightblue;
+  font-family: 'Roboto', Verdana, Calibri, sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Segoe UI', Verdana, Calibri, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+a.black:link, a.black:visited {
+  color: black;
+  text-decoration: underline;
+}
+a.white:link, a.white:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#titel {
+  background-image: url(./images/gruppe.jpeg);
+  background-size: cover;
+  height: 600px;
+}
+h1 {
+  color: rgb(22, 22, 76);
+  padding: 15px;
+}
+
+header {
+  background-color: rgb(38, 62, 168);
+  padding: 10px;
+}
+h2 {
+  color: whitesmoke;
+}
+
+nav {
+  padding-top: 20px;
+  padding-right: 40px;
+  background-color: rgb(38, 62, 168);
+  text-align: right;
+  word-spacing: 8px;
+  font-size: 16px;
+}
+.arrow {
+  border: solid whitesmoke;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.drop {
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  text-align: center;
+  background-color: rgb(38, 62, 168);
+  width: 100%;
+  z-index: 1;
+}
+.dropdown-content a {
+  font-size: 16px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.about {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.about img {
+  width: 100%;
+}
+
+.coach {
+  display: flex;
+  margin: 30px 100px;
+}
+.coach img {
+  float: right;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  font-size: 18px;
+  text-align: left;
+  padding: 40px;
+  border-bottom: solid black;
+}
+
+.kontakt {
+  display: flex;
+  height: 500px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+footer {
+  background-color: rgb(38, 62, 168);
+  color: whitesmoke;
+  margin: 0;
+  padding: 7px;
 }
