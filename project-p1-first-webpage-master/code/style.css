@@ -89,20 +89,51 @@ h2 {
   color: rgb(70, 69, 69);
   text-align: center;
 }
+menu{
+  display: flex;
+    align-items: center;
+    justify-content:right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color:#260c1a; 
+  }
+menu a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: white;
+    color: #c5d86d; 
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 0 5px;
+;
+  }
+
+  menu a:hover {
+    background: #f05d23; 
+    color: white;
+  }
 .button {
-  background-color: antiquewhite;
+  background-color: #c5d86d; 
   border-radius: 10px;
   border: none;
   display: inline-block;
   text-decoration: none;
-  padding: 40px 40px;
+  padding: 40px 40px 40px 40px;
   font-size: 20px;
   color: rgb(70, 69, 69);
   margin: 10px 10px;
+  width:15%;
+}
+.button:hover {
+  background-color: #c5d86d; 
+  color: white;
 }
 .kontaktbox {
   background-color: grey;
   text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .hero {
   object-fit: cover;
@@ -124,5 +155,19 @@ h2 {
   justify-content: center;
   margin: auto;
   flex-direction: row;
-  size: small;
+  padding-left: 10px;
+
+}
+.mailbild {
+  display: block;
+  padding-right: 5px;
+
+
+}
+.facebook-image {
+  display: block;
+padding-left: 5px;
+width: 80%;
+
+
 }
