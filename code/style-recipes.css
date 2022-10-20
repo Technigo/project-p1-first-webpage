@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.Header1 {
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.Header2 {
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(215, 231, 224);
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: rgb(49, 49, 49);
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-variant: small-caps;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-image: 
+    url("https://images.unsplash.com/photo-1660634806611-d3d03b7c28fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    height: 300px;
+    padding-top: 150px;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-variant: small-caps;
+    border-bottom: 3px solid darkgray;
+  }
+
+  menu a {
+    display: inline-block;
+    padding: 5px 60px;
+    color: rgb(49, 49, 49);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 5px;
+    font-family: 'Raleqay', sans-serif;
+  }
+
+  menu a:hover {
+    background: rgba(13, 105, 58, 0.518);
+    color: rgb(49, 49, 49);
+  }
+
+  img {
+    width: 450px;
+    height: 500px;
+  }
+
+  .Flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 40px;
+
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    border-top: 3px solid darkgray;
+  }
