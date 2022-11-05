@@ -1,0 +1,324 @@
+/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+
+body {
+  background-color: white;
+  height: 100%;
+  padding: 0;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: whie;
+  padding: 20px 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1)
+}
+
+.header img{
+  height: 40px;
+  float: left;
+}
+
+.header a.logo {
+  float: left;
+  color: #04391d;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header a {
+  float: none;
+  color: #04391d;
+  text-align: left;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header-right {
+  float: none;
+}
+
+.header a.logo-text {
+font-size: 25px;
+font-weight: regular;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  border-bottom: 2px solid;
+  border-color:   #c0cdc6 !important;
+}
+
+.header a.myButton {
+  background-color: #04391d;
+  color: white;
+  margin-left: 12px;
+  margin-right: 20px;
+}
+
+.header a.myButton:hover {
+background-color:#032111;
+}
+
+#banner img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50%;
+}
+
+@media screen and (min-width: 668px) {
+  .header a {
+    float: left;
+    text-align: center;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+  #banner img {
+    height: 500px;
+    width: 100%;
+  }
+}
+
+
+main{
+ flex-grow: 1;
+}
+
+h1{
+color: #04391d;
+font-size: 38px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+}
+
+h2{
+  color: #04391d;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  }
+
+h3{
+  color: #04391d;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+}
+
+.button-document{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.button-document {
+  width: 200px;
+  background-color: #989c9a;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+}
+
+a.button-document:hover {
+  width: 200px;
+  background-color: #575958;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+}
+
+
+.gallery1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.gallery1-1 img{
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50%
+}
+
+.gallery1-1 {
+width: 250px;
+margin: 0 20px;
+box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+transition: 1s;
+}
+
+.gallery1-1:hover{
+transform: scale(1.3);
+z-index:2;
+}
+
+@media screen and (min-width: 668px) {
+.gallery1 {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gallery1-1 img{
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50%
+}
+
+.gallery1-1 {
+  width: 250px;
+  margin: 0 10px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 1s;
+  }
+}
+
+#welcome {
+  margin: 40px;
+}
+
+
+#food {
+  margin: 40px
+}
+
+#drinks {
+  margin: 40px;
+}
+
+#team {
+  margin: 40px
+}
+
+
+.box {
+  border-style: solid;
+  border-color: #04391d;
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.worker {
+  padding: 5px;
+}
+
+
+.box img {
+max-width: 200px;
+border-radius: 100%;
+-webkit-border-radius: 100%;
+-moz-border-radius: 100%;
+padding: 10px;
+margin: 10px;
+background: white;
+border-color: #04391d;
+border: 2px;
+border-style: solid;
+background-color: #04391d;
+}
+
+.box img:hover{
+  max-width: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  border-color: #04391d;
+  border: 2px;
+  border-style: solid;
+  background-color: #ffffff;
+}
+
+.box p {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#contact {
+  margin: 0px 40px
+}
+
+.box2 {
+  margin: 0px 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.openinghours{
+  margin: 10px;
+  padding: 0px 60px;
+  align-self: stretch;
+}
+
+.openinghours a.myButton {
+  background-color: #04391d;
+  color: white;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+.openinghours a.myButton:hover {
+  background-color:#032111;
+  }
+
+a[href^="mailto:"]{ 
+  color:#04391d;
+}
+
+.footer_menubar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 0;
+  background-color: #04391d;
+  height: 150px;
+}
+
+.footer_menubar .footer_menu_item a{
+  list-style: none;
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+}
+
+.footer_menubar img{
+  height: 30px;
+  padding: 40px;
+}
+
+
