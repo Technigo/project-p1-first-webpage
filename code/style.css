@@ -143,6 +143,8 @@ header img {
 
 nav {
   display: none;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 
 nav a {
@@ -155,6 +157,17 @@ nav a {
   text-decoration: none;
   border-radius: 3px;
   margin: 10px 5px;
+}
+
+.nav a:hover {
+  background-color: rgb(244, 136, 97);
+  font-weight: bold;
+}
+
+nav a:active {
+  border: rgb(244, 136, 975);
+  color: rgb(244, 136, 97);
+  background: rgb(244, 136, 97);
 }
 
 .titel, .titel_toolbox, .titel_about {
@@ -202,6 +215,11 @@ nav a {
   background-size: 500px 300px;
 }
 
+.box h4 {
+  color:rgb(149, 94, 75);
+  font-size: 16px;
+}
+
 .box:nth-child(1){
   background-image: url("https://images.unsplash.com/photo-1562856761-73619ca004f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"); 
 }
@@ -245,9 +263,9 @@ nav a {
 }
 
 .btn:active {
-  border: peachpuff;
-  color: peachpuff;
-  background: peachpuff;
+  border: rgb(244, 136, 975);
+  color: rgb(244, 136, 97);
+  background: rgb(244, 136, 97);
 }
 
 img {
@@ -330,6 +348,73 @@ video {
 .image_bottom_about {
   background-image: url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
 }
+
+form {
+  width: auto;
+  text-align:center;
+}
+
+label {
+  padding: 10px;
+  display:block;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  color:rgb(149, 94, 75);
+
+  }
+
+input { 
+  font-weight: 16px;
+  background-color: rgb(255, 233, 214);
+  padding: 10px;
+  margin: 10px;  
+  border-radius: 5%;
+
+}
+
+input:valid {
+  background-color: peachpuff;
+  font-weight: bold;
+}
+
+input:invalid {
+  background-color:rgba(244, 136, 97, 0.488);
+}
+
+select {
+  margin: 10px;
+  padding: 10px;
+  background:peachpuff;
+  border: rgb(255, 233, 214) 1px;
+  border-radius: 5%;
+}
+
+.SubmitButton {
+  position:relative;
+  border-radius: 5px;
+  background-color:rgba(244, 136, 97, 0.488);
+  width:auto;
+  color:rgb(255, 233, 214);
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.SubmitButton:hover {
+  background-color: rgb(244, 136, 97);
+  font-weight: bold;
+}
+
+.SubmitButton:active {
+  border: rgb(244, 136, 975);
+  color: rgb(244, 136, 97);
+  background: rgb(244, 136, 97);
+}
+
 
 footer{
   position: static;
@@ -499,4 +584,5 @@ footer{
     max-width: 400px;
     height: auto;
   }
+
 }
