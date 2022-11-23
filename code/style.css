@@ -350,19 +350,35 @@ video {
 }
 
 form {
-  width: auto;
+  max-width: 500px;
   text-align:center;
+  border-radius: 5%;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none; 
+  padding: 10px;
+  background: peachpuff;
+  margin: 20px;
+  border-radius: 5%;
 }
 
 label {
   padding: 10px;
-  display:block;
+  display:flex;
   margin: 10px;
-  justify-content: center;
-  align-items: center;
   color:rgb(149, 94, 75);
-
   }
+
+span {
+  display: flex;
+  align-items: center;
+  width: 20%; 
+  text-align: right;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
 
 input { 
   font-weight: 16px;
@@ -370,24 +386,64 @@ input {
   padding: 10px;
   margin: 10px;  
   border-radius: 5%;
-
+  width: 40ch;
+  max-width: 100%;
 }
 
+textarea {
+  font-weight: 16px;
+  background-color: rgb(255, 233, 214);
+  padding: 10px;
+  margin: 10px;  
+  border-radius: 5%;
+  width: 40ch;
+  max-width: 100%;
+}
+
+input:placeholder-shown {
+  background-color: rgb(149, 94, 75);
+  border: 1px solid rgb(255, 233, 214);
+  border-radius: 5px;
+  color: rgb(255, 233, 214);
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+  background-color: rgba(244, 136, 97, 0.2);
+  border: 1px solid rgb(255, 233, 214);
+  border-radius: 5px;
+  color: rgb(255, 233, 214); 
+  }
+
 input:valid {
-  background-color: peachpuff;
+  background-color: rgb(244, 136, 97, 0.7);
   font-weight: bold;
+  color: rgb(255, 233, 214);
 }
 
 input:invalid {
+  background-color:rgba(244, 136, 97, 0.488);
+  color: rgb(255, 233, 214);
+}
+
+textarea:valid {
+  background-color: rgb(244, 136, 97, 0.7);
+  font-weight: bold;
+  color: rgb(255, 233, 214);
+}
+
+textarea:invalid {
   background-color:rgba(244, 136, 97, 0.488);
 }
 
 select {
   margin: 10px;
   padding: 10px;
-  background:peachpuff;
-  border: rgb(255, 233, 214) 1px;
+  background: rgba(244, 136, 97, 0.488);
+  border: 1px solid rgb(255, 233, 214);
   border-radius: 5%;
+
+  color: rgb(255, 233, 214, 0.5);
+  width: 70%;
 }
 
 .SubmitButton {
