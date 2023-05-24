@@ -1,21 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Olavida Surf School</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Name</title>
-    <!-- dont forget to add a css file and link it here! -->
-    <!-- If you're using google fonts, that should be added here -->
-  </head>
-  <body>
-    <!-- 
-      Write your code here inside the body to make it appear in the browser. 
-      Below is an example on how to use an image tag. Copy it and add it in the body, but outside the comment tag if you want to see how it looks like on the website. Then you can change the size and other styling for it in the css file.
+</head>
+<body>
+<header>
+  <div class=hamburger> 
+  <div></div>
+  <div></div>
+  <div></div>
+  </div>
+  <img src="logo olavida.png" alt="logo olavidasurf">
+</div>
+  <nav> 
+    <a href="#">Our Story</a>
+    <a href="#">The Surf</a>
+    <a href="#">Book Now</a> 
+  </nav>
+</header>
 
-      <img src="example-recipe-background.png" alt="Banana Bread">
+<section class="welcome-container">
+  <img src="Header_Surfschool.JPG" alt="olavidasurf">
+  <div>
+    <h1>Hello at Olavida Surfschool👋🏼</h1>
+    <p>
+      An intimate and personal surf school designed with a lot of thought and love. The retreat consists of everything we love; Surf, sun, sea & salt. Adventures, good vibes & the andalusian rythm of life. Olavida is more than just waves and surfing.
+    </p>
+  </div>
 
-    -->
-    <h1>Hello there! 👋🏼</h1>
-  </body>
+</section>
+
+<section class="olavidaexperience-container">
+  <div>
+    <h2> What is the Olavida Surf Experience? </h2>
+    <p> 
+      it’s not just a surf school. it’s not just an experience. Be a part of the Olavida family.
+    </p>
+  </div>
+
+</section>
+
+<section class="flex-parent-olavidaexperience">
+  <div class="flex-child surfschool">
+    <img src="box_thesurfschool.JPG" alt="thesurfschool" />
+    <a href="https://olavidasurf.com/portfolio/the-surf-school/"><button>The Surfschool</button></a>
+  </div>
+
+  <div class="flex-child rates">
+      <img src="box_therates.JPG" alt="therates" />
+      <a href="https://olavidasurf.com/portfolio/surf-rates/"><button>The Rates</button></a>
+  </div>
+
+  <div class="flex-child lessons">
+      <img src="box_the lesson.JPG" alt="thelesson" />
+      <a href="https://olavidasurf.com/portfolio/the-surf-lessons/"><button>The Lessons</button></a>
+  </div>
+</section>
+
+<section class="olavidablog-container">
+  <h2>5 Reason start surfing now!</h2>
+  <p><a href="https://olavidasurf.com/surfholiday-elpalmar/" target="_blank">#1: Because you need to take a break and chill out. </a></p>
+  <p><a href="https://olavidasurf.com/portfolio/the-surf-lessons/"target="_blank">#2: It is an excellent exercise </a></p>
+  <p><a href="https://olavidasurf.com/portfolio/the-surf-school/"target="_blank">#3: pure democracy. No limits for age, gender or beliefs</a></p>  
+</section>
+
+<section class="contactus">
+  <div>
+    <h2> Book now your surf experience in El Palmar</h2>
+    <p> 
+    Do you have any Questions? Do you wanna book a class or rent a surf board? Please do not hesitate to contact us!
+    </p>
+  </div>
+    <form action="http://httpbin.org/anything" method="post" >
+      <fieldset> 
+        <label>
+          <span>Anrede</span>
+          <select name="Anrede">
+              <option value="f">Frau</option>
+              <option value="m">Herr</option>
+              <option value="Geschlechter-Neutral">Geschlechter-Neutral</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Vor-und Nachname*</span>
+          <input type="text" name="fullname" required placeholder="Max Muster">
+        </label>
+        
+        <label>
+          <span>E-Mail*</span>
+          <input type="email" name="email" required placeholder="muster@muster.ch">
+        </label>
+        
+        <label>
+          <span>Deine Nachricht</span>
+          <input type="text" name="message" required placeholder="Hey ...">
+        </label>
+      </fieldset>
+      <div class="button-form">
+        <button type="submit">absenden</button>
+      </div>
+    </form>
+
+</section>
+
+<footer>
+  <p> Olavida Surf School, Playa el Palmar (Andalusia), olavidasurf@gmail.com, +34 678 36 09 25</p>
+</footer>
+  
+</body>
 </html>
+
+
