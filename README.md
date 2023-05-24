@@ -1,8 +1,8 @@
-# Olavida Surf School
+# Olavida Surfschool
 
-I did this small website to learn the Basics of HTML, CSS and JavaScrippt during my Course at Code Excursion.
+I did this small website to learn the Basics of HTML, CSS and JavaScrippt during my course at Code Excursion.
 
-I have chosen the Olavida Surfschool, because I have already built this website via Wordpress some years ago. And I tried to build the individual building blocks from scratch with HTML, CSS, etc. 
+I have chosen the Olavida Surfschool, because I have already built this website via Wordpress some years ago. And I tried to build the individual blocks from scratch with HTML, CSS, etc. 
 
 In the meantime the wordpress site doesn't exist anymore (because the school was closed by my friends), so the links on this project don't work anymore. 
 
@@ -14,4 +14,4 @@ For me, the challenge was partly to make the individual design elements exactly 
 
 ## View it live
 
-No - unfortunately not. Because in the meantime the Surf School closed down. But I am highly motivated in case my friends open a new school, that I am building them a website again. An this time from scatch with coding and not with the wordpress plugins;-)
+No - unfortunately not. Because in the meantime the Surfschool closed down. But I am highly motivated in case my friends open a new school, that I am building them a website again. An this time from scatch with coding and not with the wordpress plugins;-)
