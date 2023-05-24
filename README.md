@@ -1,13 +1,17 @@
-# Project Name
+# Olavida Surf School
 
-Replace this readme with your own information about your project.
+I did this small website to learn the Basics of HTML, CSS and JavaScrippt during my Course at Code Excursion.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+I have chosen the Olavida Surfschool, because I have already built this website via Wordpress some years ago. And I tried to build the individual building blocks from scratch with HTML, CSS, etc. 
+
+In the meantime the wordpress site doesn't exist anymore (because the school was closed by my friends), so the links on this project don't work anymore. 
+
+It was a very exciting experience for me and a lot of fun to design the single website elements. 
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+For me, the challenge was partly to make the individual design elements exactly the same as on the WordPress site was. However, if I have not found the appropriate code directly, I looked it up at some helpful websites (W3School, etc.).
 
 ## View it live
 
-Have you deployed your project somewhere? Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+No - unfortunately not. Because in the meantime the Surf School closed down. But I am highly motivated in case my friends open a new school, that I am building them a website again. An this time from scatch with coding and not with the wordpress plugins;-)
