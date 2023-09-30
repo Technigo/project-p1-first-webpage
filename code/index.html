@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Name</title>
-    <!-- dont forget to add a css file and link it here! -->
-    <!-- If you're using google fonts, that should be added here -->
-  </head>
-  <body>
-    <!-- 
-      Write your code here inside the body to make it appear in the browser. 
-      Below is an example on how to use an image tag. Copy it and add it in the body, but outside the comment tag if you want to see how it looks like on the website. Then you can change the size and other styling for it in the css file.
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nora's</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="/Images/favicon.ico" />
+  <!--Favicon does not work! -->
+</head>
+<!--What tags really "do something" and which can be replaced by div with no effect? -->
 
-      <img src="example-recipe-background.png" alt="Banana Bread">
+<body>
+  <header>
+    <h1>Nora's Kunstecke <img src="./Images/Rainbow.png" alt="Regenbogen" class="icon" /></h1>
+  </header>
+  <section class="flex-body">
+    <div class="flex-body-left">
+      <div class="aboutme">
+        <img src="./Images/Nora.png" alt="NoraMaus" class="img_about_me" />
+        <p>Hallo! Ich bin Nora und hier findet ihr meine Geschichten und Zeichnungen. Wenn ihr mehr über mich wissen
+          möchtet, klickt <a href="./aboutme.html" style="font-weight: bold;">hier</a>!</p>
+      </div>
+    </div>
+    <div class="flex-body-middle">
+      <div class="cards">
+        <a href="stories.html">
+          <img src="./Images/BookStack.png" alt="Geschichten" class="img_cards green" />
+          <h2>Geschichten</h2>
+        </a>
+      </div>
+      <div class="cards">
+        <a href="drawings.html">
+          <img src="./Images/Painting.png" alt="Zeichnungen" class="img_cards blue" />
+          <h2>Zeichnungen</h2>
+        </a>
+      </div>
+    </div>
+    <div class="flex-body-right">
+      <img src="./Images/Pencil.png" alt="Bleistift" class="icon" />
+    </div>
+  </section>
+  <section>
+    <div class="flex-footer">
+      <img src="./Images/PaintBrush.png" alt="Farbe" class="icon extra-margin-topright" />
+      <img src="./Images/OpenBook.png" alt="Buch" class="icon" />
+    </div>
+  </section>
 
-    -->
-    <h1>Hello there! 👋🏼</h1>
-  </body>
+</body>
+
 </html>
