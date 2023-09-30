@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Montserrat:wght@200;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Splash&display=swap");
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.box {
+  width: 50%;
+  margin: 20px;
+}
+
+.box_breit {
+  background-color: black;
+  text-align: center;
+  margin: 20px;
+}
+
+.picture {
+  width: 50%;
+  margin: 0px;
+}
+
+.left {
+  background-color: #6422b8;
+  margin: 0px;
+  width: 33.3%;
+}
+
+.middle {
+  background-color: #ffcc48ff;
+  margin: 0px;
+  width: 33.3%;
+}
+
+.right {
+  background-color: #ffffff;
+  margin: 0px;
+  width: 33.3%;
+}
+
+.box_background {
+  background-image: url(Bilder/purple_jellyfish_schmal.jpg);
+  background-position: top;
+  text-align: center;
+}
+.blur {
+  padding: 20px 40px;
+  backdrop-filter: blur(20px);
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 110px;
+  color: #ffcc48ff;
+  font-family: "Delicious Handrawn", cursive;
+  text-align: center;
+  padding: 40px;
+  padding-top: 80px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-style: SemiBold 600;
+  text-align: center;
+  padding: 45px;
+}
+
+h3 {
+  font-size: 40px;
+  color: #ffcc48ff;
+  font-family: "Montserrat", sans-serif;
+  font-style: SemiBold 600;
+  text-align: center;
+  padding: 20px;
+  padding-top: 40px;
+  margin: 0px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-style: SemiBold 600;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+p {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.font {
+  padding: 40px;
+}
+
+a {
+  color: #ffcc48ff;
+  text-decoration: none;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.purple {
+  color: #6422b8;
+}
+
+.yellow {
+  color: #ffcc48ff;
+}
+
+.socialmedia {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #6422b8;
+  border: 1px solid #ffcc48ff;
+  margin: 0px 20px 40px 20px;
+  cursor: pointer;
+}
+
+.navigation {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-color: #6422b8;
+  padding: 0px 10px;
+  margin: 0px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  list-style: none;
+  overflow: auto;
+}
+
+.navigation li a {
+  color: #ffcc48ff;
+}
+
+.Logo {
+  width: 5%;
+  margin: 0px;
+}
+
+.menupunkt {
+  width: 23.75%;
+  text-align: center;
+  margin: auto;
+}
+
+.projects {
+  width: 95%;
+  text-align: center;
+  margin: auto;
+}
+
+.center {
+  display: flex;
+  padding-bottom: 40px;
+  align-items: center;
+  margin: auto;
+}
