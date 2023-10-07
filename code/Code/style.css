@@ -15,7 +15,6 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  flex-wrap: nowrap;
 }
 
 .menu-logo {
@@ -38,17 +37,14 @@ body {
   color: white;
 }
 
-/*** responsive menu***/
-
 /***HERO***/
 
-.header-picture {
-  display: block;
-  background-image: url("Images/Hero1_v1.jpg");
-  background-color: white;
-  object-fit: cover;
-  width: 100%;
-  height: 100vh;
+.hero-picture {
+  height: 450px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-text {
@@ -80,69 +76,41 @@ body {
 }
 
 .button1:hover {
-  background-color: rgba(115, 14, 83, 0.434);
+  background-color: white;
   color: rgb(115, 14, 83);
 }
 
-@media (max-width: 667px) {
-  .hero-picture {
-    display: block;
-    background-image: url("Images/Hero1_Mobile.jpg");
-    background-color: white;
-    object-fit: cover;
-    margin: 10 0px;
-  }
-
-  .hero-text h1 {
-    font-size: 20pt;
-    /*** white-space: nowrap;***/
-    padding-bottom: 30px;
-  }
-
-  .h2 {
-    display: none;
-  }
-
-  .button1 {
-    width: 150px;
-  }
-}
+/***BENEFITS***/
 
 /***ANGEBOT***/
 
 .angebot-titel {
-  padding: 20px;
+  padding: 130px;
+  height: 30px;
   text-align: center;
   background-color: weiss;
 }
 
-@media (max-width: 667px) {
-  .angebot-titel {
-    margin: 1 0px;
-    padding: 0.5px;
-    background-color: white;
-  }
-}
-
 .angebot-titel h1 {
-  font-size: 25pt;
+  font-size: 35pt;
   color: rgb(115, 14, 83);
 }
 
 .section1 {
-  margin: 20px 0;
+  margin: 0, 10px;
   display: flex;
+  height: 550px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 166, 0, 0.218);
-  flex-shrink: shrink;
 }
 
 .spalte {
   margin: 60px 30px;
   padding: 10px 30px;
-  width: 33.3%;
+  width: 400px;
+  height: 500px;
   background-color: weiss;
   text-align: center;
 }
@@ -150,7 +118,6 @@ body {
 .spalte h2 {
   font-size: 15pt;
   color: black;
-  height: 80px;
 }
 
 .button2 {
@@ -164,31 +131,21 @@ body {
 }
 
 .button2:hover {
-  background-color: rgba(115, 14, 83, 0.434);
+  background-color: white;
   color: rgb(115, 14, 83);
 }
 
-@media (max-width: 667px) {
-  .section1 {
-    flex-direction: column;
-    flex-shrink: shrink;
-  }
-
-  .spalte {
-    margin: 30px 15px;
-    width: 100%;
-    padding: 0;
-  }
-}
+/***ÜBER MICH***/
 
 /***FOOTER***/
 .footer {
-  background-color: white;
+  background-color: rgb(5, 5, 5);
   text-align: center;
+  margin: 100px solid;
   padding: 50px;
 }
 
 .footer-text {
-  color: black;
+  color: white;
   text-decoration: none;
 }
