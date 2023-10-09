@@ -98,14 +98,14 @@ a {
 }
 
 .category {
-  display: flex;
   flex-direction: row;
-  flex-wrap: rowrap;
-  width: 33.33%;
-}
-.category-block {
-  font-family: "Arial Narrow";
-  font-size: 12pt;
   text-align: center;
-  position: relative;
+}
+.category-row {
+  margin: auto;
+}
+.recipes-title {
+  font-family: "Lucida Handwritting";
+  font-size: 14pt;
+  color: #023a02;
 }
