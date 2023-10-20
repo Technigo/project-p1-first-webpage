@@ -1,13 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Domine&family=Open+Sans:wght@400;700&display=swap");
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 /* evt. Header einfügen mit background-size: cover, und height 2527 beim Bild Save the date */
 
 h1 {
   color: rgb(161, 13, 40);
   font-size: 36px;
+}
+
+header {
+  background-image: url("./images/Front\ 1.jpg");
+  height: 500px;
+  background-size: cover;
 }
 .top-heading {
   color: rgb(124, 6, 51);
@@ -55,7 +62,7 @@ h2 {
   text-align: center;
   background-color: rgb(161, 13, 40, 0.7);
   padding: 20px;
-  margin: 0px;
+  margin: 0;
   font-family: "Domine", serif;
 }
 h3 {
@@ -85,6 +92,7 @@ p {
 .row {
   display: flex;
   margin-bottom: 50px;
+  gap: 50px;
 }
 
 .center {
@@ -101,6 +109,10 @@ p {
 
 .column-50 {
   flex: 1 1 0%;
+  display: flex;
+  align-items: center;
+}
+.Trauzeuge-left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -127,24 +139,28 @@ p {
   width: 33%;
 }
 
-.wunsch-right {
-  width: 66%;
-  align-content: flex-start;
-  padding: 0px;
-}
-
 .image-wunsch {
-  width: 100px;
+  width: 175px;
   padding: 10px;
+  border-radius: 10px 25% 20px;
 }
 
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 50;
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
 }
-.material-symbols-outlined {
-  color: white;
+.material-icons-round.white {
+  color: #ffffff;
 }
-
 .icons {
   background-color: rgb(161, 13, 40);
   padding: 20px;
@@ -153,6 +169,13 @@ p {
   width: 50px;
   border-radius: 50%;
   margin: 20px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.icons .icon {
+  font-size: 36px;
 }
 
 ul {
@@ -173,10 +196,12 @@ li {
 
 .schedule {
   display: flex;
+  align-items: center;
   flex-direction: column;
+  padding-left: 0;
 }
 .schedule-point {
-  align-self: center;
+  display: flex;
   padding-bottom: 20px;
 }
 .time {
@@ -187,15 +212,122 @@ li {
 }
 
 .ablauf-text {
-  flex: 1 1 0%;
+  flex: 0 0 295px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.Wunschliste {
+.empty-map {
+  height: 200px;
+  width: 400px;
+  flex-shrink: 0;
+}
+iframe {
+  height: 200px;
+  width: 400px;
+}
+
+/*.Wunschliste {
   flex: 1 1 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 100px;
+}*/
+
+/*.wunsch-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 230px;
+  align-items: center;
+}*/
+.Wunschliste {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.wunsch-text {
+  max-width: 250px;
+}
+.wishlist {
+  padding-bottom: 20px;
+  width: 33%;
+}
+footer {
+  background-color: rgb(161, 13, 40);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*Mobile*/
+
+@media (max-width: 667px) {
+  p {
+    margin-top: 0px;
+  }
+  .schedule-point {
+    flex-wrap: wrap;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .wishlist {
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 100%;
+  }
+  .empty-map {
+    height: 0px;
+  }
+  .icons {
+    flex-wrap: wrap;
+  }
+  .map {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header {
+    height: 250px;
+  }
+  .top-heading {
+    padding-top: 10px;
+    font-size: 47px;
+  }
+  .scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  nav {
+    justify-content: flex-start;
+  }
+  .menu {
+    margin-right: 0px;
+  }
+  .column-50 {
+    flex-wrap: wrap;
+  }
+  .footer-text {
+    padding-top: 10px;
+  }
+}
+@media (min-width: 668px) and(max-width: 1024px) {
+  .scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+
+  .menu {
+    align-content: flex-start;
+  }
+  .navigation {
+    display: flex;
+    align-content: flex-start;
+    padding-left: 0px;
+  }
+  .wishlist {
+    width: 50%;
+  }
 }
