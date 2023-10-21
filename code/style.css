@@ -47,10 +47,10 @@ nav a {
   display: inline-block;
   padding: 10px 15px;
   background: rgb(161, 13, 40);
-  color: rgb(0, 0, 0);
+  color: rgb(41, 37, 37);
   font-weight: semi-bold;
   text-decoration: none;
-  border-radius: 3px;
+  border-radius: 10px;
   margin: 0 5px;
 }
 
@@ -140,6 +140,7 @@ p {
 }
 
 .image-wunsch {
+  margin: auto;
   width: 175px;
   padding: 10px;
   border-radius: 10px 25% 20px;
@@ -203,6 +204,7 @@ li {
 .schedule-point {
   display: flex;
   padding-bottom: 20px;
+  align-items: center;
 }
 .time {
   font-size: large;
@@ -222,9 +224,11 @@ li {
   width: 400px;
   flex-shrink: 0;
 }
+
 iframe {
   height: 200px;
   width: 400px;
+  border-radius: 10px 25% 20px;
 }
 
 /*.Wunschliste {
@@ -235,6 +239,15 @@ iframe {
   gap: 100px;
 }*/
 
+.wunsch-container {
+  max-width: 225px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.wunsch-text {
+  margin: auto;
+}
 /*.wunsch-container {
   display: flex;
   flex-direction: column;
@@ -245,6 +258,8 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0px;
+  max-width: 750px;
+  margin: auto;
 }
 
 .wunsch-text {
@@ -264,14 +279,21 @@ footer {
 /*Mobile*/
 
 @media (max-width: 667px) {
-  p {
+  .text-trauzeugen {
     margin-top: 0px;
   }
   .schedule-point {
     flex-wrap: wrap;
+    max-width: 330px;
+  }
+  .icons .icon {
+    font-size: 30px;
   }
   .row {
     flex-wrap: wrap;
+  }
+  iframe {
+    width: 330px;
   }
   .wishlist {
     flex-wrap: wrap;
@@ -282,12 +304,14 @@ footer {
     height: 0px;
   }
   .icons {
-    flex-wrap: wrap;
+    margin: auto;
+    width: 44px;
+    height: 44px;
   }
-  .map {
+  /* .map {
     padding-left: 10px;
     padding-right: 10px;
-  }
+  }*/
   header {
     height: 250px;
   }
@@ -313,7 +337,8 @@ footer {
     padding-top: 10px;
   }
 }
-@media (min-width: 668px) and(max-width: 1024px) {
+/*Tablet*/
+@media (min-width: 668px) and (max-width: 1024px) {
   .scroll {
     white-space: nowrap;
     overflow-x: auto;
@@ -327,7 +352,16 @@ footer {
     align-content: flex-start;
     padding-left: 0px;
   }
+  .schedule-point {
+    flex-wrap: wrap;
+  }
   .wishlist {
     width: 50%;
+  }
+  .Wunschliste {
+    max-width: 500px;
+  }
+  .empty-map {
+    height: 0px;
   }
 }
