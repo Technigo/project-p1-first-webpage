@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+* {
+  font-family: 'Nothing You Could Do', cursive;
+  color: rgb(40, 39, 39);
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+header {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 5px;
+}
+
+h1 {
+  margin: 20px;
+}
+
+h2 {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+  height: auto;
+  max-height: 100px;
+}
+
+nav a {
+  background-color: rgba(129, 129, 129, 0.479);
+  text-decoration: none;
+  margin: 2.5px;
+  border-radius: 10px;
+  width: 100%;
+  max-height: inherit;
+}
+
+nav a img {
+  width: auto;
+  height: auto;
+  max-height: inherit;
+  padding: 10px;
+}
+
+img {
+  width: auto;
+  max-width: 300px;
+  height: auto;
+  max-height: 90vw;
+}
+
+.title_with_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_nav {
+  max-width: auto;
+}
+
+.icon {
+  width: 100%;
+  height: auto;
+  max-width: 125px;
+}
+
+.image_gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2vw;
+  margin: 10px;
+}
+
+.image_gallery img {
+  border: 2px solid rgb(40, 39, 39);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  object-fit: cover;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+}
+
+body {
+  background-image: url(doodle3.jpg);
+  background-position: top left;
+  background-size: 300px;
+  background-repeat: repeat;
+}
+
+footer {
+  background-color: rgba(129, 129, 129, 0.479);
+  color: whitesmoke;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/**MEDIA QUERIES**/
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+  
+  nav a img {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+
+  h1 {
+    font-size: calc(2rem + 1vw);
+  }
+
+  h2 {
+    font-size: calc(1rem + 1vw);
+  }
+  
+  nav a {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  nav a img {
+    display: none;
+  }
+
+  .title_with_image {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .image_gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+ 
+  nav {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+ nav a img {
+  display: block;
+ }
+
+}
