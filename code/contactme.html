@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <a href="./index.html">Home</a>
-    <a href="./contactme.html">Contact</a>
-    <a href="./projects.html">Projects</a>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <div class="navigationLink">
+        <div class="navElement">
+            <a id="nav1" class="navigationLink" href="./index.html">Home</a>
+        </div>
+        <div class="navElement">
+            <a id="nav2" class="navigationLink" href="./projects.html">Projects</a>
+        </div>
+        <div class="navElement">
+            <a id="nav3" class="navigationLink" href="./contactme.html">Contact</a>
+        </div>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+    </div>
     <title>Contact me</title>
-  </head>
-  <body>
-    <div class="intro">
-      <div class="welcome">
+</head>
+<body>
+<div class="intro">
+    <div class="welcome">
         <h1>Let's get in touch! 💌</h1>
         <p>
-          I love to meet new people so let's connect! Write me an email or add
-          me on Linkedin.
+            I love to meet new people so let's connect! Write me an email or add
+            me on LinkedIn.
         </p>
-      </div>
+        <h3>Contact me</h3>
+        <div class="contactForm">
+            <div class="Eintrag">
+                <input type="text" name="name" id="name" placeholder="Name"/>
+            </div>
+            <div class="Eintrag">
+                <input type="email" name="email" id="email" placeholder="E-Mail"/>
+            </div>
+            <div class="Eintrag">
+                <input type="message" name="message" id="message" placeholder="Nachricht"/>
+            </div>
+            <div class="Eintrag">
+                <button class="sentButton" type="button">Senden</button>
+            </div>
+        </div>
     </div>
-  </body>
+</div>
+</body>
 </html>
