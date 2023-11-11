@@ -9,7 +9,7 @@
             <a id="nav1" class="navigationLink" href="./index.html">Home</a>
         </div>
         <div class="navElement">
-            <a id="nav2" class="navigationLink" href="./projects.html">Projects</a>
+            <a id="nav2" class="navigationLink" href="./projects.html">Projekte</a>
         </div>
         <div class="navElement">
             <a id="nav3" class="navigationLink" href="./contactme.html">Contact</a>
@@ -23,25 +23,33 @@
 <body>
 <div class="intro">
     <div class="welcome">
+        <div class="contactmeTitleAndLead">
         <h1>Let's get in touch! 💌</h1>
         <p>
             I love to meet new people so let's connect! Write me an email or add
             me on LinkedIn.
         </p>
+        </div>
+
         <h3>Contact me</h3>
         <div class="contactForm">
-            <div class="Eintrag">
-                <input type="text" name="name" id="name" placeholder="Name"/>
-            </div>
-            <div class="Eintrag">
-                <input type="email" name="email" id="email" placeholder="E-Mail"/>
-            </div>
-            <div class="Eintrag">
-                <input type="message" name="message" id="message" placeholder="Nachricht"/>
-            </div>
+            <div class="contactFormFields">
+            <label class="Eintrag">
+                <div>Name</div>
+                <input type="text" name="name" id="name"  />
+            </label>
+            <label class="Eintrag">
+               <div> E-Mail </div>
+                <input type="email" name="email" id="email"/>
+            </label>
+            <label class="Eintrag">
+                <div>Nachricht</div>
+                <textarea name="message" id="message" rows="5"></textarea>
+            </label>
             <div class="Eintrag">
                 <button class="sentButton" type="button">Senden</button>
             </div>
+        </div>
         </div>
     </div>
 </div>

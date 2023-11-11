@@ -1,6 +1,12 @@
 @media (max-width: 668px) {
     .intro {
         flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .pictureofmyself {
+        padding: 0px;
+        margin: 20px;
+        width: 400px;
     }
 
 }
@@ -8,13 +14,12 @@
 @media (min-width: 668px) and (max-width: 1023px) {
     .intro {
         flex-direction: column;
-    }
-    .navElement{
 
     }
 
     .pictureofmyself {
         padding: 0px;
+        margin: 20px;
     }
 
     .welcome {
@@ -35,6 +40,10 @@ h1 {
 h3 {
     text-align: center;
     font-size: 30px;
+}
+
+p{
+
 }
 
 img {
@@ -62,11 +71,12 @@ img {
 
 body {
     color: rgb(5, 48, 140);
-    background-color: rgb(249, 241, 239);
+    background-color: rgb(249,241,239);
     font-family: 'Rozha One', serif;
     font-size: 20px;
     padding: 20px;
     margin: 20px;
+
 }
 
 .welcome {
@@ -74,7 +84,6 @@ body {
 }
 
 .pictureofmyself {
-    margin: 100px;
     width: 300px;
 }
 
@@ -122,23 +131,51 @@ body {
 
 .project {
     margin: 10px;
-    width: 300px;
+    width: 350px;
     flex-grow: 1;
-    height: 300px;
+    height: 350px;
     background: rgb(221, 227, 255);
-    box-shadow: 0px 0px 20px rgba(221, 227, 255, 0.3);
+    box-shadow: 0px 0px 10px rgba(5, 48, 140, 0.3);
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    color: rgb(249,241,239);
 }
+
 
 .project:hover {
     background: rgb(5, 48, 140, 0.6);
     height: 400px;
     width: 400px;
+    font-size: 30px;
 
+}
+#Goldtube{
+    background-image: url("./img/Seniorin macht Foto.jpg");
+    background-size: cover;
+}
+#EatNRun{
+    background-image: url("./img/EatNRun.jpg");
+    background-size: cover;
+
+}
+#ReUse{
+    background-image: url("./img/ReUse.jpg");
+    background-size: cover;
+}
+#I\ follow\ you{
+    background-image: url("./img/Drone.jpg");
+    background-size: cover;
+}
+#Museums-App{
+    background-image: url("./img/Museum1.jpg");
+    background-size: cover;
+}
+
+#Kitchener{
+    background-image: url("./img/E-Commerce.jpg");
+    background-size: cover;
 }
 
 
@@ -168,6 +205,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    hyphens:manual;
 }
 
 .sentButton {
@@ -188,16 +226,44 @@ header {
     padding-left: 45px;
 }
 
-input {
-    width: 300px;
-    height: 20px;
+input, textarea {
+    width: 400px;
     border-radius: 5px;
+    border: 1px solid rgba(5, 48, 148, 0.3);
 }
+input{
+    height: 30px;
+}
+input::placeholder, textarea::placeholder{
+    font-family: Questrial;
+}
+
 
 .Eintrag {
     padding: 20px;
+
+}
+.EintragMessagField{
+    padding: 20px;
     display: flex;
     justify-content: center;
+    width: 100%;
+}
+.unterTextInQuestrial{
+    font-family: Questrial;
+}
+.contactForm{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contactmeTitleAndLead{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 
