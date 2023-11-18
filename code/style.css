@@ -265,6 +265,10 @@ input::placeholder, textarea::placeholder{
 a{
     text-decoration: none;
 }
+.aufZählung{
+    font-family: Questrial;
+    padding-bottom: 10px;
+}
 
 
 
