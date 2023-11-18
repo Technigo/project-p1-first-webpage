@@ -116,9 +116,6 @@ body {
 
 }
 
-.intro:hover {
-
-}
 
 
 .container {
@@ -271,6 +268,10 @@ a{
 }
 .linkedIN{
     width: 50px;
+}
+
+#top{
+    font-family: Questrial, serif;
 }
 
 
