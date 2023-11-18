@@ -267,8 +267,10 @@ a{
     width: 50px;
 }
 
-#top{
+.top{
+    display: flex;
     font-family: Questrial, serif;
+    justify-content: end;
 }
 
 
