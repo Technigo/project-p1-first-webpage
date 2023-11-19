@@ -8,17 +8,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
       rel="stylesheet"
     />
-    <!--<link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />-->
     <link rel=" stylesheet" type="text/css" href="style.css" />
-    <!-- If you're using google fonts, that should be added here -->
   </head>
   <body>
-    <header>
-      <!--<img src="./images/Front 1.jpg" class="top-image" alt="Save the date Bild"> -->
-    </header>
+    <header></header>
     <h1 class="top-heading">Lea & Marc 4. Mai 2024</h1>
     <nav class="vertical-align-middle scroll">
       <ul class="navigation">
@@ -31,11 +24,6 @@
     </nav>
     <div id="Über uns">
       <h2>Lea und Marc</h2>
-      <img
-        src="./images/2H6A6411.jpg"
-        class="section-image"
-        alt="Bild Lea und Marc"
-      />
       <div class="container">
         <h3>Lea</h3>
         <h4>«Was ChatGPT über mich schreibt»</h4>
@@ -82,6 +70,13 @@
           deine besten Witze! 🏐🏂🍻😄
         </p>
       </div>
+      <div class="section-image">
+        <!--<img
+            src="./images/2H6A6411.jpg"
+            class="section-image"
+            alt="Bild Lea und Marc"
+          />-->
+      </div>
     </div>
     <div id="Ablauf">
       <h2>Tagesablauf</h2>
@@ -123,8 +118,8 @@
             <div class="ablauf-text">
               <h3 class="time">13:15 Uhr</h3>
               <p class="schedule-text">
-                Transport vom Hofstadl <br />
-                Abfahrt vom Hastag Parkplatz
+                Transport vom Hofstadl Parkplätze <br />
+                und Abfahrt vom Hastag Parkplatz
               </p>
             </div>
             <div class="map">
@@ -147,7 +142,11 @@
             <div class="ablauf-text">
               <h3 class="time">14:00 Uhr</h3>
               <p class="schedule-text">
-                Trauung in der Schutzengel Kirche <br />in Engelburg
+                Trauung in der Schutzengel Kirche in Engelburg<br />
+                <i
+                  >Parkmöglichkeiten beim Pfareiheim Evang.-ref. Kirchgemeinde,
+                  Schulhaus</i
+                >
               </p>
             </div>
             <div class="map">
@@ -190,17 +189,9 @@
             </div>
             <div class="ablauf-text">
               <h3>17:30 Uhr</h3>
-              <p class="schedule-text">Transport zu Hofstadl</p>
-            </div>
-            <div class="empty-map"></div>
-          </li>
-          <li class="schedule-point">
-            <div class="icons">
-              <span class="material-icons-round white icon"> nightlife </span>
-            </div>
-            <div class="ablauf-text">
-              <h3>18:00 Uhr</h3>
-              <p class="schedule-text">Unser Hochzeitsfest</p>
+              <p class="schedule-text">
+                Transport Hofstadl mit anschliessendem Fest
+              </p>
             </div>
             <div class="map">
               <iframe
@@ -223,6 +214,199 @@
         Bitte meldet euch bis am <strong>31. Januar 2024</strong> mit folgendem
         Formular an oder auch ab, damit wir planen können.
       </p>
+      <div class="Formular">
+        <!--action="https://script.google.com/macros/s/AKfycbyOLCGLjJIZHyPBwfAL1e2qwXKOrzxtGXX0cNSNOuodkLFq-q-qS28kuIpTrhseU6KHjA/exec"
+          method="post"-->
+        <form
+          method="post"
+          action="/success.html"
+          name="Anmeldeformular"
+          data-netlify="true"
+        >
+          <h3>Anmeldeangaben</h3>
+          <ul class="row-anmeldung">
+            <li class="column-50">
+              <div class="column-anmeldung">
+                <label>
+                  <div>Vorname</div>
+                  <input type="text" name="Vorname" required />
+                </label>
+                <label>
+                  <div>Nachname</div>
+                  <input type="text" name="Nachname" />
+                </label>
+                <label>
+                  <div>Email</div>
+                  <input type="email" name="Email" />
+                </label>
+              </div>
+            </li>
+
+            <li class="column-50">
+              <div class="column-anmeldung">
+                <label
+                  >Anmeldung wozu?
+                  <fieldset>
+                    <div class="food">
+                      <label>
+                        <input
+                          type="radio"
+                          name="Fest/Apéro"
+                          value="fest"
+                        />Fest</label
+                      >
+                      <label
+                        ><input
+                          type="radio"
+                          name="Fest/Apéro"
+                          value="apéro"
+                        />Apéro</label
+                      >
+                    </div>
+                  </fieldset>
+                </label>
+                <fieldset>
+                  <label>
+                    Kommst du mit Partner:in?
+                    <label
+                      ><input
+                        type="checkbox"
+                        name="Partner:in"
+                        value="ja"
+                      />Ja</label
+                    >
+                  </label>
+                </fieldset>
+                <label>
+                  <label> Sind Kinder beim Apéro dabei?</label>
+                  <select name="Kinder">
+                    <option value="0">Keine</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </label>
+              </div>
+            </li>
+          </ul>
+          <ul class="row-anmeldung">
+            <li class="column-50">
+              <div class="column-anmeldung">
+                <fieldset>
+                  <label>
+                    Brauchst du einen Transport?
+                    <div class="food">
+                      <label
+                        ><input
+                          type="radio"
+                          name="Transport"
+                          value="Nein"
+                        />Nein</label
+                      >
+                      <label
+                        ><input
+                          type="radio"
+                          name="Transport"
+                          value="Bahnhof"
+                        />Bahnhof</label
+                      >
+                      <label
+                        ><input
+                          type="radio"
+                          name="Transport"
+                          value="Hofstadl"
+                        />Hofstadl</label
+                      >
+                    </div>
+                  </label>
+                </fieldset>
+                <fieldset>
+                  <label>
+                    Wenn du am Fest dabei bist:
+                    <div class="food">
+                      <label
+                        ><input
+                          type="radio"
+                          name="Menu"
+                          value="Fleisch"
+                          checked
+                        />Fleisch</label
+                      >
+                      <label
+                        ><input
+                          type="radio"
+                          name="Menu"
+                          value="Vegi"
+                        />Vegi</label
+                      >
+                    </div>
+                  </label>
+                </fieldset>
+              </div>
+            </li>
+            <li class="column-50">
+              <div class="column-anmeldung">
+                <label>
+                  <div>Welche Songs sind ein Muss für die Afterparty?</div>
+                  <input type="text" name="Song" />
+                </label>
+                <label>
+                  <div>Bemerkungen</div>
+                  <textarea name="Note" rows="4" cols="50"></textarea>
+                </label>
+              </div>
+            </li>
+          </ul>
+
+          <h3>Angaben Partner:in Fest</h3>
+          <ul class="row-anmeldung">
+            <li class="column-50">
+              <div class="column-anmeldung">
+                <label>
+                  <div>Vorname</div>
+                  <input type="text" name="VornameP" required />
+                </label>
+                <label>
+                  <div>Nachname</div>
+                  <input type="text" name="NachnameP" />
+                </label>
+              </div>
+            </li>
+            <li class="column-50">
+              <div class="column-anmeldung">
+                <fieldset>
+                  <label>
+                    Wenn du am Fest dabei bist:
+                    <div class="food">
+                      <label
+                        ><input
+                          type="radio"
+                          name="MenuP"
+                          value="Fleisch"
+                        />Fleisch</label
+                      >
+                      <label
+                        ><input
+                          type="radio"
+                          name="MenuP"
+                          value="Vegi"
+                        />Vegi</label
+                      >
+                    </div>
+                  </label>
+                </fieldset>
+                <label>
+                  <div>Welche Songs sind ein Muss für die Afterparty?</div>
+                  <input type="text" name="SongP" />
+                </label>
+              </div>
+            </li>
+          </ul>
+          <div class="Absenden">
+            <button class="button-submit" type="submit">Anmelden</button>
+          </div>
+        </form>
+      </div>
     </div>
     <div id="Trauzeugen">
       <h2>Unsere Trauzeugen</h2>
@@ -231,36 +415,100 @@
           <div class="Trauzeuge-left">
             <img
               class="round-image"
-              src="./images/Abendessen.jpg"
+              src="./images/Simea.jpg"
               alt="Trauzeugin Lea"
             />
-            <h3>Simea</h3>
-            <p class="text-trauzeugen">Simea und ich kennen uns blablaba</p>
-            <a href="mailto:sabrina.lombriser@gmail.com">Mail</a><br />
-            <a href="tel:0041793559220">079'355'92'20</a>
+            <h3>Simea Hochstrasser</h3>
+            <h4>«Was Lea über mich schreibt»</h4>
+            <p class="text-trauzeugen">
+              Simea kenne ich schon seit unserer Kindergartenzeit. Jeden Morgen
+              machten wir uns gemeinsam auf den Weg zur Schule und das bis hin
+              zur Sek. Aber auch nach der Schule verbrachten wir seit klein auf
+              viel Zeit zusammen; von gemeinsamen Ferien, über Hobbies und bis
+              hin zu verschiedensten Unternehmungen. An einem Abend nach Davos
+              und zurück, nur um einen Hockeymatch zu sehen, als Blues-Brothers
+              auf der Bühne rumtanzen oder im Konflager die Jugendlichen von der
+              Bettruhe zu überzeugen, dies sind nur einige unserer gemeinsamen
+              Abenteuer und ich konnte immer und in allen Situationen auf Simea
+              als meine beste Freundin zählen. Darum freut es mich umso mehr,
+              dass sie auch an diesem grossen Tag eine wichtige Rolle spielt.
+            </p>
+            <button class="mailbutton">
+              <a class="maillink" href="mailto:simea.hochstrasser@bluewin.ch"
+                >Mail Simea</a
+              ></button
+            ><br />
+            <a class="tellink" href="tel:0041797409927">079'740'99'27</a>
           </div>
           <div class="Trauzeuge-left">
             <img
               class="round-image"
-              src="./images/Bier.jpg"
+              src="./images/Ardillo.jpg"
               alt="Trauzeuge Marc"
             />
-            <h3>Ardillo</h3>
-            <p class="text-trauzeugen">ominöser Trauzeuge von Marc</p>
-            <a href="mailto:sabrina.lombriser@gmail.com">Mail</a><br />
-            <a href="tel:0041793559220">079'355'92'20</a>
+            <h3>Martin Hugentobler aka Ardillo</h3>
+            <h4>«Was Marc über mich schreibt»</h4>
+            <p class="text-trauzeugen">
+              Kennengelernt habe ich Martin 2012 als Pfadileiter. Entsprechend
+              war er mir lange nur mit seinem Pfadinamen Ardillo bekannt.
+              Schnell bemerkte ich, dass wir ähnlich ticken und haben uns
+              entsprechend auch neben der Pfadi getroffen. Auch nach unserer
+              gemeinsamen aktiven Zeit in der Pfadi pflegen wir unsere
+              Pfaditraditionen wie unser jährliches Skiweekend oder das Zelten
+              an Pfingsten weiter. Durch diese gemeinsamen Erlebnisse hat sich
+              unsere Freundschaft gestärkt und ich war deshalb nicht überrascht,
+              als er als mein Trauzeuge zugesagt hat.
+            </p>
+            <!--<div class="contact-mail">
+              <span class="material-icons-round red"> mail </span>
+              <a class="maillink2" href="mailto:hugentobler.martin@gmx.com"
+                >hugentobler.martin@gmx.com</a
+              >
+            </div>
+            <br />
+            <div class="contact-mail">
+              <span class="material-icons-round red"> call </span>
+              <a class="tellink" href="tel:0041792751870">079'275'18'70</a>
+            </div>-->
+            <button class="mailbutton">
+              <a class="maillink" href="mailto:hugentobler.martin@gmx.com"
+                >Mail Ardillo</a
+              ></button
+            ><br />
+            <a class="tellink" href="tel:0041792751870">079'275'18'70</a>
           </div>
         </li>
       </ul>
+      <p>
+        —> Hast du Fragen oder möchtest unseren speziellen Tag mitgestalten?
+        Dann melde dich bei unseren Trauzeugen.
+      </p>
     </div>
     <div id="Wunschliste">
       <h2>Unsere Wunschliste für unsere Hochzeit</h2>
       <p>
         Bist du kreativ? Dann lassen wir uns gerne davon überraschen.<br />
         Ansonsten wisst ihr vielleicht, dass wir unsere Hochzeitsreise im Norden
-        verbringen wollen. Hierfür benötigen wir noch ein wenig Unterstützung.
+        verbringen wollen. Hierfür freuen wir uns über einen Zustupf:<br />
+        IBAN: CH87 0690 0056 3962 1010 0.
       </p>
       <ul class="Wunschliste">
+        <li class="wishlist">
+          <div class="wunsch-container">
+            <img
+              class="image-wunsch"
+              src="./images/Tank.JPG"
+              alt="Bild zNacht"
+            />
+
+            <div class="wunsch-Text">
+              <p>
+                Tankfüllung <br />
+                <strong>110 CHF</strong>
+              </p>
+            </div>
+          </div>
+        </li>
         <li class="wishlist">
           <div class="wunsch-container">
             <img
@@ -272,7 +520,7 @@
             <div class="wunsch-Text">
               <p>
                 Gemütliches Nachtessen <br />
-                <strong>100 CHF</strong>
+                <strong>80 CHF</strong>
               </p>
             </div>
           </div>
@@ -281,7 +529,7 @@
           <div class="wunsch-container">
             <img
               class="image-wunsch"
-              src="./images/kleineAktivität.jpg"
+              src="./images/klAktivität.jpg"
               alt="Bild zNacht"
             />
 
@@ -297,7 +545,7 @@
           <div class="wunsch-container">
             <img
               class="image-wunsch"
-              src="./images/grosseAktivität.jpg"
+              src="./images/grAktivität.jpg"
               alt="Bild zNacht"
             />
 
@@ -310,16 +558,12 @@
           <div class="wunsch-container">
             <img
               class="image-wunsch"
-              src="./images/Feuer.jpg"
+              src="./images/Fahrzeug.jpg"
               alt="Bild zNacht"
             />
 
             <div class="wunsch-text">
-              <p>
-                Snacks für gemütlichen Abend am Feuer<br /><strong
-                  >30 CHF</strong
-                >
-              </p>
+              <p>Zustupf Fahrzeug<br /><strong>150 CHF</strong></p>
             </div>
           </div>
         </li>
@@ -332,7 +576,7 @@
             />
 
             <div class="wunsch-text">
-              <p>Ein kühles Bier<br /><strong>40 CHF</strong></p>
+              <p>1 (2,3...) Bier<br /><strong>40 CHF</strong></p>
             </div>
           </div>
         </li>
@@ -340,12 +584,38 @@
           <div class="wunsch-container">
             <img
               class="image-wunsch"
-              src="./images/Bier.jpg"
+              src="./images/Uebernachtung.jpg"
               alt="Bild zNacht"
             />
 
             <div class="wunsch-text">
-              <p>Ein kühles Bier<br /><strong>40 CHF</strong></p>
+              <p>Gemütliche Übernachtung<br /><strong>160 CHF</strong></p>
+            </div>
+          </div>
+        </li>
+        <li class="wishlist">
+          <div class="wunsch-container">
+            <img
+              class="image-wunsch"
+              src="./images/Snacks.jpg"
+              alt="Bild zNacht"
+            />
+
+            <div class="wunsch-text">
+              <p>Snacks für Zwischendurch<br /><strong>60 CHF</strong></p>
+            </div>
+          </div>
+        </li>
+        <li class="wishlist">
+          <div class="wunsch-container">
+            <img
+              class="image-wunsch"
+              src="./images/Reise.jpg"
+              alt="Bild zNacht"
+            />
+
+            <div class="wunsch-text">
+              <p>Anreise<br />Abreise<br /><strong>120 CHF</strong></p>
             </div>
           </div>
         </li>
@@ -353,7 +623,7 @@
     </div>
     <footer>
       <p class="footer-text">
-        Hier steht irgendein Text, den ihr in den Footer schreiben möchtet.
+        Wir freuen uns auf diesen besonderen Tag mit euch!
       </p>
     </footer>
     <!--einfach mal um einen Kommentar zum testen-->
