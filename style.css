@@ -3,6 +3,7 @@
 body {
   margin: 0 auto;
   max-width: 1440px;
+  background-color: blanchedalmond;
 }
 /* evt. Header einfügen mit background-size: cover, und height 2527 beim Bild Save the date */
 
@@ -477,14 +478,18 @@ label {
   font-family: "Open Sans", sans-serif;
 }
 .success {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid rgb(161, 13, 40);
+  /*border: 2px solid rgb(161, 13, 40);*/
   padding: 20px;
   box-sizing: border-box;
   max-width: 500px;
   margin: auto;
+  margin-top: 50px;
+}
+.SuccessText {
+  text-align: center;
+}
+.SuccessImage {
+  width: 450px;
 }
 /*Mobile*/
 
