@@ -479,6 +479,9 @@ label {
 }
 .success {
   /*border: 2px solid rgb(161, 13, 40);*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
   box-sizing: border-box;
   max-width: 500px;
@@ -487,9 +490,25 @@ label {
 }
 .SuccessText {
   text-align: center;
+  padding-top: 20px;
 }
 .SuccessImage {
   width: 450px;
+}
+.button-success {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(161, 13, 40);
+  color: rgb(255 192 192);
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  align-content: center;
+  margin-top: 20px;
+}
+.button-success:hover {
+  color: whitesmoke;
 }
 /*Mobile*/
 
