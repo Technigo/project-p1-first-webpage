@@ -1,5 +1,157 @@
-/* Here in the css file you'll write your styling. make sure to link the css file to the html file. If it's linked correctly you should see a light blue background. */
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+* {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+
+header {
+  padding-bottom: 70px;
+}
+
+h1 {
+  width: 900px;
+  text-align: center;
+  font-size: 70px;
+  margin: auto;
+}
+
+h1>.icon {
+  display: inline;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  object-fit: contain;
+}
+
+
+.flex-body-left .aboutme p {
+  position: absolute;
+  transition: .3s ease-in-out;
+  opacity: 0;
+}
+
+.aboutme p{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+
+.aboutme:hover p {
+  display: inline-flexbox;
+  opacity: 1;
+}
+
+.img_about_me {
+  width: 200px;
+  height: 200px;
+}
+
+.flex-body {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.flex-body-left {
+  display: flex;
+  flex-flow: column;
+  order: 1;
+  justify-content: center;
+}
+
+.flex-body-middle {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  order: 2;
+  width: auto;
+}
+
+.flex-body-right {
+  display: flex;
+  flex-flow: column;
+  order: 3;
+  justify-content: center;
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  height: 180px;
+  width: auto;
+}
+
+.cards {
+  position: relative;
+  text-align: center;
+}
+
+.cards h2 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img_cards {
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  border-radius: 10px;
+  border: 2px solid rgb(40, 39, 39);
+}
+
+.green {
+  background-color: rgb(0, 255, 119);
+}
+
+.blue {
+  background-color: aqua;
+}
+
+.icon {
+  width: 125px;
+  height: 125px;
+}
+
+.extra-margin-topright {
+  margin-top: 25px;
+  margin-right: 250px;
+}
+
+.link {
+  position: absolute;
+  bottom: 1px;
+  left: 25%;
+  text-align: center;
+}
+
+/*how to find/calculate correct position?*/
+
+a:link {
+  color: rgb(40, 39, 39);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(40, 39, 39);
+  text-decoration: none;
+}
 
 body {
-  background-color: lightblue;
+  background-image: url(doodle3.jpg);
+  background-position: top left;
+  background-size: 300px;
+  background-repeat: repeat;
 }
+
+/* if second, third page has a different background in body - does it make sense to create new css file or solve with classes in same file? can we include one css file in another?

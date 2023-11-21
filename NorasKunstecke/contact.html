@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nora's</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="./Images/favicon.ico" />
+</head>
+
+<body>
+  <header>
+    <div class="title_with_image">
+      <h1>Spass mit Nora</h1>
+      <img src="./Images/Rainbow.png" alt="Regenbogen" class="icon">
+    </div>
+    <nav>
+      <a href="index.html" class="yellow">
+        <img src="./Images/PaintBrush.png" alt="Nach Hause" class="img_nav" />
+        <h2>Zur Kunstecke</h2>
+      </a>
+      <a href="drawings.html" class="blue">
+        <img src="./Images/PaintBrush.png" alt="Zeichnungen" class="img_nav" />
+        <h2>Zeichnungen</h2>
+      </a>
+      <a href="stories.html" class="green">
+        <img src="./Images/BookStack.png" alt="Geschichten" class="img_nav" />
+        <h2>Geschichten</h2>
+      </a>
+    </nav>
+  </header>
+  <div class="allforms">
+    <form class="feelings" name="feelings" data-netlify="true">
+      <label>Wie geht es dir heute?</label>
+      <br>
+      <br>
+      <div class="radio_images">
+        <label for="happy">
+          <input type="radio" id="happy" name="feelings" value="happy">
+          <img src="./Images/happy.png" alt="happysmiley" class="smileyimg">
+          <div class="transparenttext">
+            Judihui
+          </div>
+        </label>
+        <label for="silly">
+          <input type="radio" id="silly" name="feelings" value="silly">
+          <img src="./Images/silly.png" alt="sillysmiley" class="smileyimg">
+          <div class="transparenttext">
+            Crazy Taxi
+          </div>
+        </label>
+        <label for="sad">
+          <input type="radio" id="sad" name="feelings" value="sad">
+          <img src="./Images/sad.png" alt="sadsmiley" class="smileyimg">
+          <div class="transparenttext">
+            So ein blöder Tag
+          </div>
+        </label>
+      </div>
+    </form>
+    <form class="sendinggreetings" name="sendinggreetings" data-netlify="true">
+      <label for="yourname">Dein Name</label>
+      <input type="text" id="yourname" name="yourname" required>
+      <input type="submit" onclick="" value="Schicke Nora liebe Grüsse">
+    </form>
+    <form class="needhugs" name="needhugs" data-netlify="true">
+      <button id="hugbtn">Ich brauche Knuddel</button>
+      
+    </form>
+    <div id="modal_drawings" class="modal">
+      <span class="closemodal">&times;</span>
+      <img class="gifzoom" id="img02">
+    </div>
+  </div>
+
+  <footer>
+    <p>Nora's Kunstecke by Mama</p>
+  </footer>
+
+  <script>
+    document.getElementById("hugbtn").addEventListener("click", function() {
+      document.getElementById("modal_drawings").style.display="block";
+      document.getElementById("img02").src = "./Images/penguinhugs.gif";
+    });
+
+    document.querySelector(".closemodal").addEventListener("", function() {
+      document.getElementById("modal_drawings").style.display="none";
+    })
+
+    
+
+  </script>
+
+</body>
+
+</html>
