@@ -239,6 +239,18 @@
                   <div>Email</div>
                   <input type="email" name="Email" />
                 </label>
+                <label>
+                  <div>Strasse</div>
+                  <input type="text" name="Nachname" />
+                </label>
+                <label>
+                  <div>PLZ</div>
+                  <input type="text" name="Nachname" />
+                </label>
+                <label>
+                  <div>Ort</div>
+                  <input type="text" name="Nachname" />
+                </label>
               </div>
             </li>
 
@@ -278,6 +290,14 @@
                   </label>
                 </fieldset>
                 <label>
+                  <div>Vorname</div>
+                  <input type="text" name="VornameP" required />
+                </label>
+                <label>
+                  <div>Nachname</div>
+                  <input type="text" name="NachnameP" />
+                </label>
+                <label>
                   <label> Sind Kinder beim Apéro dabei?</label>
                   <select name="Kinder">
                     <option value="0">Keine</option>
@@ -289,59 +309,34 @@
               </div>
             </li>
           </ul>
+          <h3>Zusätzliche Angaben Fest</h3>
           <ul class="row-anmeldung">
             <li class="column-50">
               <div class="column-anmeldung">
-                <fieldset>
-                  <label>
-                    Brauchst du einen Transport?
-                    <div class="food">
-                      <label
-                        ><input
-                          type="radio"
-                          name="Transport"
-                          value="Nein"
-                        />Nein</label
-                      >
-                      <label
-                        ><input
-                          type="radio"
-                          name="Transport"
-                          value="Bahnhof"
-                        />Bahnhof</label
-                      >
-                      <label
-                        ><input
-                          type="radio"
-                          name="Transport"
-                          value="Hofstadl"
-                        />Hofstadl</label
-                      >
-                    </div>
-                  </label>
-                </fieldset>
-                <fieldset>
-                  <label>
-                    Wenn du am Fest dabei bist:
-                    <div class="food">
-                      <label
-                        ><input
-                          type="radio"
-                          name="Menu"
-                          value="Fleisch"
-                          checked
-                        />Fleisch</label
-                      >
-                      <label
-                        ><input
-                          type="radio"
-                          name="Menu"
-                          value="Vegi"
-                        />Vegi</label
-                      >
-                    </div>
-                  </label>
-                </fieldset>
+                <label>
+                  Brauchst du einen Transport?
+                  <select name="Transport">
+                    <option value="Nein">Nein</option>
+                    <option value="Bahnhof">Vom Bahnhof</option>
+                    <option value="Hofstadl">Vom Hofstadl</option>
+                  </select>
+                </label>
+                <label>
+                  Anzahl Vegi
+                  <select name="Menu Vegi">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </label>
+                <label>
+                  Anzahl Fleischmenu
+                  <select name="Menu Fleisch">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </label>
               </div>
             </li>
             <li class="column-50">
@@ -353,51 +348,6 @@
                 <label>
                   <div>Bemerkungen</div>
                   <textarea name="Note" rows="4" cols="50"></textarea>
-                </label>
-              </div>
-            </li>
-          </ul>
-
-          <h3>Zusätzliche Angaben Fest</h3>
-          <ul class="row-anmeldung">
-            <li class="column-50">
-              <div class="column-anmeldung">
-                <label>
-                  <div>Vorname</div>
-                  <input type="text" name="VornameP" required />
-                </label>
-                <label>
-                  <div>Nachname</div>
-                  <input type="text" name="NachnameP" />
-                </label>
-              </div>
-            </li>
-            <li class="column-50">
-              <div class="column-anmeldung">
-                <fieldset>
-                  <label>
-                    Wenn du am Fest dabei bist:
-                    <div class="food">
-                      <label
-                        ><input
-                          type="radio"
-                          name="MenuP"
-                          value="Fleisch"
-                        />Fleisch</label
-                      >
-                      <label
-                        ><input
-                          type="radio"
-                          name="MenuP"
-                          value="Vegi"
-                        />Vegi</label
-                      >
-                    </div>
-                  </label>
-                </fieldset>
-                <label>
-                  <div>Welche Songs sind ein Muss für die Afterparty?</div>
-                  <input type="text" name="SongP" />
                 </label>
               </div>
             </li>
