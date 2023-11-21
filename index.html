@@ -25,8 +25,9 @@
     </div>
     <nav>
       <a href="./index.html">Home</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact us</a>
+      <a href="./services.html">Services</a>
+      <a href="./contact.html">Contact us</a>
+      <a href="./reviews.html">Testimonials</a>
       <a class="appointment-button" href="mailto:info@atreinigung.ch"
         >Book now</a
       >
@@ -68,26 +69,17 @@
 
       <div class="icons">
         <h2>Quality service</h2>
-        <i
-          class="fa-solid fa-hand-sparkles fa-10x"
-          style="color: #a1a1a1; display: block; width: 100%; height: auto"
-        ></i>
+        <i class="fa-solid fa-hand-sparkles fa-10x block-icon"></i>
         <p>Proffessional <br />timely and discret</p>
       </div>
       <div class="icons">
         <h2>Flexible</h2>
-        <i
-          class="fa-solid fa-clock fa-10x"
-          style="color: #a1a1a1; display: block; width: 100%; height: auto"
-        ></i>
+        <i class="fa-solid fa-clock fa-10x block-icon"></i>
         <p>Easy <br />cancellation policy</p>
       </div>
       <div class="icons">
         <h2>Trusted person</h2>
-        <i
-          class="fa-solid fa-person-dress fa-10x"
-          style="color: #a1a1a1; display: block; width: 100%; height: auto"
-        ></i>
+        <i class="fa-solid fa-person-dress fa-10x block-icon"></i>
         <p>
           One person and always the same <br />will be taking care of your house
         </p>
@@ -104,22 +96,24 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div id="contact">
+      <div class="contact">
         <div class="container-form">
-          <form action="action_page.php">
+          <form name="contact" netlify>
             <label for="fname">First Name</label>
             <input
               type="text"
               id="fname"
               name="firstname"
-              placeholder="Your name..."
+              placeholder="Your name"
+              required
             />
             <label for="lname">Last Name</label>
             <input
               type="text"
               id="lname"
               name="lastname"
-              placeholder="Your Last Name..."
+              placeholder="Your Last Name"
+              required
             />
             <label for="teln">Telephon number</label>
             <input
@@ -127,16 +121,31 @@
               id="teln"
               name="telephonnumber"
               placeholder="Your phone number"
+              required
             />
+            <label for="serviceType">Service</label>
+            <select name="seviceType">
+              <option value="Domestic cleaning">Domestic cleaning</option>
+              <option value="Office cleaning">Office cleaning</option>
+              <option value="Windows cleaning">Windows cleaning</option>
+            </select>
+
             <label for="subject">Subject </label>
             <textarea
               name="subject"
               id="subject"
-              placeholder="Your message..."
+              placeholder="Your message"
               style="height: 50px"
             ></textarea>
             <input type="submit" value="Submit" />
           </form>
+          <div class="formtext">
+            <h1>Get in Touch</h1>
+            <p>
+              Please feel free to contact us, we will answer as soon as
+              possible!
+            </p>
+          </div>
         </div>
       </div>
     </main>
