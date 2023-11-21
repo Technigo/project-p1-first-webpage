@@ -233,24 +233,26 @@
                 </label>
                 <label>
                   <div>Nachname</div>
-                  <input type="text" name="Nachname" />
+                  <input type="text" name="Nachname" required />
                 </label>
                 <label>
                   <div>Email</div>
-                  <input type="email" name="Email" />
+                  <input type="email" name="Email" required />
                 </label>
                 <label>
                   <div>Strasse</div>
-                  <input type="text" name="Nachname" />
+                  <input type="text" name="Strasse" required />
                 </label>
-                <label>
-                  <div>PLZ</div>
-                  <input type="text" name="Nachname" />
-                </label>
-                <label>
-                  <div>Ort</div>
-                  <input type="text" name="Nachname" />
-                </label>
+                <div class="place">
+                  <label>
+                    <div class="plz">PLZ</div>
+                    <input type="text" name="PLZ" required />
+                  </label>
+                  <label>
+                    <div class="ort">Ort</div>
+                    <input class="ort" type="text" name="Ort" required />
+                  </label>
+                </div>
               </div>
             </li>
 
@@ -291,7 +293,7 @@
                 </fieldset>
                 <label>
                   <div>Vorname</div>
-                  <input type="text" name="VornameP" required />
+                  <input type="text" name="VornameP" />
                 </label>
                 <label>
                   <div>Nachname</div>
@@ -314,7 +316,7 @@
             <li class="column-50">
               <div class="column-anmeldung">
                 <label>
-                  Brauchst du einen Transport?
+                  <label> Brauchst du einen Transport?</label>
                   <select name="Transport">
                     <option value="Nein">Nein</option>
                     <option value="Bahnhof">Vom Bahnhof</option>
@@ -322,7 +324,7 @@
                   </select>
                 </label>
                 <label>
-                  Anzahl Vegi
+                  <label>Anzahl Vegi</label>
                   <select name="Menu Vegi">
                     <option value="0">0</option>
                     <option value="1">1</option>
@@ -330,7 +332,7 @@
                   </select>
                 </label>
                 <label>
-                  Anzahl Fleischmenu
+                  <label> Anzahl Fleischmenu</label>
                   <select name="Menu Fleisch">
                     <option value="0">0</option>
                     <option value="1">1</option>

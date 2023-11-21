@@ -7,15 +7,15 @@ body {
 }
 /* evt. Header einfügen mit background-size: cover, und height 2527 beim Bild Save the date */
 
-/*rot rgb(136 136 46)
-ocker rgb(136 136 46)
+/*rot rgb (138 156 86)
+ocker rgb (138 156 86)
 headings rgb(161, 13, 40, 0.9)
 topheading: rgb(124, 6, 51)
 top-heading grün: rgb(74 70 42)
-rest: rgb(136 136 46)*/
+rest: rgb (138 156 86)*/
 
 h1 {
-  color: rgb(136 136 46);
+  color: rgb(138 156 86);
   font-size: 36px;
 }
 
@@ -25,7 +25,7 @@ header {
   background-size: cover;
 }
 .top-heading {
-  color: rgb(77 77 23);
+  color: rgb(63 71 39);
   font-size: 60px;
   font-weight: bolder;
   margin: 0;
@@ -58,7 +58,7 @@ nav {
 nav a {
   display: inline-block;
   padding: 10px 15px;
-  background: rgb(136 136 46);
+  background: rgb(138 156 86);
   color: rgb(250, 249, 246);
   font-weight: semi-bold;
   text-decoration: none;
@@ -67,12 +67,12 @@ nav a {
 }
 
 nav a:hover {
-  background: rgb(136 136 46);
-  color: rgb(77 77 23);
+  background: rgb(138 156 86);
+  color: rgb(63 71 39);
 }
 h2 {
   text-align: center;
-  background-color: rgb(136 136 46);
+  background-color: rgb(138 156 86);
   padding: 20px;
   margin: 0;
   font-family: "Domine", serif;
@@ -80,7 +80,7 @@ h2 {
 }
 h3 {
   text-align: center;
-  color: rgb(136 136 46);
+  color: rgb(138 156 86);
   padding: 15px;
   margin: 0px;
   font-family: "Domine", serif;
@@ -90,7 +90,7 @@ h4 {
   padding: 10px;
   margin: 0px;
   font-family: "Domine", serif;
-  color: rgb(77 77 23);
+  color: rgb(63 71 39);
 }
 p {
   text-align: center;
@@ -101,7 +101,7 @@ p {
   padding-top: 10px;
   padding-bottom: 20px;
   font-family: "Open Sans", sans-serif;
-  color: rgb(77 77 23);
+  color: rgb(63 71 39);
 }
 .container {
   max-width: 1200px;
@@ -145,10 +145,11 @@ form {
   display: flex;
   gap: 50px;
   padding-left: 0px;
+  margin-top: 0px;
 }
-label {
-  margin: 5px;
-  width: 100%;
+
+div {
+  color: rgb(63 71 39);
 }
 fieldset {
   border: 0px;
@@ -165,7 +166,8 @@ input[type="text"] {
   padding: 5px;
   outline: none;
   margin-top: 5px;
-  box-shadow: #b8bfc5 3px 3px;
+  box-shadow: rgb(138 156 86 / 57%) 3px 3px;
+  color: rgb(63 71 39);
 }
 
 input[type="email"] {
@@ -177,7 +179,7 @@ input[type="email"] {
   padding: 5px;
   outline: none;
   margin-top: 5px;
-  box-shadow: #b8bfc5 3px 3px;
+  box-shadow: rgb(138 156 86 / 57%) 3px 3px;
 }
 textarea {
   resize: none;
@@ -187,30 +189,30 @@ textarea {
   box-sizing: border-box;
   outline: none;
   margin-top: 5px;
-  box-shadow: #b8bfc5 3px 3px;
+  box-shadow: rgb(138 156 86 / 57%) 3px 3px;
   font-family: "Open Sans", sans-serif;
 }
 select {
   width: 100%;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 4px;
   outline: none;
-  box-shadow: #b8bfc5 3px 3px;
+  box-shadow: rgb(138 156 86 / 57%) 3px 3px;
   font-family: "Open Sans", sans-serif;
+  font-size: 12px;
 }
 select:focus {
-  font-weight: 700;
   color: black;
 }
 
 input[type="text"]:focus {
-  border: 1px solid rgb(136 136 46);
+  border: 1px solid rgb(138 156 86);
 }
 input[type="email"]:focus {
-  border: 1px solid rgb(136 136 46);
+  border: 1px solid rgb(138 156 86);
 }
 textarea:focus {
-  border: 1px solid rgb(136 136 46);
+  border: 1px solid rgb(138 156 86);
 }
 
 input[type="radio"] {
@@ -221,20 +223,20 @@ input[type="radio"] {
   height: 16px;
   border: 1px solid darkgrey;
   outline: none;
-  box-shadow: #b8bfc5 1px 1px;
+  box-shadow: rgb(138 156 86 / 57%) 1px 1px;
   margin-right: 10px;
 }
 
 [type="radio"]:checked {
-  background: rgb(136 136 46);
+  background: rgb(138 156 86);
   border: 4px solid whitesmoke;
-  box-shadow: #b8bfc5 1px 1px;
+  box-shadow: rgb(138 156 86 / 57%) 1px 1px;
   outline: 1px solid darkgray;
 }
 input[type="radio"]:focus {
-  background: rgb(136 136 46);
+  background: rgb(138 156 86);
   border: 4px solid whitesmoke;
-  box-shadow: #b8bfc5 1px 1px;
+  box-shadow: rgb(138 156 86 / 57%) 1px 1px;
   outline: 1px solid darkgray;
 }
 
@@ -246,21 +248,21 @@ input[type="checkbox"] {
   width: 16px;
   height: 16px;
   outline: none;
-  box-shadow: #b8bfc5 1px 31x;
+  box-shadow: rgb(138 156 86 / 57%) 1px 1px;
   margin-right: 10px;
 }
 
 [type="checkbox"]:checked {
-  background: rgb(136 136 46);
+  background: rgb(138 156 86);
   border: 4px solid whitesmoke;
-  box-shadow: #b8bfc5 1px 1px;
+  box-shadow: rgb(138 156 86 / 57%) 1px 1px;
   outline: 1px solid darkgray;
 }
-input[type="checkbox"]:focus {
-  background: rgb(136 136 46);
-  border: 4px solid whitesmoke;
-  box-shadow: #b8bfc5 1px 1px;
-  outline: 1px solid darkgray;
+.place {
+  display: flex;
+}
+.ort {
+  box-sizing: none;
 }
 
 .Absenden {
@@ -271,14 +273,14 @@ input[type="checkbox"]:focus {
   padding: 8px 16px;
   border: none;
   border-radius: 10px;
-  background-color: rgb(136 136 46);
+  background-color: rgb(138 156 86);
   color: rgb(250, 249, 246);
   cursor: pointer;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
 .button-submit:hover {
-  color: rgb(77 77 23);
+  color: rgb(63 71 39);
 }
 .column-50 {
   flex: 1 1 100%;
@@ -300,7 +302,7 @@ input[type="checkbox"]:focus {
   padding: 10px;
 }
 a {
-  color: rgb(136 136 46);
+  color: rgb(138 156 86);
   text-align: center;
 }
 .maillink {
@@ -310,7 +312,7 @@ a {
   font-family: "Open Sans", sans-serif;
 }
 .maillink:hover {
-  color: rgb(77 77 23);
+  color: rgb(63 71 39);
 }
 /*.maillink2 {
   color: black;
@@ -328,7 +330,7 @@ a {
   text-decoration: underline;
 }
 .mailbutton {
-  background-color: rgb(136 136 46);
+  background-color: rgb(138 156 86);
   border-radius: 10px;
   border: none;
   width: 150px;
@@ -340,7 +342,7 @@ a {
   gap: 10px;
 }
 .material-icons-round.red {
-  color: rgb(136 136 46);
+  color: rgb(138 156 86);
 }
 
 .wunsch-left {
@@ -373,9 +375,9 @@ a {
   color: #ffffff;
 }
 .icons {
-  background-color: rgb(136 136 46);
+  background-color: rgb(138 156 86);
   padding: 20px;
-  border: rgb(136 136 46);
+  border: rgb(138 156 86);
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -462,7 +464,7 @@ iframe {
   width: 33%;
 }
 footer {
-  background-color: rgb(136 136 46);
+  background-color: rgb(138 156 86);
   height: 50px;
   display: flex;
   align-items: center;
@@ -480,7 +482,7 @@ label {
   font-family: "Open Sans", sans-serif;
 }
 .success {
-  /*border: 2px solid rgb(136 136 46);*/
+  /*border: 2px solid rgb(138 156 86);*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -501,7 +503,7 @@ label {
   padding: 8px 16px;
   border: none;
   border-radius: 10px;
-  background-color: rgb(136 136 46);
+  background-color: rgb(138 156 86);
   color: rgb(250, 249, 246);
   cursor: pointer;
   font-family: "Open Sans", sans-serif;
@@ -510,7 +512,7 @@ label {
   margin-top: 20px;
 }
 .button-success:hover {
-  color: rgb(77 77 23);
+  color: rgb(63 71 39);
 }
 /*Mobile*/
 
