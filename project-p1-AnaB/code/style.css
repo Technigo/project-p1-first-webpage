@@ -2,102 +2,120 @@
 
 * {
   font-family: 'Nothing You Could Do', cursive;
+  color: rgb(40, 39, 39);
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-
 header {
-  padding-bottom: 70px;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 15px;
 }
 
 h1 {
-  width: 900px;
-  text-align: center;
-  font-size: 70px;
-  margin: auto;
-}
-
-h1>.icon {
-  display: inline;
+  margin: 20px;
 }
 
 h2 {
-  margin: auto;
+  margin: 0;
+  padding: 5px;
   text-align: center;
 }
 
+p {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+  height: auto;
+}
+
+nav a {
+  background-color: rgba(129, 129, 129, 0.479);
+  text-decoration: none;
+  margin: 2.5px;
+  border-radius: 10px;
+  width: 100%;
+  max-height: inherit;
+  border: 2px solid;
+}
+
+nav a img {
+  width: auto;
+  height: auto;
+  max-height: inherit;
+  padding: 10px;
+}
+
 img {
-  object-fit: contain;
+  width: auto;
+  max-width: 300px;
+  height: auto;
+  max-height: 90vw;
 }
 
-
-.flex-body-left .aboutme p {
-  position: absolute;
-  transition: .3s ease-in-out;
-  opacity: 0;
+.title_with_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.aboutme p{
-  position: absolute;
-  width: 200px;
-  height: 200px;
-}
-
-
-.aboutme:hover p {
-  display: inline-flexbox;
-  opacity: 1;
+.img_nav {
+  max-width: auto;
 }
 
 .img_about_me {
-  width: 200px;
-  height: 200px;
+  max-height: 40vw;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .flex-body {
   display: flex;
-  flex-flow: row;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
-}
-
-.flex-body-left {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .flex-body-middle {
   display: flex;
-  flex-flow: row wrap;
-  gap: 40px;
-  width: auto;
-}
-
-.flex-body-right {
-  display: flex;
-  flex-flow: column;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-}
-
-.flex-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  height: 180px;
-  width: auto;
-  flex-direction: r;
 }
 
 .cards {
   position: relative;
-  text-align: center;
 }
 
 .cards h2 {
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
 
 .img_cards {
@@ -116,33 +134,35 @@ img {
   background-color: aqua;
 }
 
+.yellow {
+  background-color: rgb(253, 253, 89);
+}
+
+.red {
+  background-color: rgb(247, 83, 83);
+}
+
 .icon {
-  width: 125px;
-  height: 125px;
+  width: 100%;
+  height: auto;
+  max-width: 125px;
 }
 
-.extra-margin-topright {
-  margin-top: 25px;
-  margin-right: 250px;
+.image_gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2vw;
+  margin: 10px;
 }
 
-.link {
-  position: absolute;
-  bottom: 1px;
-  left: 25%;
-  text-align: center;
-}
-
-/*how to find/calculate correct position?*/
-
-a:link {
-  color: rgb(40, 39, 39);
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgb(40, 39, 39);
-  text-decoration: none;
+.image_gallery img {
+  border: 2px solid rgb(40, 39, 39);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  object-fit: cover;
 }
 
 body {
@@ -150,7 +170,340 @@ body {
   background-position: top left;
   background-size: 300px;
   background-repeat: repeat;
-  color:rgb(40, 39, 39);
 }
 
-/* if second, third page has a different background in body - does it make sense to create new css file or solve with classes in same file? can we include one css file in another?
+footer {
+  background-color: rgba(129, 129, 129, 0.479);
+  color: whitesmoke;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+
+.allforms {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
+  height: 50vh;
+  width: 100%;
+  margin: 20px;
+}
+
+.feelings {
+  display: block;
+  object-fit: contain;
+}
+
+.needhugs {
+  display: block;
+}
+
+.radio_images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.radio_images [type=radio] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.radio_images [type=radio]+img {
+  cursor: pointer;
+  object-fit: contain;
+  height: 10vw;
+  width: 10vw;
+}
+
+
+.radio_images [type=radio]:checked+img {
+  outline: 1px solid rgb(40, 39, 39);
+  border-radius: 2px;
+}
+
+.radio_images label {
+  height: 20vw;
+  width: 20vw;
+}
+
+.transparenttext {
+  opacity: 0;
+}
+
+.sendinggreetings {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.sendinggreetings label {
+  margin: 10px;
+}
+
+.sendinggreetings input {
+  border-radius: 5px;
+  border: 1px solid rgb(40, 39, 39);
+  margin: 6px;
+}
+
+
+input[type="text"]:invalid {
+  border-color: rgb(40, 39, 39);
+  background-color: rgba(0, 255, 255, 0.276);
+}
+
+
+
+
+
+
+/**MEDIA QUERIES**/
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  nav a img {
+    display: none;
+  }
+
+  section .icon {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+
+  h1 {
+    font-size: calc(2rem + 1vw);
+  }
+
+  h2 {
+    font-size: calc(1rem + 1vw);
+  }
+
+  nav a {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  nav a img {
+    display: none;
+  }
+
+  .title_with_image {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .aboutme p {
+    padding: 10px;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .img_about_me {
+    max-height: 30vw;
+
+  }
+
+  .flex-body {
+    align-items: stretch;
+  }
+
+  .flex-body-middle {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .cards {
+    margin: 20px;
+  }
+
+  .image_gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .allforms {
+    justify-content: space-around;
+  }
+
+  section .icon {
+    display: none;
+  }
+
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  label {
+    font-size: 1.25rem;
+  }
+
+  input {
+    font-size: 1.25rem;
+  }
+
+  nav {
+    flex-direction: row;
+    justify-content: flex-start;
+    max-height: 100px;
+  }
+
+  nav a img {
+    display: block;
+  }
+
+  .img_about_me {
+    max-height: 15vw;
+  }
+
+  .flex-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .flex-body-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  section .icon {
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 10vw;
+    object-fit: contain;
+  }
+
+
+  .radio_images [type=radio]+img {
+    cursor: pointer;
+    object-fit: contain;
+    height: 5vw;
+    width: 5vw;
+  }
+
+  .radio_images label {
+    height: 5vw;
+    width: 5vw;
+  }
+
+
+  #drawings {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  #drawings:hover {
+    opacity: 0.9;
+  }
+
+  .modal {
+    display: none;
+    position:fixed;
+    z-index:1;
+    padding-top:100px;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,255,255); 
+    background-color: rgba(0,255,255,0.9); 
+  }
+
+  .drawingzoom {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .gifzoom {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    font-size:25px;
+    color: rgb(40, 39, 39);
+    padding: 10px;
+    height: 150px;
+
+  }
+
+  .drawingzoom, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+  @keyframes zoom {
+    from{transform:scale(0)}
+    to{transform: scale(1)}
+  }
+
+  .closemodal {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: rgb(40, 39, 39);
+    font-size:40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .closemodal:hover, 
+  .closemodal:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
