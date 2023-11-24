@@ -447,6 +447,7 @@ iframe {
 }
 .wunsch-text {
   margin: auto;
+  max-width: 250px;
 }
 .Wunschliste {
   display: flex;
@@ -456,9 +457,6 @@ iframe {
   margin: auto;
 }
 
-.wunsch-text {
-  max-width: 250px;
-}
 .wishlist {
   padding-bottom: 20px;
   width: 33%;
@@ -485,6 +483,7 @@ label {
   /*border: 2px solid rgb(138 156 86);*/
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
@@ -585,6 +584,14 @@ label {
   }
   .footer-text {
     padding-top: 10px;
+  }
+
+  .SuccessImage {
+    width: 300px;
+  }
+  .SuccessText {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 /*Tablet*/
