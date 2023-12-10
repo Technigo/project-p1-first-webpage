@@ -10,3 +10,4 @@ next step would be adding some js.
 ## View it live
 
 currently on https://leaundmarc.netlify.app/
+with domain: https://leaundmarc.ch
