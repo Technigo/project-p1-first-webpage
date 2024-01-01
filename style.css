@@ -222,15 +222,17 @@ textarea {
 }
 select {
   width: 100%;
-  padding: 5px;
+  padding: 1px;
+  margin-top: 5px;
   border-radius: 4px;
   outline: none;
   box-shadow: rgb(138 156 86 / 57%) 3px 3px;
   font-family: "Open Sans", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
+  color: rgb(63 71 39);
 }
 select:focus {
-  color: black;
+  color: rgb(63 71 39);
 }
 
 input[type="text"]:focus {
